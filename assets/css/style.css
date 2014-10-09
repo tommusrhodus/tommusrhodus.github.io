@@ -37,7 +37,7 @@ blockquote {
 	margin-bottom: 25px;
 	color: #4b4b4b;
 	padding-left: 25px;
-	border-left: 2px solid #f39c12;
+	border-left: 2px solid #1abc9c;
 }
 .wrapper {
 	margin: 0 auto;
@@ -55,12 +55,10 @@ em {
 }
 ::selection {
 	background: #fefac7;
-	/* Safari */
 	color: #555555;
 }
 ::-moz-selection {
 	background: #fefac7;
-	/* Firefox */
 	color: #555555;
 }
 .standard-section {
@@ -100,7 +98,7 @@ a {
 	transition: color 300ms ease-in-out;
 }
 a:hover, .hentry a, .colored, .service a, p a, li a, .main-nav li a:hover {
-	color: #f39c12;
+	color: #1abc9c;
 }
 .break {
 	height: 30px;
@@ -111,7 +109,7 @@ a:hover, .hentry a, .colored, .service a, p a, li a, .main-nav li a:hover {
 	margin-right: 3px;
 }
 .button, input[type="submit"] {
-	background: #f39c12;
+	background: #1abc9c;
 	color: #ffffff;
 	padding: 10px 15px;
 	font-size: 14px;
@@ -150,7 +148,7 @@ ol {
 }
 pre {
 	padding-left: 25px;
-	border-left: 2px solid #f39c12;
+	border-left: 2px solid #1abc9c;
 	margin-bottom: 25px;
 	font-size: 14px;
 }
@@ -165,6 +163,9 @@ li {
 .divide30 {
 	height: 30px;
 }
+h6 span {
+	opacity: 0.3;
+}
 /*-----------------------------------------------------------------------------------*/
 /*	END GENERAL & GLOBAL STYLES
 /*-----------------------------------------------------------------------------------*/
@@ -173,8 +174,26 @@ li {
 /*	HEADER & NAV STYLES
 /*-----------------------------------------------------------------------------------*/
  header {
-	padding: 30px 0 20px;
-	background: #f5f5f5;
+	padding: 30px 0 40px;
+	background: #f5f5f5 url('../img/library.jpg') no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+header:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #1abc9c;
+	opacity: 0.9;
+	content: '';
+	display: block;
+	z-index: 1;
+}
+header * {
+	color: #fff;
+	z-index: 2;
 }
 .main-nav li {
 	border-bottom: 1px solid #e5e5e5;
