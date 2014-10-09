@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Pivot WP Theme - Documentation</title>
+    <meta name="author" content="TommusRhodus">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="assets/css/framework.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+
+	<div id="toTop">&uarr;</div>
+
+	<header>
+		<div class="wrapper">
+			<img src="assets/img/tr-logo.png" alt="Logo" />
+			<div class="divide30"></div>
+			<h3>Pivot WP Theme Documentation</h3>
+		</div>
+	</header>
+	
+	<section id="content">
+		<div class="wrapper">
+			
+			<div class="one_third">
+				<h6>Installing the Theme</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#install">Upload & Install Pivot</a>
+					</li>
+					<li>
+						<a href="#permalinks">Modify Permalinks</a>
+					</li>
+					<li>
+						<a href="#plugins">Install Required Theme Plugins</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one_third">
+				<h6>Demo Data</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#demo-import">Auto Demo Import</a>
+					</li>
+					<li>
+						<a href="#fallback-demo-import">Fallback Demo Import</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one_third last">
+				<h6>Initial Theme Setup</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#theme-setup">Initial Theme Setup</a>
+					</li>
+					<li>
+						<a href="#revslider-import">Import Demo Sliders</a>
+					</li>
+					<li>
+						<a href="#troubleshooting">Toubleshooting</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="one_third">
+				<h6>Theme Options</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#customizer">Locate the Options</a>
+					</li>
+					<li>
+						<a href="#logo">Setting a Logo</a>
+					</li>
+					<li>
+						<a href="#fonts">Advanced: Fonts</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one_third">
+				<h6>Using Menus</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="http://en.support.wordpress.com/menus/">Official Menu Documentation</a>
+					</li>
+					<li>
+						<a href="#mega-menu">Ebor Mega Menu</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one_third last">
+				<h6>Using Widgets</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="http://en.support.wordpress.com/widgets/">Official Widget Documentation</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="one_third">
+				<h6>Making Blog Posts</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="http://code.tutsplus.com/tutorials/wp101-video-training-part-1-the-dashboard--wp-20472">WordPress 101</a>
+					</li>
+					<li>
+						<a href="#post-formats">Using Post Formats</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one_third">
+				<h6>Making Portfolio Posts</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#portfolio-posts">Making Portfolio Posts</a>
+					</li>
+					<li>
+						<a href="#portfolio-posts">Custom Cropping Featured Images</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one_third last">
+				<h6>Other Post Types</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#team-posts">Team Posts</a>
+					</li>
+					<li>
+						<a href="#testimonial-posts">Testimonial Posts</a>
+					</li>
+					<li>
+						<a href="#client-posts">Client Posts</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+			<div class="one_third">
+				<h6>The Page Builder</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#page-builder">Page Builder</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one_third">
+				<h6>WooCommerce</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#woo">WooCommerce</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="one_third last">
+				<h6>Theme Support</h6>
+				<ul class="main-nav">
+					<li>
+						<a href="#support">Support Policy</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="clear"></div>
+			
+		</div>
+	</section>
+	
+	<section id="answers">
+		<div class="wrapper">
+		
+			<div id="install" class="answer">
+				<h4>Uploading & Installing Pivot</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>Pivot should install perfectly first time & every time!<br />
+					If you have any issues installing your theme:<br /><a href="http://support.envato.com/index.php?/Live/Knowledgebase/Article/View/269/0/my-wordpress-theme-isnt-working-what-should-i-do">Solving Broken Theme/Stylesheet Missing WordPress Theme Issues</a></p>
+				</div>
+				
+				<p>To install your theme in WordPress you must navigate to the menu "Appearance" on the left and then the submenu "Themes". From that page you should see your current theme "Twenty Eleven" by default OR whatever theme you currently have. Now click the "Install Themes" tab and then the text button at the top "Upload". You then should click Choose File and find your theme files on your computer and upload them. Note: You are only uploading the folder "PivotWPTheme.zip" Your final step is to "Activate" your theme.</p>
+				
+				<p>This process is shown in the images below</p>
+				
+				<img src="assets/img/install-1.jpg" alt="" />
+				<img src="assets/img/install-2.jpg" alt="" />
+				<img src="assets/img/install-3.jpg" alt="" />
+				<img src="assets/img/install-4.jpg" alt="" />
+				<img src="assets/img/install-5.jpg" alt="" />
+				
+			</div><!--/install-->
+			
+			<div id="permalinks" class="answer">
+				<h4>Correctly Setting Permalinks</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>This is a required step in the theme setup, both for proper theme operation, and great SEO.</p>
+				</div>
+				
+				<p>By default the pagenames will be <code>website.com/p15</code> instead of <code>website.com/about</code>.</p>
+				
+				<p>To fix this go to <code>"Settings" > "Permalinks"</code> and change to <code>"Post Name"</code>. After choosing "Post Name", Click "Save Changes" and your done. Your urls will now display a proper Permalink structure.</p>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>If you get 404 errors on any posts or pages, come back here and set your permalinks to "default", if the errors then go away it means your server has URL rewriting issues. Switch to a default theme to see the same behaviour. You should then contact your webhost support team regarding this.</p>
+				</div>
+				
+			</div><!--/permalinks-->
+			
+			<div id="plugins" class="answer">
+				<h4>Installing Theme Plugins</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>A Number of theme features come as external plugins to make your life easier if you ever switch themes. These need installing before importing the demo data for proper theme operation.</p>
+				</div>
+				
+				<p>When you first install the theme you'll see a popup on your dashboard from the theme asking you to install a number of plugins.</p>
+				<p>Allow the theme to install these for you, it will add custom post types, a page builder, revolution slider, a portfolio post ordering plugin and a custom crop featured image plugin.</p>
+				
+				<img src="assets/img/plugins1.png" alt="" />
+				<img src="assets/img/plugins2.png" alt="" />
+				<img src="assets/img/plugins3.png" alt="" />
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>Seriously, make sure these are all installed before importing demo data, you'll only cause yourself problems if you install the demo data first and do this second.</p>
+				</div>
+				
+			</div><!--/plugins-->
+			
+			<div id="demo-import" class="answer">
+				<h4>Importing Demo Data (Auto Method)</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>If this method returns any errors, you must use the fallback demo import method (next section). This auto method can return errors depending on your server setup, 9 times out of 10 this method is perfect, remember, there is a fallback if this fails.</p>
+				</div>
+				
+				<p>To use demo demo data installer go to <code>"appearance" => "customise"</code> from your WP Dashboard. Inside the customiser (this is also the theme options panel, you can modify loads about the theme from here) click on the <code>"Import Demo Data"</code> tab. Next click the <code>"Import Demo Data"</code> Button, a backup prompt will appear, click OK when you're ready on this, and then leave your install until you get a successful message. This process takes up to 15 mins. Do not do anything during this process!.</p>
+				
+				<p><code>Developers: If you have wp_debug set to true, this process will fail, set to false whilst importing demo data.</code></p>
+				
+				<img src="assets/img/demo-data-1.png" alt="" />
+				<img src="assets/img/demo-data-2.png" alt="" />
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>After importing the demo data, you're about 5 mins away from a perfect demo setup. Please now follow the steps in "Initial Theme Setup" for the final steps to take.</p>
+				</div>
+				
+			</div><!--/demo-import-->
+			
+			<div id="fallback-demo-import" class="answer">
+				<h4>Importing Demo Data (Fallback Method)</h4>
+				
+				<p>I have created a folder labeled <code>"Demo XML Data"</code> which contains an export for the Live Preview. The place to upload this XML file is in WordPress under <code>Tools > Import</code>.</p>
+				
+				<p>Once you've arrived on the Import page, you will click on the "WordPress" link: Wordpress - Install the WordPress importer to import posts, pages, comments, custom fields, categories, and tags from a WordPress export file.</p>
+				
+				<p>The first time you do this you will get a pop-up prompting you to install the "WordPress Importer". You will need to click "Install Now". Then You will have installed the plugin and need to click "Activate Plugin & Run Importer".</p>
+				
+				<p>From here you will just need click "Choose File" and select the demo-data.xml file. Then click "Upload file and import".</p>
+				
+				<p>You will then be prompted to Assign Authors. You can read the description at the top as this explains everything. Note: Make sure you Import Attachments.</p>
+				
+				<p>Check the box "Download and import file attachments". This will download attachments for images included in the Live Preview demo.</p>
+				
+				<p>You now just need to wait for the importer to finish. This might take a few minutes depending on your hosting server speed.</p>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>After importing the demo data, you're about 5 mins away from a perfect demo setup. Please now follow the steps in "Initial Theme Setup" for the final steps to take.</p>
+				</div>
+				
+			</div><!--/demo-import-->
+			
+			<div id="theme-setup" class="answer">
+				<h4>Initial Theme Setup</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>This is a required step after importing demo data and installing require plugins. This is the final step to producing the same site as my theme demo.</p>
+				</div>
+				
+				<p>From your WP Dashboard go to <code>"settings" => "reading"</code> and click the <code>"static homepage"</code> option. Let's set the "home page" to any of the "home layout" pages, and let's set the "posts page" option to "blog", once you've done this hit the save changes button. You now have a proper homepage, and a proper blog page, nice one :)</p>
+				
+				<p>Now the last step. Go to <code>appearance -> menus</code> and set the theme menus in place. Use the checkboxes at the bottom of the menus to set them in location. Set the main menu into the <code>primary</code> location.</p>
+				
+			</div><!--/theme-setup-->
+			
+			<div id="troubleshooting" class="answer">
+				<h4>Troubleshooting</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>This section covers the usual bugs that can happen with improper theme setup, read carefully if you have any issue after demo import & theme setup.</p>
+				</div>
+				
+				<ol>
+					<li><code>Demo data installed correctly, but there's no imges?</code> You either forgot to import attachments when installing demo data, or your server is configured to not allow incoming attachments. You'll need to go through the theme, posts, portfolios and set featured images accordingly.</li>
+					<li><code>Demo data installed, but my pages are blank?</code> Go to your site homepage, and click the edit page button. Inside you page content you will have a shortcode similar to this: <code>[template id="117" Business Style]</code> - Now click the "add template" button, and choose & insert the option with the matching name. If the second inserted shortcde has a different ID value to that of the first then you should delete the first shortcode, leaving the second in place and then click the <code>update</code> button for the page. This is because your server has reassigned the page template IDs from our demo data.</li>
+					<li><code>No Menus?! Help!</code> This is simple, go to <code>appearance -> menus</code> and set your registered menus to a theme location.</li>
+					<li><code>I'm getting 404 errors on posts & pages.</code> See the permalinks section of this documentation.</li>
+				</ol>
+				
+			</div><!--/troubleshooting-->
+			
+			<div id="revslider-import" class="answer">
+				<h4>Import Demo Revsliders</h4>
+				
+				<p>We just need to import the revolution slider demo data. To do this go to "revolution slider" from your WP Dashboard, when you're in the main screen click on "import slider" and then "choose file" in the popup window. The file you need is called "demo-slider.zip" and it's in the "Demo XML Data" folder of the main files download of Pivot, inside the "Slider Demo Data" folder.</p>
+				
+				<img src="assets/img/rev-slider-2.png" alt="" />
+				<img src="assets/img/rev-slider-3.png" alt="" />
+				
+			</div><!--/demo-import-->
+			
+			<div id="customizer" class="answer">
+				
+				<h4>Using the theme options</h4>
+				
+				<p>All options for the theme are found within the WordPress theme customizer, from here you can change logos, colours, loads of stuff!</p>
+				<p>When you've done making changes, be sure to click the <code>Save Changes</code> button to apply your modificaitons to the front end of the site.</p>
+				
+				<img src="assets/img/customize-1.jpg" alt="" />
+				<img src="assets/img/customize-2.jpg" alt="" />
+				<img src="assets/img/customize-6.jpg" alt="" />
+				
+			</div>
+			
+			<div id="logo" class="answer">
+				
+				<h4>Setting a Logo</h4>
+				
+				<p>Head to the theme options and open the <code>header settings & logo</code> area, use the appropriate logo controls within.</p>
+				<p>The recommended logo height for the theme is 52px, width can be anything but remember that the logo may bump into your navigation if it's width is too high.</p>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>Your retina logo needs to have @2x on the end of the filename. Because of the way WordPress handles media attachments, make sure your logo filenames are truly unique so that the retina logo can be swapped properly.</p>
+				</div>
+				
+			</div>
+			
+			<div id="fonts" class="answer">
+				
+				<h4>Modifying Fonts & Font Colours</h4>
+				
+				<p>To modify fonts & fonts colours, you'll want to install the <a href="http://wordpress.org/plugins/easy-google-fonts/">Easy Google Fonts</a> plugin, it's fantastic.</p>
+				<p><code>Advanced:</code> for very specific font control, you can add additional selectors to the plugin if you need to. To do this have a watch of this video:</p>
+				
+				<div class="video-container"><iframe src="assets/http://player.vimeo.com/video/77878709?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>Keep your font choices as minimal as possible, the more fonts you're using, the slower your page load will be. You have been warned.</p>
+				</div>
+				
+			</div>
+			
+			<div id="mega-menu" class="answer">
+				
+				<h4>Ebor Mega Menu</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>It's best to use the "Ebor Template Builder" to create your mega menu layout, this gives you access to loads of elements. Be sparing though, the mega menu is a little less capable than a page, so although you can insert a portfolio in there, it's probably best not to :) The best elements to use are the <code>code</code>, <code>image</code> & <code>menu</code> blocks in the page builder.</p>
+				</div>
+				
+				<p>You'll notice in the demo of Pivot that we have a mega menu option, this is incredibly simple to use.</p>
+				<ol class="numbered">
+					<li>Go to ebor mega menu post type on your WordPress Dashboard and make a new post</li>
+					<li>Now go to "appearance" => "menus", look at the list of menu item types on the left of the menu screen, if Ebor Mega Menu is in there, great, select your new Ebor Mega Menu post and add it to your menu as a submenu item (Ebor mega menu items must be a submenu item, and they must be the only submenu item). If you don't see ebor mega menu, click on "screen options" in the top right of the screen, then in the dropdown tick "ebor mega menu" and repeat this step.</li>
+					<li>With the post set as a submenu item in your menu, save and check your site, you should now have a wide dropdown bar where you added the item.</li>
+					<li>Head back to your ebor mega menu post, we can now work with the post content to add whatever you need. The best way of doing this is with the page buider.</li>
+					<li>It's up to you what you add in here, but to make it a little more pretty, make sure you use the ebor template builder to create a layout shortcode, insert this into your post.</li>
+				</ol>
+				<p>That's it! Ebor mega menu should be seen then as a way to add post content directly into your menu, how you use it is entirely up to your own creativity!</p>
+				
+			</div>
+			
+			<div id="post-formats" class="answer">
+				
+				<h4>Using Post Formats</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>This section applies mainly to blog posts, portfolio posts should be limited to the gallery, image, video, auto & standard post formats. Clients, testimonials and team do not have post type support.</p>
+				</div>
+				
+				<p>For a brief overview of what post formats are, <a href="http://en.support.wordpress.com/posts/post-formats/">See Here.</a> Note that we don't include all post formats in Pivot.</p>
+				
+				<p>All the post formats are very self explanatory, so let's cover some of the main ones:</p>
+				<ol>
+					<li><code>Standard Post Format</code> - Uses the featured image for index & archives, but does not show this on the single post.</li>
+					<li><code>Image Post Format</code> - Uses the featured image for some index & archives, shows any images set in the "gallery upload" area at the top of your posts. This format is directly interchangeable with the Gallery Post Format</li>
+					<li><code>Gallery Post Format</code> - Does exactly the same as the image post format, but provides an image slider rather that multiple images.</li>
+					<li><code>Video Post Format</code> - Provides additional inputs for you to add video embed URLs, see the details noted in the video format input area for supported services.</li>
+				</ol>
+				
+			</div>
+			
+			<div id="portfolio-posts" class="answer">
+				
+				<h4>Portfolio Posts</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>A single portfolio post represents a singular image within the portfolio post feeds on the site. Portfolio posts are automatically show at /portfolio/ on your site, though you can use the page builder to add these to a page instead.</p>
+				</div>
+				
+				<p>Portfolio posts function exactly in the same way as blog posts. Any additional features of a portfolio post can be modified in the <code>additional portfolio settings</code> section underneath the WP Editor when making a portfolio post, take a look through these options, and make a mental note of what they offer.</p>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>Each Portfolio post MUST have a featured image set. This image should be a minimum of 440px X 330px and should have a maxiumum width of 2000px</p>
+				</div>
+				
+				<p>To change the layout of a portfolio post from full width to left/right, just use the portfolio layout control in the <code>additional portfolio settings</code>.</p>
+				
+				<h6>Custom Cropping Featured Images</h6>
+				<p>It's very likely you'll want deeper control of how the theme crops your featured images to be shown in the main portfolio feeds. If you installed the plugins recommended by the theme, then you're ready to do this. After you've set your featured image, click the <code>crop image</code> link underneath <code>remove featured image</code>, a window will pop-up. With the window open, choose the <code>portfolio</code> tab and then adjust and crop your image. Finally update your post. When you take a look at your site, if the image has not updated <code>clear your browser cache!</code></p>
+				
+			</div>
+			
+			<div id="team-posts" class="answer">
+				
+				<h4>Team Posts</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>Team posts are automatically show at /team/ on your site, though you can use the page builder to add these to a page instead.</p>
+				</div>
+				
+				<p>Team posts work just like blog posts, but have no post formats. Ensure each team post has a featured image set. You'll also want to set a job title, and some social icons for each team member using the additional inputs underneath the WP Editor/</p>
+				
+			</div>
+			
+			<div id="testimonial-posts" class="answer">
+				
+				<h4>Testimonial Posts</h4>
+				
+				<p>Testimonial posts have no single view, and do not make use of the featured image. Set the testimonial author as the post title, and add the testimonial to the post content. They can be added to your pages using the Testimonial elements in the page builder.</p>
+				
+			</div>
+			
+			<div id="client-posts" class="answer">
+				
+				<h4>Client Posts</h4>
+				
+				<p>Client posts are a useful way of adding some client logos to your page, set the logo as the featured image, set the client name as the title, and add a client URL if you want the logo to link somewhere.</p>
+				
+			</div>
+			
+			<div id="page-builder" class="answer">
+				
+				<h4>The Page Builder</h4>
+				
+				<p>The Page Builder is really easy to use. Head to <code>"appearance" => "Ebor Template builder"</code> and enter a name for a new template. You can then drag and drop blocks in from the left. Each block explains itself, some blocks are resizable by grabbing the edge of the block and pulling it to the right or the left.</p>
+				
+				<p>Use a 'Spacer' page builder block underneath elements which aren't full width, or just anywhere you want to add either spacing or a horizontal line. You should see the Spacer block as being a configurable gap in your page so that you can space your content out nicely. Additionally, if you're having any trouble with elements dropping below each other into the wrong place, stick a Spacer block in your page builder template at that point to make everything behave nicely again.</p>
+				
+				<p>The Page Builder uses shortcodes to add itself to pages. You can add those shortcodes by going to the post or page you want to add your newly created page template to, click the 'add template' button which is next to your 'add media' button, and click the name of the template you want to add. This will add a shortcode to your page, save and publish your page and all your content will be loaded in.</p>
+				
+			</div>
+			
+			<div id="woo" class="answer">
+				
+				<h3>WooCommerce</h3>
+				<p>Pivot is ready for WooCommerce if you need eCommerce in your theme. There's 2 steps to set this up, but you should also consider installing my demo data with WooCommerce pages and posts to make your life easier after setting up the plugin.</p>
+				
+				<h5>Install WooCommerce</h5>
+				<img src="assets/img/woocommerce.png" alt="" />
+				<p>Go to "plugins" => "add-new" => "install" and search for WooCommerce & then run the installer.</p>
+				<div class="clear break break30"></div>
+				
+				<h5>Let WooCommerce Set Up Pages For You</h5>
+				<img src="assets/img/woocommerce-install.png" alt="" />
+				<p>Once activated, WooCommerce will offer to install required pages for you, do this now.</p>
+				<div class="clear break break30"></div>
+				
+				<h5>Install WooCommerce Demo Data</h5>
+				<p>By far the easiest way to use WooCommerce is to first install the WooCommerce demo data and then configure it to your needs, you already have all the required WooCommerce pages installed so now we just need to populate them.</p>
+				<p>Head to the <code>Demo XML Data</code> folder in your download, the data we're after is called <code>woocommerce.xml</code></p>
+				<p>For details on importing this data, head to the <code>Installing the demo data</code> section of this documentation.</p>
+				<div class="clear break break30"></div>
+				
+				<h5>WooCommerce is now set up</h5>
+				<p>That's all you need to do to get a fully functioning shop within Pivot, with the WooCommerce pages installed and with the WooCommerce demo data installed you're ready to rock.</p>
+				<p>You may want a little more help with how to use WooCommerce though, well Pivot does not modify any of the default WooCommerce methods of working, so by far the best resource for WooCommerce now is that already written by WooThemes themselves, below is a selection of links worth visiting;</p>
+				
+				<a href="http://docs.woothemes.com/documentation/plugins/woocommerce/getting-started/" class="button blue">Getting Started with WooCommerce</a>
+				<div class="clear break break30"></div>
+				
+				<p>Full details of how to add and manage your product base;</p>
+				<a href="http://docs.woothemes.com/document/managing-products/" class="button blue">Adding and managing products</a>
+				<div class="clear break break30"></div>
+				
+				<p>Handling digital downloads;</p>
+				<a href="http://docs.woothemes.com/document/digitaldownloadable-product-handling/" class="button blue">Digital Downloads</a>
+				<div class="clear break break30"></div>
+				
+				<p>Adding / managing coupons with your store;</p>
+				<a href="http://docs.woothemes.com/document/smart-coupons/" class="button blue">Coupons</a>
+				<div class="clear break break30"></div>
+				
+				<p>Finally, if you really need some 101 help with WooCommerce, WPTuts did a great mini-series which you should take a read of;</p>
+				<a href="http://wp.tutsplus.com/tutorials/plugins/getting-started-with-woocommerce-initial-setup/" class="button blue">WooCommerce 101</a>
+				<div class="clear break break30"></div>
+				
+			</div>
+			
+			<div id="support" class="answer">
+				
+				<h4>Theme Support</h4>
+				
+				<div class="service">
+					<h5>Heads Up!</h5>
+					<p>Please read all of the following, a link to my ticket service is provided at the end of this section.<br /><br />Any ticket relating to customisation will be politely forwarded to -- <a href="http://www.madeinebor.com/customisations/">http://www.madeinebor.com/customisations/</a> -- and then your ticket will be closed.</p>
+				</div>
+				
+				<p>
+					I run support 
+					<strong>Weekdays 9am - 5pm GMT</strong>. You can expect a response within <strong>12&nbsp;- 48 hours, Monday to Friday</strong>&nbsp;unless there is a national holiday. Here is a list of UK national holidays:&nbsp;<a href="https://www.gov.uk/bank-holidays">https://www.gov.uk/bank-holidays</a>. Note that "bumps" to tickets put you to the back of my queue, be patient, every ticket is answered promptly.
+				</p>
+				
+				<p>
+					<strong>What my tickets are for:</strong>&nbsp;
+				</p>
+				<p>
+					Help using theme features, Help  setting up / installing themes, bug reports & reasonable feature requests for future updates.
+				</p>
+				<p>
+					<strong>What my tickets aren't for:</strong>&nbsp;
+				</p>
+				<p>
+					Any issues relating to 3rd party plugins not recommended by the theme, theme customisations, or theme changes your client requires.
+				</p>
+				<p>
+					<strong>What counts as customisation?</strong>&nbsp;
+				</p>
+				<p>
+					If you want to change the appearance or functionality of the theme by editing or extending the theme's code, then that is customisation, and will not be supported through my tickets. Likewise if your client has a function request that does not exist in the theme, my tickets are not the place to have the theme extended for this.
+				</p>
+				<p>
+					<strong>Do you need customisation work?</strong>&nbsp;
+				</p>
+				<p>
+					If that's exactly what you're here for, you can fill out a custom work form here; 
+					<a href="http://www.madeinebor.com/customisations/">http://www.madeinebor.com/customisations/</a>
+				</p>
+				<p>
+					<strong>Things to check when leaving a ticket:</strong>&nbsp;
+				</p>
+				<ol>
+					<li><strong>You must leave a link to your site</strong>, if not we will ask you to do this anyway and it will result in a delay to your ticket.</li>
+					<li>Please be descriptive when leaving a ticket, use screenshots if possible, "doesn't work" is not an acceptable descriptive term.</li>
+					<li>Before opening a ticket, <strong>disable all non-theme-recommended plugins</strong>, <strong>undo any code changes</strong>, and ensure you're using a default, unmodified version of the theme files. You'll find a lot of the time this fixes your issue.</li>
+					<li>Tickets without a validated purchase will not be answered. Properly validate your purchase.</li>
+					<li>If you have a modified theme, or are using a child theme for modification, we cannot help with bugs. Please present bugs to us within the <strong>default</strong>, <strong>unmodified theme</strong>, and we will help every time!</li>
+					<li>Please note Envato's Licensing covers 1 URL per 1 purchase of a theme:&nbsp;<a href="http://themeforest.net/licenses/regular">http://themeforest.net/licenses/regular</a> - ticket profiles covering multiple URLs with 1 license code, will be stopped until the remaining licenses are provided.</li>
+				</ol>
+				
+				<p>
+					<em>A quick point on theme support</em>: All of my themes are tested and thoroughly scrutinised by themeforest support staff and are <strong>confirmed 100% working</strong>, if you're having any issues you should be 99.9% sure it's a user error, or a bug I will be happy to fix with you. With this in mind, please keep your tone calm & professional, you will always get the same from me. Any tickets left with vulgar language, or with threatening, unprofessional language will be promptly closed and/or deleted. All tickets left with a calm, professional tone will receive awesome support, as always.
+				</p>
+				
+				<p>
+					<a href="http://tommusrhodus.ticksy.com">If you've read, accepted, and followed the steps above, click here to leave a ticket.</a>
+				</p>
+				
+			</div>
+		
+		</div>
+	</section>
+
+	
+<!--LOAD SCRIPTS-->
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+
+</body>
+</html>

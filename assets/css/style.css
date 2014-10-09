@@ -1,0 +1,272 @@
+/*-----------------------------------------------------------------------------------*/
+/*	GENERAL & GLOBAL STYLES
+/*-----------------------------------------------------------------------------------*/
+ html {
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+body {
+	font-family:'Raleway', sans-serif;
+	font-weight: 500;
+	overflow-x: hidden;
+	line-height: 26px;
+	font-size: 16px;
+	color: #414141;
+	background: #f9f9f9;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6, #logo a, #sub-logo a, .button, input[type="submit"] {
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #2b2b2b;
+}
+a:hover h6 {
+	color: #2b2b2b;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+}
+p {
+	margin-bottom: 25px;
+	text-align: left;
+}
+blockquote {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 25px;
+	color: #4b4b4b;
+	padding-left: 25px;
+	border-left: 2px solid #f39c12;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 680px;
+	position: relative;
+}
+.wrapper.small {
+	max-width: 700px;
+}
+strong, b {
+	font-weight: 500;
+}
+em {
+	font-style: italic;
+}
+::selection {
+	background: #fefac7;
+	/* Safari */
+	color: #555555;
+}
+::-moz-selection {
+	background: #fefac7;
+	/* Firefox */
+	color: #555555;
+}
+.standard-section {
+	padding: 80px 0;
+}
+.light-section {
+	background: #ffffff;
+}
+.standard-section.no-bottom {
+	padding-bottom: 0;
+}
+.standard-section.parallax {
+	padding: 170px 0;
+	color: #f9f9f9;
+}
+.parallax h1, .parallax h2, .parallax h3, .parallax h4, .parallax h5, .parallax h6 {
+	color: #f9f9f9;
+}
+.section-title {
+	text-align: center;
+	margin: 0 auto 60px;
+	max-width: 60%;
+}
+.section-title h3 {
+	margin-bottom: 10px;
+}
+.section-title p {
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+	color: #2b2b2b;
+	-webkit-transition: color 300ms ease-in-out;
+	-moz-transition: color 300ms ease-in-out;
+	-ms-transition: color 300ms ease-in-out;
+	-o-transition: color 300ms ease-in-out;
+	transition: color 300ms ease-in-out;
+}
+a:hover, .hentry a, .colored, .service a, p a, li a, .main-nav li a:hover {
+	color: #f39c12;
+}
+.break {
+	height: 30px;
+}
+.fancy {
+	font-style: italic;
+	font-family:'Georgia', serif;
+	margin-right: 3px;
+}
+.button, input[type="submit"] {
+	background: #f39c12;
+	color: #ffffff;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+.button:hover, input[type="submit"]:hover {
+	color: #ffffff;
+	background: #e67e22;
+}
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	background: #ffffff;
+	padding: 20px;
+	margin-bottom: 15px;
+	font-family:'Raleway', sans-serif;
+}
+textarea {
+	min-height: 160px;
+}
+input[type="submit"] {
+	border: none;
+	cursor: pointer;
+}
+strong, b {
+	font-weight: 800;
+}
+ol, .hentry ul {
+	margin-bottom: 25px;
+	margin-left: 40px;
+}
+ol {
+	list-style: decimal-leading-zero;
+}
+.hentry ul {
+	list-style: square;
+}
+pre {
+	padding-left: 25px;
+	border-left: 2px solid #f39c12;
+	margin-bottom: 25px;
+	font-size: 14px;
+}
+code {
+	font-family: monospace;
+	background: #e5e5e5;
+	padding: 0 5px;
+}
+li {
+	text-align: left;
+}
+.divide30 {
+	height: 30px;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	END GENERAL & GLOBAL STYLES
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	HEADER & NAV STYLES
+/*-----------------------------------------------------------------------------------*/
+ header {
+	padding: 30px 0 20px;
+	background: #f5f5f5;
+}
+.main-nav li {
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	text-align: center;
+}
+.main-nav {
+	margin-bottom: 30px;
+}
+.main-nav li a {
+	color: #414141;
+}
+#content {
+	padding: 100px 0 80px;
+}
+#answers {
+	background: #f5f5f5;
+	padding: 40px 0;
+}
+/*-----------------------------------------------------------------------------------*/
+/*	END HEADER & NAV STYLES
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/*	SERVICES STYLES
+/*-----------------------------------------------------------------------------------*/
+.service code {
+	color: black;
+}
+#toTop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	font-size: 24px;
+	padding-top: 12px;
+	cursor: pointer;
+}
+.service {
+	padding: 40px;
+	background: rgba(50, 50, 50, 0.8);
+	color: #f9f9f9;
+	margin-bottom: 25px;
+	-webkit-transition: background 300ms ease-in-out;
+	-moz-transition: background 300ms ease-in-out;
+	-ms-transition: background 300ms ease-in-out;
+	-o-transition: background 300ms ease-in-out;
+	transition: background 300ms ease-in-out;
+	text-align: center !important;
+}
+.service:hover {
+	background: rgba(50, 50, 50, 0.95);
+}
+.service h5 {
+	margin-bottom: 15px;
+	color: #f9f9f9;
+}
+.service-icon {
+	float: left;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	border: 2px solid #f9f9f9;
+	margin-right: 40px;
+	border-radius: 50%;
+}
+.service-content {
+	overflow: hidden;
+}
+.service p {
+	margin-bottom: 0;
+	text-align: center;
+}
+#answers img {
+	vertical-align: bottom;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 25px;
+	padding: 6px;
+	border: 1px solid #c7c7c7;
+}
+.answer {
+	border-bottom: 1px solid #c7c7c7;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+	padding-top: 20px;
+}
+.answer h4 {
+	margin-bottom: 25px;
+}
