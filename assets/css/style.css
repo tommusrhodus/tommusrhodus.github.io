@@ -13,7 +13,7 @@ body {
 	font-size: 16px;
 	color: #414141;
 	background: #f9f9f9;
-	text-align: center;
+	text-align: left;
 }
 h1, h2, h3, h4, h5, h6, #logo a, #sub-logo a, .button, input[type="submit"] {
 	font-weight: 800;
@@ -97,7 +97,7 @@ a {
 	-o-transition: color 300ms ease-in-out;
 	transition: color 300ms ease-in-out;
 }
-a:hover, .hentry a, .colored, .service a, p a, li a, .main-nav li a:hover {
+a:hover, .hentry a, .colored, li a, .main-nav li a:hover {
 	color: #1abc9c;
 }
 .break {
@@ -178,6 +178,7 @@ h6 span {
 	background: #f5f5f5 url('../img/library.jpg') no-repeat center center;
 	background-size: cover;
 	position: relative;
+	text-align: center;
 }
 header:after {
 	position: absolute;
@@ -200,7 +201,6 @@ header * {
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	font-size: 14px;
-	text-align: center;
 }
 .main-nav {
 	margin-bottom: 30px;
@@ -214,6 +214,12 @@ header * {
 #answers {
 	background: #f5f5f5;
 	padding: 40px 0;
+}
+.nav-area * {
+	text-align: center;
+}
+.index-wrapper, .index-wrapper * {
+	text-align: center;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	END HEADER & NAV STYLES
@@ -236,21 +242,13 @@ header * {
 	font-size: 24px;
 	padding-top: 12px;
 	cursor: pointer;
+	text-align: center;
 }
 .service {
-	padding: 40px;
-	background: rgba(50, 50, 50, 0.8);
-	color: #f9f9f9;
+	padding: 20px;
+	background: #1abc9c;
+	color: #fff;
 	margin-bottom: 25px;
-	-webkit-transition: background 300ms ease-in-out;
-	-moz-transition: background 300ms ease-in-out;
-	-ms-transition: background 300ms ease-in-out;
-	-o-transition: background 300ms ease-in-out;
-	transition: background 300ms ease-in-out;
-	text-align: center !important;
-}
-.service:hover {
-	background: rgba(50, 50, 50, 0.95);
 }
 .service h5 {
 	margin-bottom: 15px;
@@ -270,7 +268,9 @@ header * {
 }
 .service p {
 	margin-bottom: 0;
-	text-align: center;
+}
+.service a:hover {
+	opacity: 0.5;
 }
 #answers img {
 	vertical-align: bottom;

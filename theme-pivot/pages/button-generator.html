@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Pivot | Button Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="../style/css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../style/css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../style/css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../style/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="../style/css/theme.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
+        <script src="../style/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+    	<div class="loader">
+    		<div class="spinner">
+			  <div class="double-bounce1"></div>
+			  <div class="double-bounce2"></div>
+			</div>
+    	</div>
+		
+		<div class="main-container">
+
+			<section class="article-single">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="article-body">
+								
+								<h1>Pivot Button Shortcode Generator</h1>
+								
+								<div class="form-wrapper clearfix">
+									<div class="form-contact email-form">
+										<form method="post" action="#" id="button-generator">
+											<input type="text" name="button-text" value="" placeholder="Button Text" />
+											<input type="url" name="button-url" value="" placeholder="Button URL" />
+											
+											<hr />
+											
+											<h6>Button Appearance</h6>
+											<div class="row">
+												<div class="col-sm-2">
+													<label><input type="radio" name="appearance" value="btn-primary" checked/><img src="../style/img/button-outline.png" alt="" /></label>
+												</div>
+												<div class="col-sm-2">
+													<label><input type="radio" name="appearance" value="btn-primary btn-white"   /><img src="../style/img/button-outline-white.png" alt="" /></label>
+												</div>
+												<div class="col-sm-2">
+													<label><input type="radio" name="appearance" value="btn-primary btn-filled"   /><img src="../style/img/button-filled.png" alt="" /></label>
+												</div>
+												<div class="col-sm-2">
+													<label><input type="radio" name="appearance" value="btn-primary btn-text-only"   /><img src="../style/img/button-blank.png" alt="" /></label>
+												</div>
+												<div class="col-sm-2">
+													<label><input type="radio" name="appearance" value="btn-primary btn-filled btn-white"   /><img src="../style/img/button-filled-white.png" alt="" /></label>
+												</div>
+											</div>
+											
+											<hr />
+											
+											<h6 class="align-left">Button Target</h6>
+											<div class="row">
+												<div class="col-sm-6">
+													<label><input type="radio" name="target" value="_blank" /> Open link in new window.</label>
+												</div>
+												<div class="col-sm-6">
+													<label><input type="radio" name="target" value="default" checked/> Open in same window.</label>
+												</div>
+											</div>
+											
+											<hr />
+											
+											<input type="submit" name="submit" value="Get Shortcode" />
+											
+											<hr />
+											
+											<div class="row">
+												
+												<div class="col-sm-12">
+													<div class="hidden"><pre><code id="shortcode"></code></pre></div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+								
+							</div><!--end of article body-->
+						</div>
+					</div><!--end of row-->
+					
+				</div><!--end of container-->	
+			</section>
+		</div>
+		<div class="footer-container">
+					<footer class="bg-primary short-2">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12">
+									<span class="text-white">© 2014 Pivot Theme, TommusRhodus.</span>
+								</div>
+							</div><!--end for row-->
+						</div><!--end of container-->
+					</footer>
+				</div>
+						
+				<script src="../style/js/jquery.min.js"></script>
+		        <script src="../style/js/jquery.plugin.min.js"></script>
+		        <script src="../style/js/bootstrap.min.js"></script>
+		        <script src="../style/js/jquery.flexslider-min.js"></script>
+		        <script src="../style/js/smooth-scroll.min.js"></script>
+		        <script src="../style/js/skrollr.min.js"></script>
+		        <script src="../style/js/spectragram.min.js"></script>
+		        <script src="../style/js/scrollReveal.min.js"></script>
+		        <script src="../style/js/isotope.min.js"></script>
+		        <script src="../style/js/twitterFetcher_v10_min.js"></script>
+		        <script src="../style/js/lightbox.min.js"></script>
+		        <script src="../style/js/jquery.countdown.min.js"></script>
+		        <script src="../style/js/bootstrap.min.js"></script>
+		        <script src="../style/js/scripts.js"></script>
+		        <script type="text/javascript">
+		        jQuery(document).ready(function($){
+		        	function copyToClipboard(text) {
+		        	  window.prompt("Copy text and paste into the theme:", text);
+		        	}
+		        	$('#button-generator').submit(function(){
+		        		var $this = $(this),
+		        			text = $this.find('input[name="button-text"]').val(),
+		        			url = $this.find('input[name="button-url"]').val(),
+		        			display = $this.find('input[name="appearance"]:checked').val(),
+		        			target = $this.find('input[name="target"]:checked').val();
+		        		$('#shortcode').html('[pivot_button url="'+ url +'" appearance="'+ display +'" target="'+ target +'" text="'+ text +'"]');
+		        		copyToClipboard($('#shortcode').html());
+
+		        		return false;
+		        	});
+		        });
+		        </script>
+		    </body>
+		</html>				

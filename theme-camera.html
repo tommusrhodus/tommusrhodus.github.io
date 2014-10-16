@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Pivot WP Theme - Documentation</title>
+    <title>Camera WP Theme - Documentation</title>
     <meta name="author" content="TommusRhodus">
     <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="assets/css/framework.css">
@@ -20,7 +20,7 @@
 		<div class="wrapper">
 			<img src="assets/img/tr-logo.png" alt="Logo" />
 			<div class="divide30"></div>
-			<h3>Pivot WP Theme - Documentation</h3>
+			<h3>Camera WP Theme Documentation</h3>
 		</div>
 	</header>
 	
@@ -31,7 +31,7 @@
 				<h6>Installing the Theme</h6>
 				<ul class="main-nav">
 					<li>
-						<a href="#install">Upload & Install Pivot</a>
+						<a href="#install">Upload & Install Camera</a>
 					</li>
 					<li>
 						<a href="#permalinks">Modify Permalinks</a>
@@ -59,9 +59,6 @@
 				<ul class="main-nav">
 					<li>
 						<a href="#theme-setup">Initial Theme Setup</a>
-					</li>
-					<li>
-						<a href="#revslider-import">Import Demo Sliders</a>
 					</li>
 					<li>
 						<a href="#troubleshooting">Toubleshooting</a>
@@ -93,7 +90,7 @@
 						<a href="http://en.support.wordpress.com/menus/">Official Menu Documentation</a>
 					</li>
 					<li>
-						<a href="#mega-menu">Ebor Mega Menu</a>
+						<a href="#menus">Cameras Special Menu System</a>
 					</li>
 				</ul>
 			</div>
@@ -139,12 +136,6 @@
 					<li>
 						<a href="#team-posts">Team Posts</a>
 					</li>
-					<li>
-						<a href="#testimonial-posts">Testimonial Posts</a>
-					</li>
-					<li>
-						<a href="#client-posts">Client Posts</a>
-					</li>
 				</ul>
 			</div>
 			
@@ -155,15 +146,6 @@
 				<ul class="main-nav">
 					<li>
 						<a href="#page-builder">Page Builder</a>
-					</li>
-				</ul>
-			</div>
-			
-			<div class="one_third">
-				<h6>WooCommerce</h6>
-				<ul class="main-nav">
-					<li>
-						<a href="#woo">WooCommerce</a>
 					</li>
 				</ul>
 			</div>
@@ -186,15 +168,15 @@
 		<div class="wrapper">
 		
 			<div id="install" class="answer">
-				<h4>Uploading & Installing Pivot</h4>
+				<h4>Uploading & Installing Camera</h4>
 				
 				<div class="service">
 					<h5>Heads Up!</h5>
-					<p>Pivot should install perfectly first time & every time!<br />
+					<p>Camera should install perfectly first time & every time!<br />
 					If you have any issues installing your theme:<br /><a href="http://support.envato.com/index.php?/Live/Knowledgebase/Article/View/269/0/my-wordpress-theme-isnt-working-what-should-i-do">Solving Broken Theme/Stylesheet Missing WordPress Theme Issues</a></p>
 				</div>
 				
-				<p>To install your theme in WordPress you must navigate to the menu "Appearance" on the left and then the submenu "Themes". From that page you should see your current theme "Twenty Eleven" by default OR whatever theme you currently have. Now click the "Install Themes" tab and then the text button at the top "Upload". You then should click Choose File and find your theme files on your computer and upload them. Note: You are only uploading the folder "PivotWPTheme.zip" Your final step is to "Activate" your theme.</p>
+				<p>To install your theme in WordPress you must navigate to the menu "Appearance" on the left and then the submenu "Themes". From that page you should see your current theme "Twenty Eleven" by default OR whatever theme you currently have. Now click the "Install Themes" tab and then the text button at the top "Upload". You then should click Choose File and find your theme files on your computer and upload them. Note: You are only uploading the folder "CameraWPTheme.zip" Your final step is to "Activate" your theme.</p>
 				
 				<p>This process is shown in the images below</p>
 				
@@ -234,7 +216,7 @@
 				</div>
 				
 				<p>When you first install the theme you'll see a popup on your dashboard from the theme asking you to install a number of plugins.</p>
-				<p>Allow the theme to install these for you, it will add custom post types, a page builder, revolution slider, a portfolio post ordering plugin and a custom crop featured image plugin.</p>
+				<p>Allow the theme to install these for you, it will add custom post types, a page builder, a portfolio post ordering plugin and a custom crop featured image plugin.</p>
 				
 				<img src="assets/img/plugins1.png" alt="" />
 				<img src="assets/img/plugins2.png" alt="" />
@@ -305,6 +287,18 @@
 				
 				<p>Now the last step. Go to <code>appearance -> menus</code> and set the theme menus in place. Use the checkboxes at the bottom of the menus to set them in location. Set the main menu into the <code>primary</code> location.</p>
 				
+				<h4>The Basic Idea of Camers</h4>
+				
+				<p>Camera is a one-page WordPress theme, anything mentioned in this paragraph is mentioned in further detail in this documentation.</p>
+				
+				<p>Camera is very simple to use, and operates under the usage of the Ebor Template Builder. To use Camera , we first publish 2 pages, one called Home which we give the <code>Page Builder - Single Page</code> template. Next one called Blog.</p>
+				
+				<p>In Settings => Reading we set home to be the homepage, and blog to be the posts page.</p>
+				
+				<p>Next we start building the sections of the homepage, to do this you need to go to "appearance" => "ebor template builder" and use the blocks to begin constructing the sections of your page.</p>
+				
+				<p>In the page builder you can assign each block to "sections", these sections are the links in our navigation menu that animate between as we use the site navigation.</p>
+				
 			</div><!--/theme-setup-->
 			
 			<div id="troubleshooting" class="answer">
@@ -323,16 +317,6 @@
 				</ol>
 				
 			</div><!--/troubleshooting-->
-			
-			<div id="revslider-import" class="answer">
-				<h4>Import Demo Revsliders</h4>
-				
-				<p>We just need to import the revolution slider demo data. To do this go to "revolution slider" from your WP Dashboard, when you're in the main screen click on "import slider" and then "choose file" in the popup window. The file you need is called "demo-slider.zip" and it's in the "Demo XML Data" folder of the main files download of Pivot, inside the "Slider Demo Data" folder.</p>
-				
-				<img src="assets/img/rev-slider-2.png" alt="" />
-				<img src="assets/img/rev-slider-3.png" alt="" />
-				
-			</div><!--/demo-import-->
 			
 			<div id="customizer" class="answer">
 				
@@ -368,7 +352,7 @@
 				<p>To modify fonts & fonts colours, you'll want to install the <a href="http://wordpress.org/plugins/easy-google-fonts/">Easy Google Fonts</a> plugin, it's fantastic.</p>
 				<p><code>Advanced:</code> for very specific font control, you can add additional selectors to the plugin if you need to. To do this have a watch of this video:</p>
 				
-				<div class="video-container"><iframe src="assets/http://player.vimeo.com/video/77878709?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+				<div class="video-container"><iframe src="http://player.vimeo.com/video/77878709?title=0&amp;byline=0&amp;portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 				
 				<div class="service">
 					<h5>Heads Up!</h5>
@@ -377,24 +361,34 @@
 				
 			</div>
 			
-			<div id="mega-menu" class="answer">
+			<div id="menus" class="answer">
 				
-				<h4>Ebor Mega Menu</h4>
+				<h4>Using the special menu</h4>
 				
-				<div class="service">
-					<h5>Heads Up!</h5>
-					<p>It's best to use the "Ebor Template Builder" to create your mega menu layout, this gives you access to loads of elements. Be sparing though, the mega menu is a little less capable than a page, so although you can insert a portfolio in there, it's probably best not to :) The best elements to use are the <code>code</code>, <code>image</code> & <code>menu</code> blocks in the page builder.</p>
-				</div>
+				<p>Once you've created the menu, you'll want to add your  links, each of the following URL's need to be entered, but you don;t need to use each of them, only what you need, also, if you want to call your 'about' section something like 'custom' then just enter your  URL as below & then call the label 'custom'. Using this method, you can name the links anything you want, but the URLS must be as follows, so that the page-builder works correctly with your s.</p>
 				
-				<p>You'll notice in the demo of Pivot that we have a mega menu option, this is incredibly simple to use.</p>
-				<ol class="numbered">
-					<li>Go to ebor mega menu post type on your WordPress Dashboard and make a new post</li>
-					<li>Now go to "appearance" => "menus", look at the list of menu item types on the left of the menu screen, if Ebor Mega Menu is in there, great, select your new Ebor Mega Menu post and add it to your menu as a submenu item (Ebor mega menu items must be a submenu item, and they must be the only submenu item). If you don't see ebor mega menu, click on "screen options" in the top right of the screen, then in the dropdown tick "ebor mega menu" and repeat this step.</li>
-					<li>With the post set as a submenu item in your menu, save and check your site, you should now have a wide dropdown bar where you added the item.</li>
-					<li>Head back to your ebor mega menu post, we can now work with the post content to add whatever you need. The best way of doing this is with the page buider.</li>
-					<li>It's up to you what you add in here, but to make it a little more pretty, make sure you use the ebor template builder to create a layout shortcode, insert this into your post.</li>
-				</ol>
-				<p>That's it! Ebor mega menu should be seen then as a way to add post content directly into your menu, how you use it is entirely up to your own creativity!</p>
+				<p>URL's</p>
+				
+				<p>Home<br />
+				#home</p>
+				
+				<p>Services<br />
+				#services</p>
+				
+				<p>Clients<br />
+				#clients</p>
+				
+				<p>Portfolio<br />
+				#portfolio</p>
+				
+				<p>About<br />
+				#about</p>
+				
+				<p>Blog<br />
+				#blog</p>
+				
+				<p>Contact<br />
+				#contact</p>
 				
 			</div>
 			
@@ -404,10 +398,10 @@
 				
 				<div class="service">
 					<h5>Heads Up!</h5>
-					<p>This section applies mainly to blog posts, portfolio posts should be limited to the gallery, image, video, auto & standard post formats. Clients, testimonials and team do not have post type support.</p>
+					<p>This section applies mainly to blog posts, portfolio posts should be limited to the gallery, image, video, auto & standard post formats. Testimonials and team do not have post type support.</p>
 				</div>
 				
-				<p>For a brief overview of what post formats are, <a href="http://en.support.wordpress.com/posts/post-formats/">See Here.</a> Note that we don't include all post formats in Pivot.</p>
+				<p>For a brief overview of what post formats are, <a href="http://en.support.wordpress.com/posts/post-formats/">See Here.</a> Note that we don't include all post formats in Camera.</p>
 				
 				<p>All the post formats are very self explanatory, so let's cover some of the main ones:</p>
 				<ol>
@@ -463,69 +457,13 @@
 				
 			</div>
 			
-			<div id="client-posts" class="answer">
-				
-				<h4>Client Posts</h4>
-				
-				<p>Client posts are a useful way of adding some client logos to your page, set the logo as the featured image, set the client name as the title, and add a client URL if you want the logo to link somewhere.</p>
-				
-			</div>
-			
 			<div id="page-builder" class="answer">
 				
 				<h4>The Page Builder</h4>
 				
 				<p>The Page Builder is really easy to use. Head to <code>"appearance" => "Ebor Template builder"</code> and enter a name for a new template. You can then drag and drop blocks in from the left. Each block explains itself, some blocks are resizable by grabbing the edge of the block and pulling it to the right or the left.</p>
 				
-				<p>Use a 'Spacer' page builder block underneath elements which aren't full width, or just anywhere you want to add either spacing or a horizontal line. You should see the Spacer block as being a configurable gap in your page so that you can space your content out nicely. Additionally, if you're having any trouble with elements dropping below each other into the wrong place, stick a Spacer block in your page builder template at that point to make everything behave nicely again.</p>
-				
 				<p>The Page Builder uses shortcodes to add itself to pages. You can add those shortcodes by going to the post or page you want to add your newly created page template to, click the 'add template' button which is next to your 'add media' button, and click the name of the template you want to add. This will add a shortcode to your page, save and publish your page and all your content will be loaded in.</p>
-				
-			</div>
-			
-			<div id="woo" class="answer">
-				
-				<h3>WooCommerce</h3>
-				<p>Pivot is ready for WooCommerce if you need eCommerce in your theme. There's 2 steps to set this up, but you should also consider installing my demo data with WooCommerce pages and posts to make your life easier after setting up the plugin.</p>
-				
-				<h5>Install WooCommerce</h5>
-				<img src="assets/img/woocommerce.png" alt="" />
-				<p>Go to "plugins" => "add-new" => "install" and search for WooCommerce & then run the installer.</p>
-				<div class="clear break break30"></div>
-				
-				<h5>Let WooCommerce Set Up Pages For You</h5>
-				<img src="assets/img/woocommerce-install.png" alt="" />
-				<p>Once activated, WooCommerce will offer to install required pages for you, do this now.</p>
-				<div class="clear break break30"></div>
-				
-				<h5>Install WooCommerce Demo Data</h5>
-				<p>By far the easiest way to use WooCommerce is to first install the WooCommerce demo data and then configure it to your needs, you already have all the required WooCommerce pages installed so now we just need to populate them.</p>
-				<p>Head to the <code>Demo XML Data</code> folder in your download, the data we're after is called <code>woocommerce.xml</code></p>
-				<p>For details on importing this data, head to the <code>Installing the demo data</code> section of this documentation.</p>
-				<div class="clear break break30"></div>
-				
-				<h5>WooCommerce is now set up</h5>
-				<p>That's all you need to do to get a fully functioning shop within Pivot, with the WooCommerce pages installed and with the WooCommerce demo data installed you're ready to rock.</p>
-				<p>You may want a little more help with how to use WooCommerce though, well Pivot does not modify any of the default WooCommerce methods of working, so by far the best resource for WooCommerce now is that already written by WooThemes themselves, below is a selection of links worth visiting;</p>
-				
-				<a href="http://docs.woothemes.com/documentation/plugins/woocommerce/getting-started/" class="button blue">Getting Started with WooCommerce</a>
-				<div class="clear break break30"></div>
-				
-				<p>Full details of how to add and manage your product base;</p>
-				<a href="http://docs.woothemes.com/document/managing-products/" class="button blue">Adding and managing products</a>
-				<div class="clear break break30"></div>
-				
-				<p>Handling digital downloads;</p>
-				<a href="http://docs.woothemes.com/document/digitaldownloadable-product-handling/" class="button blue">Digital Downloads</a>
-				<div class="clear break break30"></div>
-				
-				<p>Adding / managing coupons with your store;</p>
-				<a href="http://docs.woothemes.com/document/smart-coupons/" class="button blue">Coupons</a>
-				<div class="clear break break30"></div>
-				
-				<p>Finally, if you really need some 101 help with WooCommerce, WPTuts did a great mini-series which you should take a read of;</p>
-				<a href="http://wp.tutsplus.com/tutorials/plugins/getting-started-with-woocommerce-initial-setup/" class="button blue">WooCommerce 101</a>
-				<div class="clear break break30"></div>
 				
 			</div>
 			
