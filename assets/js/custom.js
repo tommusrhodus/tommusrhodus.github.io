@@ -14,4 +14,6 @@ jQuery(document).ready(function($){
 		return false;
 	});
 	
+	$('.main-index-wrapper').height( $(window).height() );
+	
 });
