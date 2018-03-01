@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Gaze WordPress Theme Help Guide | TommusRhodus Themes</title>
+    <style type="text/css">
+        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+            margin: 0;
+            padding: 0;
+        }
+        * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        :before, :after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        img, object, embed {max-width: 100%; height: auto;}
+        object, embed {height: 100%;}
+        img { margin: 1.25% 0; -ms-interpolation-mode: bicubic; }
+        html {
+            background-color: #F0F1F3;
+            padding: 2%;
+        }
+        body {
+            font-size: 16px;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: #242424;
+            max-width: 800px;
+            margin: 5% auto;
+           
+        }
+        body::after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+        header {
+            margin-bottom: 8%;
+        }
+        footer {
+            text-align: center;
+        }
+        h1, h2, h3, h4, h5, h1 a {
+            color: #263A48;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        h1, h2 {
+            font-size: 36px;
+            padding-bottom: 0.3em;
+            margin-bottom: 0.4em;
+            border-bottom: 1px solid #eee
+        }
+        h2 {
+            font-size: 22px;
+            padding-bottom: 0.6em;
+            margin-bottom: 0.6em;
+            margin-top: 2.5em;
+        }
+        h3 {
+            font-size: 18px;
+            margin-bottom: 0.3em;
+        }
+        h1 small a {
+            color: #98999C;
+            font-size: 15px;
+            font-weight: normal;
+            float: right;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+        }
+        section {
+            background: #fff;
+            margin-bottom: 1%;
+            position: relative;
+            padding: 6% 8%;
+        }
+        blockquote {
+            border-left: 3px solid #d54e21;
+            font-size: 16px;
+            padding: 0 0 0 20px;
+            color: #d54e21;
+        }
+        blockquote a {
+            color: #d54e21;
+            font-weight: 500;
+        }
+        blockquote code {
+            color: #d54e21;
+        }
+        code, cite {
+            background-color: #F0F2F4;
+            border-radius: 3px;
+            color: #000;
+            font: inherit;
+            padding: 2px 7px;
+            white-space: nowrap;
+        }
+        a {
+            color: #1e8cbe;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #d54e21;
+        }
+        ul {
+            list-style: none;
+        }
+        ol {
+            list-style: number;
+        }
+        ol li {
+            color: #98999C;
+            margin-bottom: 5px;
+        }
+        ol li:last-child {
+            margin-bottom: 0;
+        }
+        p, ul, ol, blockquote  {
+            margin-bottom: 4%;
+        }
+        ul ul {
+            padding-top: 0;
+            margin-bottom: 0;
+            margin-left: 4%;
+        }
+        ul ul li:before {
+            content: '-';
+            display: inline-block;
+            padding-right: 2%;
+        }
+
+        ul.col-2 {
+            color: #98999C;
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+            -webkit-column-gap: 20px;
+            -moz-column-gap: 20px;
+            column-gap: 20px;
+        }
+
+        @media screen and (min-width: 500px) {
+            ul.col-2 {
+                -webkit-column-count: 3;
+                -moz-column-count: 3;
+                column-count: 3;
+                -webkit-column-gap: 20px;
+                -moz-column-gap: 20px;
+                column-gap: 20px;
+            }
+        }
+        nav {
+            background: #F0F1F3;
+            min-width: 215px;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+        nav:first-of-type a {
+            color: #d54e21;
+            border-radius: 0;
+        }
+        nav:first-of-type a:hover {
+            color: #d54e21;
+        }
+        nav:first-of-type a:before {
+            background-color: #d54e21;
+        }
+        nav.affix {
+            position: fixed;
+            top: 20px;
+        }
+        nav.affix-bottom {
+            position: absolute;
+        }
+        nav a {
+            border-radius: 3px;
+            font-size: 15px;
+            display: block;
+            cursor: pointer;
+            font-weight: 500;
+            position: relative;
+            text-decoration: none; 
+            padding: 10px 12px;
+            width: 100%;
+            padding-right: 3px;
+            border-bottom: 2px solid #fff;
+        }
+        nav a:before {
+            content: '';
+            width: 4px;
+            display: block;
+            left: 0;
+            position: absolute;
+            height: 100%;
+            display: none;
+            background: #1e8cbe;
+            top: 0;
+        }
+        nav a:hover {
+            background-color: #E6E8EA;
+            color: #1e8cbe;
+            text-decoration: underline;
+        }   
+        nav a:hover:before {
+            display: block;
+        }
+        nav a:last-of-type {
+            border-bottom: none;
+        }
+        .gist {
+            margin-top: 5.1%;
+            margin-bottom: 5%;
+        }
+        @media screen and (max-width: 1050px) {
+            body {
+                margin: 0 auto;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            header span {
+                display: none;
+            }
+            h1 {
+                font-size: 26px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }   
+        @media screen and (max-width: 514px) {
+            p, ul, ol, blockquote  {
+                margin-bottom: 8%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="Menu">
+        <header>
+            <h1>Gaze WordPress Theme Documentation</h1>
+            <p>Set-up & general guide to help you get the most out of your new WordPress theme. If you are still having trouble after reading this guide, <a href="https://www.tommusrhodus.com/contact/">head to our dedicated support area and create a ticket.</a>.</p>
+        </header>
+        <nav>
+            <a href="http://gaze.tommusdemos.wpengine.com" target="blank">Live Demo</a>
+            <a href="@@changelogUrl">Changelog</a>
+            <a href="@@purchaseUrl">Buy Gaze WordPress Theme</a>
+        </nav>
+        <nav>
+            <a href="#Welcome">Welcome</a>
+            <a href="#GettingStarted">Getting Started</a>
+            <a href="#ThemeOptions">Theme Options</a>
+            <a href="#CreatingMenus">Creating Menus</a>
+            <a href="#Widgets">Using Widgets</a>
+            <a href="#PostsOverview">Posts Overview</a>
+            <a href="#PortfolioOverview">Portfolio Overview</a>
+            <a href="#ContactForm7">Contact Form 7 Overview</a>
+            <a href="#UsingVC">Using WPBakery Page Builder</a>
+            <a href="#Translating">Translating Your Theme</a>            
+            <a href="#Developers">Developing with Gaze</a>
+            <a href="#CommonIssues">Common Issues</a>
+            <a href="#SupportPolicy">Support Policy</a>
+            <a href="#Credits">Credits</a>
+
+        </nav>
+    </section>
+
+    <section id="Welcome">
+
+        <h1><a href="#Welcome">Welcome</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Welcome, and thank you for choosing a TommusRhodus theme.</p>
+        <p>We pride ourselves on providing excellent documentation so this guide will help you get the most from your new theme. We will take you through everything from installing the theme, to creating menus, using the theme options and much more. Please take a moment to read through the articles below to familiarise yourself with your new theme and of course, if you need any assistance along the way, <a href="https://www.tommusrhodus.com/contact/">we are always on hand to help.</a></p> 
+
+        <p>We also have a number of video tutorials which detail certain aspects of Gaze - check out our <a href="https://www.youtube.com/playlist?list=PL6VzCcNewv9il2ZXh3Uf5-4wyw-W4AboU" target="_blank">YouTube playlist here.</a></p>
+
+    </section>
+
+    <section id="GettingStarted">
+
+        <h1><a href="#GettingStarted">Getting Started</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>This document covers the installation, set up, and use of this theme, and provides answers and solutions to common problems. We encourage you to first read this document thoroughly if you are experiencing any difficulties before contacting our support team.</p> 
+
+        <h2>Uploading Through WordPress</h2>
+        <p>To upload through your Dashboard, select “Appearance” and then “Themes”. Next, select the “Install Themes” tab at the top of the page and then select the “Upload” link, right above the search field. Choose your file and select “Install Now”. Once the theme is fully uploaded and installed, click “Activate” to activate the WordPress theme.</p>
+        <blockquote>The theme files will be stored on your server in the <code>wp-content/themes</code> location.</blockquote>
+        <p>When uploading your theme with the installer, please ensure you are uploading the theme .zip file, not the entire package you downloaded. In this case, you will be uploading gazeWPtheme.zip.</p>
+
+        <img src="images/upload1.gif">
+
+        <h2>FTP Upload</h2>
+        <p>To manually upload your new WordPress theme, login with your credentials to your website and locate the wp-content folder in your WordPress install files. Upload the <b>un-zipped</b> Gaze WordPress Theme folder into the: wp-content/themes folder. </p>
+        <p>Once uploaded, activate the theme by heading to the “Themes” menu in the WordPress Dashboard. Locate the Gaze WordPress Theme theme and hit “Activate”.</p>
+
+        <p>Looking for a good, free FTP solution - why not try <a href="https://filezilla-project.org/">FileZilla</a> or <a href="https://cyberduck.io/?l=en">CyberDuck</a></p>
+
+        <h2>Installing Theme Plugins</h2>
+        <p>Once the theme is installed, you will see a notice detailing a number of plugins which should be installed. Installing of these items is very simple - just click "Begin Installing Plugins" and on the following screen you can have the theme install and activate all the plugins for you.</p>
+
+        <img src="images/setup2.gif">
+
+        <p>Once done you will see a notice informing you the operation is complete.</p>
+
+        <img src="images/setup3.png">
+
+        <h2>Importing the Demo Data</h2>
+        <p>Once the plugins have been installed and activated, you are now ready to import the demo data. We use the One Click Demo Data plugin to make the process very easy for you. To begin, head to "Appearance" and then "Import Demo Data" and you will be taken to the import screen. From there hit "Begin Importing Demo Data" and the theme will grab the demo content and set it up for you.</p>
+
+        <img src="images/demodata.gif">
+        <br><br>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/1oT5_uWLUg4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/pqJXWMo2OSE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+    </section>  
+
+    <section id="ThemeOptions">
+
+        <h1><a href="#ThemeOptions">Theme Options</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>To access the theme options, you may select the Customize button in the admin bar dropdown or select <code>"Customize"</code> from the Dashboard menu. Note that you must be logged in as a site administrator in order to access the controls.</p>
+
+        <h2>Theme Options</h2>
+        <h3>1 - Update Settings</h3>
+
+        <p>Using your Envato username and API details, you can enable automatic updated for your theme (giving you a simple single-click method for updating your theme, similar to a theme hosted on the wordpress.org repository. For details on setting this up, please see the video guide below.</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/TyxXyTPNVM8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h3>2 - Site Identity</h3>
+        <p>Here you can specify a site title, tagline and favicon (the small icon shown in your browser window) and more crucially, your own custom logo.</p>
+
+        <p>Setting up your own logo is very simple - just use the uploader provided and you can either choose an image from your media library, or upload something fresh, its up to you.</p>
+
+        <p>When uploading a logo the ideal size you should aim for is <strong>72px x 20px</strong></p>
+
+        <h3>3 - Colours</h3>
+        <p>These options give you a range of colour pickers which allow you to tweak the themes colour scheme to suit your tastes. Any changes you make here will be seen live so you can see exactly what each option does as your changing them.</p>
+
+        <img src="images/options1.png">
+
+        <h3>4 - Background Image</h3>
+        <p>Want to use your own image instead of a solid colour? No problem - simply use this option to upload your own image.</p>
+
+        <h3>5 - Menus & Widgets</h3>
+        <p>Here you can setup and edit your navigation and widgets, however, given the cramped nature of the WP Customizer, we recommend using WP's dedicated page found under the "Appearance" area in your Dashboard, which not olny gives you much more room to work with, but also a simpler interface - but this is of course totally up to you and your preference.</p>
+
+        <h3>6 - Additional CSS</h3>
+        <p>For those of you our there who want to apply your own custom bespoke styling, our themes provide you with a custom CSS area where you can quickly and easily apply your own custom CSS.</p>
+
+        <p>If your looking to make larger changes, or add a LOT of custom code, we highly recommend using a child theme - see below for details on getting this setup</p>
+
+        <h3>7 - Portfolio Settings</h3>
+        <p>Here you can control the archive layout for your portfolio items by choosing from one of our awesome layouts.</p>
+
+    </section>
+
+    <section id="CreatingMenus">
+
+        <h1><a href="#CreatingMenus">Creating Menus</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>Creating menus within WordPress is very simple, and WP gives you a couple of methods to do this. We suggest using the dedicated menu page found under Appearance > Menus, however you are also free to use the menu management system found within the theme customizer/options page (Appearance > Customize)</p>
+
+        <h3>Creating Menus</h3>
+
+        <p>Once you’re viewing the Menus, the process of creating a menu is quite easy - essentially you create your menu item from the columns on the left (this can be a link to a post, page or other form of content) or even a custom link using the "Custom Link" menu item, you can see both in the image below. Once you have created your perfect menu, be sure to assign it to the Standard Navigation area and hit save to see it in action.</p>
+
+        <img src="images/menus1.png">
+        <br><br>
+
+        <h3>Creating Dropdown Menus</h3>
+        <p>An important aspect to note when using our theme is the process of creating dropdowns/sub menus is the top level item (the menu item in the main menu area you click/hover to activate the sub-menu) needs to be a "Custom Link" menu item with a URL of just # - this allows the dropdown to work fully on both desktops and mobiles where 'hovering' is not available.</p>
+
+        <p>You can see the process outlined below.</p>
+
+        <img src="images/menus2.gif">
+
+    </section> 
+
+    <section id="Widgets">
+
+        <h1><a href="#Widgets">Using Widgets</a><small><a href="#html">Back to Top</a></small></h1>
+        
+        <p>Gaze comes with two widgetized areas, the blog sidebar (shown to the side of the main post content within single posts) and the footer, which allows a number of columns of custom widget content for whatever you wish.</p>
+
+        <p>There are a couple of ways you can get started with widgets within WP, we recommomend the dedicated admin page found under Appearance > Widgets in your WP dashboard however you can also add/edit widgets to the available widgetized areas via Appearance > Customize however this can be a little cramped with your working with many widgets at once.</p>
+
+        <h2>Adding Widgets</h2>
+
+        <p>When you arrive at the Widget admin page, you will be presented with an array of widgets on the left and the widgetized areas on the right, to add a widget to one of the sidebars, simply drag your desired widget over to the sidebar of your choice on the right and your all set. From there simply edit the widget as you wish (depending on the widget your using of course) and your done.</p>
+
+        <img src="images/widgets1.png">
+        <br><br>
+
+    </section> 
+
+    <section id="PostsOverview">
+
+        <h1><a href="#PostsOverview">Posts Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Creating Posts</h2>
+        <p>To begin creating posts head to Posts > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/posts1.gif">
+        <br><br>
+
+        <p>The process of creating posts with WordPress is very simple - you need to supply a title for your article, a featured image to represent your blog post throughout your site, and of course the main content itself via WP's post editor.</p>
+
+        <h2>Featured Image</h2>
+        <p>Upload a featured image - any size will work though we recommend <strong>700 x 420px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+
+    </section>
+
+    <section id="PortfolioOverview">
+
+        <h1><a href="#PortfolioOverview">Portfolio Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Creating a Portfolio Project</h2>
+        <p>To begin creating your portfolio projects, head to Portfolio > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/portfolio1.gif">
+        <br><br>
+
+        <p>Creating a project is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), and gallery area where you can upload the images of your awesome project, and a featured image area (the featured image, much like a regular WP post, used to represent your portfolio item within Portfolio feeds and archive pages/searches etc. We will now detail each area.</p>
+
+        <h2>Featured Content Images</h2>
+        <p>This is where you will add your images to the projects by clicking the "Add or Upload Files" button - from there you can either upload fresh images or pick some awesome shots from your exisiting media library. To rearrange the photos, simply drag them into the order you want! Dont for get to update your project once done though.</p>
+
+        <img src="images/portfolio2.png">
+        <br><br>
+
+        <h2>Featured Image</h2>
+        <p>Upload a featured image - any size will work though we recommend <strong>700 x 420px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/erf8iTfw7sg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+    </section>
+
+    <section id="Translating">
+
+        <h1><a href="#Translating">Translating Your Theme</a><small><a href="#html">Back to Top</a></small></h1>
+        
+        <p>As with any WordPress theme, translation is handled via the provided POT file and is generally quite straightforward - we cover this in detail over in <a href="http://www.tommusrhodus.com/wp-basics-translating-your-wordpress-theme?ref=docslink">this tutorial</a> - however the whole process can be simplified using an excellent plugin as <a href="https://wordpress.org/plugins/loco-translate/">Loco Translate</a></p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/8jkmz40oyXY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <p>If your looking for multilangiage support, we highly recommended <a href="https://wpml.org/">WPML</a></p>
+
+    </section>
+
+    <section id="ContactForm7">
+
+        <h1><a href="#ContactForm7">Contact Form 7 Overview</a><small><a href="#html">Back to Top</a></small></h1>
+        
+        <p>Contact Form 7 is our recommended form plugin for WordPress. It is a simple but powerful form creator for WordPress. Here we will show you how to use Contact Form 7 to create and edit a basic form.</p>
+
+        <p>After Contact Form 7 is installed, you’ll find a new menu item in your WordPress admin area called Contact, here is where your forms and created and edited. From the Contact main screen, you will see your first contact form, its usually a default form called 'Contact Form 1' OR if you have imported the demo data for our theme you may see a few forms that we have made specially for you.</p>
+
+        <p>When creating and editing forms CF7 uses simple shortcodes (in WordPress these shortcodes are words surrounded by square brackets like “[” and “]”) - these shortcodes are generated via the 'Generate Tag' area (marked in red) and then placed in the form builder area (marked in blue) - you can also add your own HTML to the form for extra control.<p/>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/lmXHPXpppjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    </section>
+
+    <section id="ContactForm7">
+
+        <h1><a href="#UsingVC">Using WPBakery Page Builder</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/M26rRqIGBfE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    </section>
+
+    <section id="Developers">
+
+        <h1><a href="#Developers">Developing with Gaze</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Using a Child Theme</h2>
+        <p>If your looking to make changes to your theme such as bespoke CSS styling or modifying the loops, page templates or anything on the technical side of things - its important to use a child theme to ensure your modifications are not lost during theme updates. Thankfully, your main download package includes a ready-made child theme to get you started, however if your looking to create your own we recommend using a plugin such as <a href="https://en-gb.wordpress.org/plugins/orbisius-child-theme-creator/" target="_blank">Child Theme Creator by Orbisius</a> which makes the process as simple as just a few clicks.</p>
+
+        <p>For more on why usign a child theme is crucial in these situation, check out <a href="http://www.tommusrhodus.com/wp-basics-the-world-of-child-themes/" target="_blank">our blog post</a> for an in depth look.</p>
+
+    </section>
+
+    <section id="SupportPolicy">
+
+        <h1><a href="#SupportPolicy">Support Policy</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Each purchase of our themes comes with 6 months of timely, 5 star rated support which you can extend at any time. Our themes do not come with free customization work. There is a very fine line between theme support and customization and whilst we’re happy and ready to help with your theme support questions, we cannot help your modify or extend the theme beyond its advertised features &amp; capabilities.</p>
+
+        <p>The information below will help you distinguish and understand the difference between theme support and customizations, if you then need to open a support ticket, a link is given.</p>
+
+        <h2>Theme Support Examples</h2>
+        <ul>
+            <li>“My theme is broken. I’ve followed all the necessary steps to set up the theme, including watching the install video or help documents included with the theme, but still can’t get the theme to work.”</li>
+            <li>“My theme does not work as advertised. I’ve set it up as directed, but for some reason my theme doesn’t look like it should.”</li>
+            <li>“My theme has an obvious bug which is preventing me from using the theme properly.”</li>
+        </ul>
+
+        <p>As you can see, theme support issues interfere with the intended functionality of the theme. These issues prevent the theme from working as advertised and will be supported.</p>
+
+        <h2>Theme Customization Examples</h2>
+        <ul>
+            <li>How do I change an element to look or function differently than shown in the demo?</li>
+            <li>I would like to add or remove an element from the header, what do I do?</li>
+            <li>A plugin not recommended/required by the theme on install breaks my theme or causes unexpected behavior.</li>
+        </ul>
+
+        <p>As you can see, theme customization has to do with preference, rather than actual theme issues. It requires customizing the theme beyond the scope of the theme’s intended style or functionality. These kinds of requests cannot be fulfilled in the support forums unfortunately.</p>
+
+        <p>We do offer paid customization services for our theme collection. Visit the <a href="https://www.tommusrhodus.com/request-a-quote/">Customizations page</a> to get started by posting your project on Codeable.</p>
+
+        <p><a class="btn btn--primary" href="https://tommusrhodus.ticksy.com" target="_blank" rel="noopener">I Understand The Above &amp; Need To Open A Ticket</a></p>
+
+        <h4>3rd Party Plugins</h4>
+
+        <p>In a perfect world, every theme would work with every plugin. But for every great plugin out there, you have a poorly coded one. Because of this, we simply can’t support every 3rd party plugin. However, we do try our best to make the themes compatible with all of the popular plugins out there, and it’s a continuing effort.</p>
+
+        <p>That being said, we don’t consider non-compatibility with plugins a theme support issue. The theme is only guaranteed to work as shown, with the plugins suggested. If you want to force compatibility, it will be up to you to work out a solution.</p>
+
+        <h2>WordPress Novices</h2>
+
+        <p>Everyone is a newbie at WordPress at one point or another. We’ve all struggled through the ins and outs of WordPress and spent many hours hunting down answers on Google and StackExchange.</p>
+
+        <p>Unfortunately, our support tickets are not the best place for asking general WordPress questions. We’d happily answer every question you could throw at us, if there was enough time in the day! So we ask that you focus on asking theme-specific questions while seeking help.</p>
+
+        <p>Please check out some of the links below to help with your general WordPress questions.</p>
+
+        <p><a href="http://codex.wordpress.org/Main_Page">WordPress.org Codex</a><br>
+        <a href="http://wordpress.org/support/">WordPress.org Forums</a><br>
+        <a href="http://wordpress.stackexchange.com/">WordPress Answers StackExchange</a></p>
+        <p><a class="btn btn--primary" href="https://tommusrhodus.ticksy.com" target="_blank" rel="noopener">I Understand The Above &amp; Need To Open A Ticket</a></p>
+
+    </section>  
+
+    <section id="CommonIssues">
+
+        <h1><a href="#CommonIssues">Common Issues</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Im seeing a 'stylesheet missing' error when trying to upload the theme</h2>
+        <p>This means your uploading the wrong zip package. When downloading your theme you have the option to download the full package, or the installable theme itself.</p>
+        <img src="images/common1.png">
+        <br><br>
+        <p>We suggest to download the whole package, then unzip this to locate your theme.zip file (theme name will change based on your purchased theme.</p>
+        <img src="images/common2.png">
+        <br><br>
+
+        <h2>Im setting a max_upload_size error when trying to upload the theme</h2>
+        <p>Some hosting, especially budget shared hosting, may impose file restrictions for uploads to your WP site. In some cases, installing this plugin and work very well https://wordpress.org/plugins/increase-upload-max-filesize/ however if it fails to work then you will need to contact your hosts to they can make the necessary changes from there end as this is something we cannot help with from a theme point of view.We suggest 
+        <br><br>
+
+        <h2>Where is my Visual Composer/Revolution license?</h2>
+        <p>Premium plugins such as Revolution Slider and Visual Composer may request a purchase code during use. This code is used to provide direct updates and support from the plugins creator and as such is not required or supplied for use with our themes. Our frameworks have been carefully create to ensure your running the latest compatible version at all times, so you have no need to worry. Please note that we manually update our bundled plugins after thorough testing as some plugin updates have bugs that we are unhappy to ship to our customers, you will receive updates when we are happy with the plugin. If you truly require auto-updates from these plugins you’ll need to purchase a personal license, please note this is the same for each theme on themeforest that bundles plugins.</p>
+        <img src="images/common3.png">
+        <br><br>
+
+        <h2>Im getting a 404 error when viewing my portfolio/team etc</h2>
+        <p>WordPress is a rock solid platform in most cases, but sometimes, when working with a new theme for instance, it needs a little nudge to update all of its core settings etc. If your seeing a 404 error or such when trying to view your projects (or team members, clients etc - depending on your theme)</p>
+
+        <p>To do this, simply head to Settings > Permalinks and select 'postname' from the options listed - even if this option is already selected, hit save anyway (this is the nudge we mentioned earlier) - Once done, you should be able to view all your content with no issues.</p>
+
+        <p>Should any issues remain, this indicates an issue with your server (the theme has no control of this) so you will need to contact your hosts for further support.</p>
+
+        <img src="images/common4.png">
+        <br><br>
+
+        <h2>My site is slow to load, why?</h2>
+        <p>As you saw when viewing the demos of our themes, our themes are capable of being blisteringly fast, however you may ocationally notice your site is not loading as fast as you hoped – here you can find some tips for ensuring your new site loads as quickly as possible http://www.tommusrhodus.com/speeding-up-wordpress/</p>
+
+    </section>  
+
+    <section id="Credits">
+        <footer>
+            <a href="gaze.tommusdemos.wpengine.com" target="blank">Gaze WordPress Theme</a>, a <a href="https://www.tommusrhodus.com" target="blank">TommusRhodus Themes</a> theme.</a>
+        </footer>
+    </section>
+
+</body>
+</html>
