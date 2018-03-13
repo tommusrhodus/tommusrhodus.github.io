@@ -249,6 +249,7 @@
         <nav>
             <a href="#Welcome">Welcome</a>
             <a href="#GettingStarted">Getting Started</a>
+            <a href="#FallbackSetup">Manual Setup</a>
             <a href="#ThemeOptions">Theme Options</a>
             <a href="#CreatingMenus">Creating Menus</a>
             <a href="#Widgets">Using Widgets</a>
@@ -319,6 +320,43 @@
         <iframe width="660" height="345" src="https://www.youtube.com/embed/pqJXWMo2OSE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
+    </section> 
+
+    <section id="FallbackSetup">
+
+        <h1><a href="#FallbackSetup">Fallback Setup</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Although we take the greatest care to make the setup process as simple as possible, in some cases (esspecially on budget hosting where resources and at a bare minimum) you may experience an issue during the automatic setup - this section covers an alternative fallback method you can use should the need arise.</p> 
+
+        <h2>Importing The Demo Data Manually</h2>
+        <p>The first thing we need to clarify is setting up manually will mean things like widgets and theme options wont be setup for you - this is unavoidable but it will still give you a great base of all the demo pages ready for you to start building your new site.</p>
+        <p>To begin, install <a href="https://wordpress.org/plugins/attachment-importer/">Attachment Importer</a> - this is a lightweight importing tool for images and will be needed later on to import the demo images/media. Once done, head to Tools > Import and select WordPress to open up WPs built in importing tool (you may need to install it to continue)</p>
+
+        <img src="images/fallback1.gif">
+
+        <h2>Uploading the XML File</h2>
+        <p>Next you will need to locate the themes demo-data.xml file, this will be included in the Demo Data folder in your main download package. Once located select this file and hit "upload". Next you will see a page which will allow you to choose if you wish to assign the demo posts to another user, as well as an option to import all media and attachments - <strong>be sure to leave this box unchecked</strong> as we will be taking care of this later (and want the import to be as light as possible to be more likley to work)</p>
+
+        <img src="images/fallback2.png">
+
+        <p>Once done you will see a notice informing you the operation is complete.</p>
+
+        <img src="images/fallback3.png">
+
+        <h2>Importing the Images</h2>
+        <p>Now you have the pages imported, its time to tackle the images. If you have not already done so, install and activate <a href="https://wordpress.org/plugins/attachment-importer/">Attachment Importer</a> and once done, head to Tools > Import and select the newly added Attachment Import from the list of tools to continue.</p>       
+
+        <img src="images/fallback4.gif">
+        <br><br>
+
+        <p>Once here, locate the demo XML file and upload - once done hit "Import" and allow the process to take place. Depending on the number of images this process will take some time, so be sure to leave your browser alone whilst its happening (though you can of course open another tab and continue to browse freely)</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/W2oQ7iDc8u0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Final Step</h2>
+        <p>Ok so you now have the pages and images all imported and ready, you now need to simply setup your homepage/blog and menu. To do this head to Settings > Reading to choose your homepage and posts page, and then head to Appearance > Menus to assign the demo menus.</p>   
+
     </section>  
 
     <section id="ThemeOptions">
@@ -383,7 +421,7 @@
 
         <p>Once you’re viewing the Menus, the process of creating a menu is quite easy - essentially you create your menu item from the columns on the left (this can be a link to a post, page or other form of content) or even a custom link using the "Custom Link" menu item, you can see both in the image below. Once you have created your perfect menu, be sure to assign it to the Standard Navigation area and hit save to see it in action.</p>
 
-        <img src="images/menus1.png">
+        <img src="images/menus1.gif">
         <br><br>
 
         <h3>Creating Dropdown Menus</h3>
