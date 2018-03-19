@@ -31,7 +31,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-brand img {
-    max-width: 240px;
+    max-width: 280px;
+    position: relative;
+    top: 80px;
 }
 
 .static-top {
@@ -147,4 +149,19 @@ footer.footer .list-inline a {
     font-size: 13px;
     font-weight: 600;
     color: #09A274; 
+}
+
+.form-control-lg, .input-group-lg>.form-control, .input-group-lg>.input-group-append>.btn, .input-group-lg>.input-group-append>.input-group-text, .input-group-lg>.input-group-prepend>.btn, .input-group-lg>.input-group-prepend>.input-group-text {
+    padding: 12px 10px;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+#mc-embedded-subscribe {
+    border-radius: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
