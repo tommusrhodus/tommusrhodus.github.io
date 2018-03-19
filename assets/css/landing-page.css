@@ -4,7 +4,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #09A274; 
+  border-color: #09A274; 
+}
+
+.btn-primary:hover {
+  background-color: #056246; 
+  border-color: #056246; 
 }
 
 .light-text {
@@ -136,4 +146,5 @@ footer.footer {
 footer.footer .list-inline a {
     font-size: 13px;
     font-weight: 600;
+    color: #09A274; 
 }
