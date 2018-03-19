@@ -15,8 +15,31 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+.navbar-brand {
+    margin-right: auto;
+    margin: 0 auto;
+}
+
 .navbar-brand img {
-  max-width: 160px;
+    max-width: 240px;
+}
+
+.static-top {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.1) 35%, rgba(0,0,0,0) 47%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.1) 35%,rgba(0,0,0,0) 47%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.1) 35%,rgba(0,0,0,0) 47%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#00000000',GradientType=0 );
 }
 
 header.masthead {
@@ -108,4 +131,9 @@ section {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+footer.footer .list-inline a {
+    font-size: 13px;
+    font-weight: 600;
 }
