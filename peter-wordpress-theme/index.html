@@ -242,19 +242,19 @@
             <p>Set-up & general guide to help you get the most out of your new WordPress theme. If you are still having trouble after reading this guide, <a href="https://www.tommusrhodus.com/contact/">head to our dedicated support area and create a ticket.</a>.</p>
         </header>
         <nav>
-            <a href="brad.tommusdemos.wpengine.com" target="blank">Live Demo</a>
+            <a href="http://gaze.tommusdemos.wpengine.com" target="blank">Live Demo</a>
             <a href="@@changelogUrl">Changelog</a>
             <a href="@@purchaseUrl">Buy Peter WordPress Theme</a>
         </nav>
         <nav>
             <a href="#Welcome">Welcome</a>
             <a href="#GettingStarted">Getting Started</a>
+            <a href="#FallbackSetup">Manual Setup</a>
             <a href="#ThemeOptions">Theme Options</a>
             <a href="#CreatingMenus">Creating Menus</a>
-            <a href="#Widgets">Using Widgets</a>
-            <a href="#UsingElementor">Using Elementor</a>
             <a href="#PostsOverview">Posts Overview</a>
             <a href="#PortfolioOverview">Portfolio Overview</a>
+            <a href="#PageTemplatesOverview">Page Templates Overview</a>
             <a href="#ContactForm7">Contact Form 7 Overview</a>
             <a href="#Translating">Translating Your Theme</a>            
             <a href="#Developers">Developing with Peter</a>
@@ -272,7 +272,7 @@
         <p>Welcome, and thank you for choosing a TommusRhodus theme.</p>
         <p>We pride ourselves on providing excellent documentation so this guide will help you get the most from your new theme. We will take you through everything from installing the theme, to creating menus, using the theme options and much more. Please take a moment to read through the articles below to familiarise yourself with your new theme and of course, if you need any assistance along the way, <a href="https://www.tommusrhodus.com/contact/">we are always on hand to help.</a></p> 
 
-        <p>We also have a number of video tutorials which detail certain aspects of Peter - check out our <a href="https://www.youtube.com/playlist?list=PL6VzCcNewv9jJYyHZWeV-xIm9JDn_nbm7" target="_blank">YouTube playlist here.</a></p>
+        <p>We also have a number of video tutorials which detail certain aspects of Peter - check out our <a href="https://www.youtube.com/playlist?list=PL6VzCcNewv9il2ZXh3Uf5-4wyw-W4AboU" target="_blank">YouTube playlist here.</a></p>
 
     </section>
 
@@ -285,7 +285,7 @@
         <h2>Uploading Through WordPress</h2>
         <p>To upload through your Dashboard, select “Appearance” and then “Themes”. Next, select the “Install Themes” tab at the top of the page and then select the “Upload” link, right above the search field. Choose your file and select “Install Now”. Once the theme is fully uploaded and installed, click “Activate” to activate the WordPress theme.</p>
         <blockquote>The theme files will be stored on your server in the <code>wp-content/themes</code> location.</blockquote>
-        <p>When uploading your theme with the installer, please ensure you are uploading the theme .zip file, not the entire package you downloaded. In this case, you will be uploading PeterWPtheme.zip.</p>
+        <p>When uploading your theme with the installer, please ensure you are uploading the theme .zip file, not the entire package you downloaded. In this case, you will be uploading gazeWPtheme.zip.</p>
 
         <img src="images/upload1.gif">
 
@@ -310,6 +310,46 @@
         <img src="images/demodata.gif">
         <br><br>
 
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/OTzmBpLvJHE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+    </section> 
+
+    <section id="FallbackSetup">
+
+        <h1><a href="#FallbackSetup">Fallback Setup</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Although we take the greatest care to make the setup process as simple as possible, in some cases (esspecially on budget hosting where resources and at a bare minimum) you may experience an issue during the automatic setup - this section covers an alternative fallback method you can use should the need arise.</p> 
+
+        <h2>Importing The Demo Data Manually</h2>
+        <p>The first thing we need to clarify is setting up manually will mean things like widgets and theme options wont be setup for you - this is unavoidable but it will still give you a great base of all the demo pages ready for you to start building your new site.</p>
+        <p>To begin, install <a href="https://wordpress.org/plugins/attachment-importer/">Attachment Importer</a> - this is a lightweight importing tool for images and will be needed later on to import the demo images/media. Once done, head to Tools > Import and select WordPress to open up WPs built in importing tool (you may need to install it to continue)</p>
+
+        <img src="images/fallback1.gif">
+
+        <h2>Uploading the XML File</h2>
+        <p>Next you will need to locate the themes demo-data.xml file, this will be included in the Demo Data folder in your main download package. Once located select this file and hit "upload". Next you will see a page which will allow you to choose if you wish to assign the demo posts to another user, as well as an option to import all media and attachments - <strong>be sure to leave this box unchecked</strong> as we will be taking care of this later (and want the import to be as light as possible to be more likley to work)</p>
+
+        <img src="images/fallback2.png">
+
+        <p>Once done you will see a notice informing you the operation is complete.</p>
+
+        <img src="images/fallback3.png">
+
+        <h2>Importing the Images</h2>
+        <p>Now you have the pages imported, its time to tackle the images. If you have not already done so, install and activate <a href="https://wordpress.org/plugins/attachment-importer/">Attachment Importer</a> and once done, head to Tools > Import and select the newly added Attachment Import from the list of tools to continue.</p>       
+
+        <img src="images/fallback4.gif">
+        <br><br>
+
+        <p>Once here, locate the demo XML file and upload - once done hit "Import" and allow the process to take place. Depending on the number of images this process will take some time, so be sure to leave your browser alone whilst its happening (though you can of course open another tab and continue to browse freely)</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/W2oQ7iDc8u0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Final Step</h2>
+        <p>Ok so you now have the pages and images all imported and ready, you now need to simply setup your homepage/blog and menu. To do this head to Settings > Reading to choose your homepage and posts page, and then head to Appearance > Menus to assign the demo menus.</p>   
+
     </section>  
 
     <section id="ThemeOptions">
@@ -322,7 +362,7 @@
 
         <p>Using your Envato username and API details, you can enable automatic updated for your theme (giving you a simple single-click method for updating your theme, similar to a theme hosted on the wordpress.org repository. For details on setting this up, please see the video guide below.</p>
 
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/oqE3RE5TKJk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/TyxXyTPNVM8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
         <h3>2 - Site Identity</h3>
@@ -335,7 +375,7 @@
         <h3>3 - Colours</h3>
         <p>These options give you a range of colour pickers which allow you to tweak the themes colour scheme to suit your tastes. Any changes you make here will be seen live so you can see exactly what each option does as your changing them.</p>
 
-        <img src="images/options1.png">
+        <img src="images/colours.gif">
 
         <h3>4 - Background Image</h3>
         <p>Want to use your own image instead of a solid colour? No problem - simply use this option to upload your own image.</p>
@@ -348,8 +388,21 @@
 
         <p>If your looking to make larger changes, or add a LOT of custom code, we highly recommend using a child theme - see below for details on getting this setup</p>
 
-        <h3>7 - Portfolio Settings</h3>
-        <p>Here you can control the archive layout for your portfolio items by choosing from one of our awesome layouts.</p>
+        <h3>7 - Font Settings</h3>
+        <p>Here you can control specify which of the many <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> you wish to use. Simply type in the name of the font you want and your all set.</p>
+
+        <h3>8 - Blog Settings</h3>
+        <p>Here you can control the blog archive title and subtitle, as well as hide/show certain single post elements like the featured image, author info and more.</p>
+
+        <h3>9 - Portfolio Settings</h3>
+        <p>Here you can control the portfolio archive title and subtitle (note this is seperatley controlled when using the Portfolio page template), as well as hide/show the next/previous project navigation within single portfolio items.</p>
+
+        <h3>10 - Footer Settings</h3>
+        <p>This is where you can specify the footer copyright text as well as enable or disable the back to top icon.</p>
+        <p><strong>Please Note:</strong> To avoid manually entering the current year and copyright symbol, you can simply enter *copy* for a neat copyright symbol, and *year* for a dynamic year.</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/iI-ZiLazj2w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
 
     </section>
 
@@ -362,7 +415,7 @@
 
         <p>Once you’re viewing the Menus, the process of creating a menu is quite easy - essentially you create your menu item from the columns on the left (this can be a link to a post, page or other form of content) or even a custom link using the "Custom Link" menu item, you can see both in the image below. Once you have created your perfect menu, be sure to assign it to the Standard Navigation area and hit save to see it in action.</p>
 
-        <img src="images/menus1.png">
+        <img src="images/menus1.gif">
         <br><br>
 
         <h3>Creating Dropdown Menus</h3>
@@ -373,45 +426,6 @@
         <img src="images/menus2.gif">
 
     </section> 
-
-    <section id="Widgets">
-
-        <h1><a href="#Widgets">Using Widgets</a><small><a href="#html">Back to Top</a></small></h1>
-        
-        <p>Peter comes with two widgetized areas, the blog sidebar (shown to the side of the main post content within single posts) and the footer, which allows a number of columns of custom widget content for whatever you wish.</p>
-
-        <p>There are a couple of ways you can get started with widgets within WP, we recommomend the dedicated admin page found under Appearance > Widgets in your WP dashboard however you can also add/edit widgets to the available widgetized areas via Appearance > Customize however this can be a little cramped with your working with many widgets at once.</p>
-
-        <h2>Adding Widgets</h2>
-
-        <p>When you arrive at the Widget admin page, you will be presented with an array of widgets on the left and the widgetized areas on the right, to add a widget to one of the sidebars, simply drag your desired widget over to the sidebar of your choice on the right and your all set. From there simply edit the widget as you wish (depending on the widget your using of course) and your done.</p>
-
-        <img src="images/widgets1.png">
-        <br><br>
-
-    </section> 
-
-    <section id="UsingElementor">
-
-        <h1><a href="#UsingElementor">Using Elementor</a><small><a href="#html">Back to Top</a></small></h1>
-        <p>The theme uses the popular WordPress page building tool, <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, to allow you to quickly and easily create stunning pages. We provide some example in our pre-built demo data for you to get started with and study, but creating your own from scratch is a breeze too.</p>
-
-        <blockquote>
-            Before getting started, for the best experience with <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a> and Peter, head to Elementor > Settings in your WordPress Dashboard and disable Elementor's colours and fonts by checking the boxes provided.
-            <br>
-        <img src="images/elementor0.png"></blockquote>
-
-        <p>To begin, create a fresh page under Pages > Add New in your WordPress Dashboard. From there, simply hit the large "Edit with Elementor" button to beging working with the plugin.</p>
-
-        <img src="images/elementor1.png">
-        <br><br>
-
-        <p>Building is very simple with <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, for a guide on how it works check out the Video Tutorial below. For more on how to use the plugin be sure to <a href="https://docs.elementor.com/?ref=1798"" target="_blank">check out the Elementor Documention also.</a></p>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/HReZt86eJQo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-
-    </section>
 
     <section id="PostsOverview">
 
@@ -442,16 +456,67 @@
 
         <p>Creating a project is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), and gallery area where you can upload the images of your awesome project, and a featured image area (the featured image, much like a regular WP post, used to represent your portfolio item within Portfolio feeds and archive pages/searches etc. We will now detail each area.</p>
 
-        <h2>Featured Content Images</h2>
-        <p>This is where you will add your images to the projects by clicking the "Add or Upload Files" button - from there you can either upload fresh images or pick some awesome shots from your exisiting media library. To rearrange the photos, simply drag them into the order you want! Dont for get to update your project once done though.</p>
+        <h2>Item Width</h2>
+        <p>You will notice when browsing your portfolio archive/portfolio page template, each project is a different width to create a neat staggered effect - this option allows you to choose the width of each item as you please, to create your ideal archive layout in no time..</p>
 
-        <img src="images/portfolio2.png">
+        <img src="images/portfolio1.png">
+        <br><br>
+
+        <h2>Adding/Removing Sections</h2>
+        <p>This is the fun part when creating a project. The way the portfolio works is you add details via a repeatable section. Each section you add can be either a Text Section (for adding a description of the project etc), a Gallery Section (for creating a neat 2 column grid of images), a Slider Section (for creating stylish, responsive sliders of images) or finally a Single Image.</p>
+
+        <img src="images/portfolio2.gif">
+        <br><br>
+
+        <p>Your totally free to mix and match these sections and you wish, simple add more sections via the "Add New Section" button and repeat as you see fit.</p>
+
+        <img src="images/portfolio1.png">
+        <br><br>
+
+        <h2>Featured Image</h2>
+        <p>Upload a featured image - any size will work though we recommend <strong>1200 x 800px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/fsWz5UvCSc4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+    </section>
+
+    <section id="PageTemplatesOverview">
+
+        <h1><a href="#PageTemplatesOverview">Page Templates Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Creating a Page</h2>
+        <p>To begin creating your a new page, head to Pages > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/pages1.gif">
+        <br><br>
+
+        <p>Creating a page is very simple within WP, and for the most part works like a regular post, however with Peter we give you a few special page templates which allow you to create unique areas for your site. We will now detail each of the page templates and how they work</p>
+
+        <p><strong>Please Note: </strong> the special meta boxes mentioned will not be visible until you save/publish your page.</p>
+
+        <h2>About Template</h2>
+        <p>XXX</p>
+
+        <img src="images/abouttemplate.gif">
+        <br><br>
+
+        <h2>Contact Template</h2>
+        <p>XXX</p>
+
+        <img src="images/abouttemplate.gif">
+        <br><br>
+
+        <h2>Portfolio Template</h2>
+        <p>XXX</p>
+
+        <img src="images/abouttemplate.gif">
         <br><br>
 
         <h2>Featured Image</h2>
         <p>Upload a featured image - any size will work though we recommend <strong>700 x 420px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
 
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/erf8iTfw7sg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/TzayxG5SFMo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
     </section>
@@ -583,7 +648,7 @@
 
     <section id="Credits">
         <footer>
-            <a href="Peter.tommusdemos.wpengine.com" target="blank">Peter WordPress Theme</a>, a <a href="https://www.tommusrhodus.com" target="blank">TommusRhodus Themes</a> theme.</a>
+            <a href="gaze.tommusdemos.wpengine.com" target="blank">Peter WordPress Theme</a>, a <a href="https://www.tommusrhodus.com" target="blank">TommusRhodus Themes</a> theme.</a>
         </footer>
     </section>
 
