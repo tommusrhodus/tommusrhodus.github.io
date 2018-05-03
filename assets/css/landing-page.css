@@ -165,3 +165,9 @@ footer.footer .list-inline a {
     font-weight: 600;
     letter-spacing: 1px;
 }
+.row-clear {
+  width: 100%;
+  display: block;
+  clear: both;
+  margin-bottom: 30px;
+}
