@@ -93,7 +93,7 @@
             color: #000;
             font: inherit;
             padding: 2px 7px;
-            white-space: nowrap;
+            white-space: normal;
         }
         a {
             color: #1e8cbe;
@@ -258,6 +258,7 @@
             <a href="#TeamOverview">Team Overview</a>
             <a href="#ContactForm7">Contact Form 7 Overview</a>
             <a href="#UsingVC">Using WPBakery Page Builder</a>
+            <a href="#SpecialClasses">Special CSS Classes</a>
             <a href="#Translating">Translating Your Theme</a>            
             <a href="#Developers">Developing with Belton</a>
             <a href="#CommonIssues">Common Issues</a>
@@ -474,8 +475,8 @@
 
         <p>Creating a project is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), and gallery area where you can upload the images of your awesome project, and a featured image area (the featured image, much like a regular WP post, used to represent your portfolio item within Portfolio feeds and archive pages/searches etc. We will now detail each area.</p>
 
-        <h2>Featured Content Position</h2>
-        <p>Here you can control the orientation of your portfolio content. You can either have the text/description aligned to the right of the images, or have the text above a grid of your images - its up to you.</p>
+        <h2>Project Orientation</h2>
+        <p>Here you can control the orientation of your portfolio content. You can choose from either a Hero Layout (where there is a large main image on top of the project followed by a series of smaller additional images below) or a Minimal Slideshow Layout, which uses yoru featured content images in a neat slider.</p>
 
         <img src="images/portfolio1.png">
         <br><br>
@@ -486,6 +487,10 @@
         <img src="images/portfolio2.png">
         <br><br>
 
+        <p><strong>Using the Hero Layout?</strong> Dont forget the additional text displayed next to each image is added via your media library area. Be sure to supply a nice title and caption like you see below for awesome results like you see in the demo.</p>
+        <img src="images/portfoliocaption.gif">
+        <br><br>
+
         <h2>Additional Details</h2>
         <p>This is where you you can add your own extra details such as the client name, date of completion and so on - your totally free to use these as you wish. To add an extra detail here, simply fill in the Additional Item Title and Description fields as you wish and your all set. To add more, simply click "Add Another Entry" and repeat as you see fit.</p>
 
@@ -493,7 +498,7 @@
         <br><br>
 
         <h2>Featured Image</h2>
-        <p>Upload a featured image - any size will work though we recommend <strong>700 x 420px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+        <p>Upload a featured image - any size will work though we recommend <strong>1600 x 1067px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
 
         <iframe width="660" height="345" src="https://www.youtube.com/embed/Dkd6g4Cn2Qo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
@@ -561,6 +566,32 @@
         <h1><a href="#UsingVC">Using WPBakery Page Builder</a><small><a href="#html">Back to Top</a></small></h1>
 
         <iframe width="660" height="345" src="https://www.youtube.com/embed/Kw7VaZ1NvU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+    </section>
+
+    <section id="SpecialClasses">
+
+        <h1><a href="#SpecialClasses">Special CSS Classes & Markup</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>The theme uses a small number of special CSS classes which allow you to alter certain elements of the design, such as background colours of sections, text colours etc. These classes are added to the "extra CSS class" field provided within Sections and Column settings like you see below.</p>
+
+        <img src="images/cssclasses.png">
+
+        <p><strong>white</strong> - Add this class to a Section to give it a neat white background colour (the default is dark)</p>
+
+        <p><strong>white-text</strong> - Add this class to a Section, Row or Columns etc to ensure the text within it is light in colour. This is useful when using a dark colour background or even a dark image and so on.</p>
+
+        <h2>Creating neat blockquotes</h2>
+
+        <img src="images/blockquotes.png">
+
+        <p>To create neat blockquotes like you see above, use the following markup format and tweak as you wish.</p>
+
+        <code>
+            &#x3C;blockquote&#x3E;No matter if you&#x27;re just starting to learn coding, you&#x27;ll be creating extraordinary HTML sites as if you were a seasoned developer.
+                &#x3C;footer&#x3E;Jim McCarthy, the Owner&#x3C;/footer&#x3E;
+            &#x3C;/blockquote&#x3E;
+        </code>
 
     </section>
 
