@@ -3,7 +3,7 @@
 <head lang="en">
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width"/>
-    <title>Brailie WordPress Theme Help Guide | TommusRhodus Themes</title>
+    <title>Flagrant WordPress Theme Help Guide | TommusRhodus Themes</title>
     <style type="text/css">
         body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
             margin: 0;
@@ -93,7 +93,7 @@
             color: #000;
             font: inherit;
             padding: 2px 7px;
-            white-space: normal;
+            white-space: nowrap;
         }
         a {
             color: #1e8cbe;
@@ -232,40 +232,39 @@
                 margin-bottom: 8%;
             }
         }
+        .alert {
+            padding: 4% 4% 1px 4%;
+            background: #c23616;
+            color: white;
+            margin-bottom: 40px;
+        }
     </style>
 </head>
 
 <body>
     <section id="Menu">
         <header>
-            <h1>Brailie WordPress Theme Documentation</h1>
+            <h1>Flagrant WordPress Theme Documentation</h1>
             <p>Set-up & general guide to help you get the most out of your new WordPress theme. If you are still having trouble after reading this guide, <a href="https://www.tommusrhodus.com/contact/">head to our dedicated support area and create a ticket.</a>.</p>
         </header>
         <nav>
-            <a href="http://brailie.tommusdemos.wpengine.com" target="blank">Live Demo</a>
-            <a href="@@changelogUrl">Changelog</a>
-            <a href="@@purchaseUrl">Buy Brailie WordPress Theme</a>
+            <a href="http://Flagrant.tommusdemos.wpengine.com" target="blank">Live Demo</a>
+            <a href="https://themeforest.net/item/Flagrant-freelancers-and-agencies-portfolio-wordpress-theme/22191074">Changelog</a>
+            <a href="https://themeforest.net/item/Flagrant-freelancers-and-agencies-portfolio-wordpress-theme/22191074">Buy Flagrant WordPress Theme</a>
+			<a href="http://tommusrhodus.github.io/Flagrant-wordpress-theme/">Online Documentation Here</a>
         </nav>
         <nav>
             <a href="#Welcome">Welcome</a>
             <a href="#GettingStarted">Getting Started</a>
-            <a href="#FallbackSetup">Manual Setup</a>
             <a href="#ThemeOptions">Theme Options</a>
             <a href="#CreatingMenus">Creating Menus</a>
             <a href="#Widgets">Using Widgets</a>
+            <a href="#UsingElementor">Using Elementor</a>
             <a href="#PostsOverview">Posts Overview</a>
-            <a href="#PortfolioOverview">Portfolio Overview</a>
-            <a href="#TeamOverview">Team Overview</a>
-            <a href="#ClientsOverview">Clients Overview</a>
-            <a href="#TestimonialsOverview">Testimonials Overview</a>
-            <a href="#ContactForm7">Contact Form 7 Overview</a>
-            <a href="#UsingVC">Using WPBakery Page Builder</a>            
-            <a href="#SpecialCSSClasses">Special CSS Classes</a>        
-            <a href="#PageOverrides">Page Overrides</a>
-            <a href="#CreatingPasswordProtection">Password Protecting Content</a>                    
-            <a href="#MegaMenu">Using Ebor Mega Menu</a>
+            <a href="#PortfolioOverview">Portfolio Overview</a>            
+            <a href="#NinjaForms">Ninja Forms Overview</a>
             <a href="#Translating">Translating Your Theme</a>            
-            <a href="#Developers">Developing with Brailie</a>
+            <a href="#Developers">Developing with Flagrant</a>
             <a href="#CommonIssues">Common Issues</a>
             <a href="#SupportPolicy">Support Policy</a>
             <a href="#Credits">Credits</a>
@@ -280,7 +279,7 @@
         <p>Welcome, and thank you for choosing a TommusRhodus theme.</p>
         <p>We pride ourselves on providing excellent documentation so this guide will help you get the most from your new theme. We will take you through everything from installing the theme, to creating menus, using the theme options and much more. Please take a moment to read through the articles below to familiarise yourself with your new theme and of course, if you need any assistance along the way, <a href="https://www.tommusrhodus.com/contact/">we are always on hand to help.</a></p> 
 
-        <p>We also have a number of video tutorials which detail certain aspects of Brailie - check out our <a href="https://www.youtube.com/playlist?list=PL6VzCcNewv9il2ZXh3Uf5-4wyw-W4AboU" target="_blank">YouTube playlist here.</a></p>
+        <p>We also have a number of video tutorials which detail certain aspects of Flagrant - check out our <a href="https://www.youtube.com/playlist?list=PL6VzCcNewv9hxRE11rqBa2BcaZXfvFZbg" target="_blank">YouTube playlist here.</a></p>
 
     </section>
 
@@ -293,13 +292,13 @@
         <h2>Uploading Through WordPress</h2>
         <p>To upload through your Dashboard, select “Appearance” and then “Themes”. Next, select the “Install Themes” tab at the top of the page and then select the “Upload” link, right above the search field. Choose your file and select “Install Now”. Once the theme is fully uploaded and installed, click “Activate” to activate the WordPress theme.</p>
         <blockquote>The theme files will be stored on your server in the <code>wp-content/themes</code> location.</blockquote>
-        <p>When uploading your theme with the installer, please ensure you are uploading the theme .zip file, not the entire package you downloaded. In this case, you will be uploading brailieWPtheme.zip.</p>
+        <p>When uploading your theme with the installer, please ensure you are uploading the theme .zip file, not the entire package you downloaded. In this case, you will be uploading FlagrantWPtheme.zip.</p>
 
         <img src="images/upload1.gif">
 
         <h2>FTP Upload</h2>
-        <p>To manually upload your new WordPress theme, login with your credentials to your website and locate the wp-content folder in your WordPress install files. Upload the <b>un-zipped</b> Brailie WordPress Theme folder into the: wp-content/themes folder. </p>
-        <p>Once uploaded, activate the theme by heading to the “Themes” menu in the WordPress Dashboard. Locate the Brailie WordPress Theme theme and hit “Activate”.</p>
+        <p>To manually upload your new WordPress theme, login with your credentials to your website and locate the wp-content folder in your WordPress install files. Upload the <b>un-zipped</b> Flagrant WordPress Theme folder into the: wp-content/themes folder. </p>
+        <p>Once uploaded, activate the theme by heading to the “Themes” menu in the WordPress Dashboard. Locate the Flagrant WordPress Theme theme and hit “Activate”.</p>
 
         <p>Looking for a good, free FTP solution - why not try <a href="https://filezilla-project.org/">FileZilla</a> or <a href="https://cyberduck.io/?l=en">CyberDuck</a></p>
 
@@ -318,62 +317,8 @@
         <img src="images/demodata.gif">
         <br><br>
 
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/krgAVI7Zleg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/9NRpH5HO4L0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
-
-        <blockquote><strong>Please Note -</strong> once the demo data is installed, you will several errors accross the pages similar to "Revolution Slider Error: Slider with alias fullscreen-revolution-slider not found." - this is fully expected as Revolution Slider data is imported seperatley, the process for which we will cover below.</blockquote>
-
-        <h2>Importing Revolution Slider Demo Data </h2>
-        <p>Once the demo data is imported, you will see some errors like this -</p>
-
-    	<img src="images/revslider.png">
-        <br><br>
-
-        <p>To remove such errors you need to import the demo slider data, found in your main download package from ThemeForest. To begin head to the Revolution Slider area in your WordPress dashboard. Within this area, click "import" to select one of the demo sliders to begin.</p>
-
-        <img src="images/revsliderimport.gif">
-        <br><br>
-
-        <p>Once done, the error will be replaced by a wonderful slider.</p>
-
-     	<blockquote><strong>Please Note -</strong> whilst you can import all of the sliders if you want. Id suggest to only import the ones you need to avoid adding unnecessary bloat to your site/media library</blockquote>
-
-    </section> 
-
-    <section id="FallbackSetup">
-
-        <h1><a href="#FallbackSetup">Fallback Setup</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <p>Although we take the greatest care to make the setup process as simple as possible, in some cases (esspecially on budget hosting where resources and at a bare minimum) you may experience an issue during the automatic setup - this section covers an alternative fallback method you can use should the need arise.</p> 
-
-        <h2>Importing The Demo Data Manually</h2>
-        <p>The first thing we need to clarify is setting up manually will mean things like widgets and theme options wont be setup for you - this is unavoidable but it will still give you a great base of all the demo pages ready for you to start building your new site.</p>
-        <p>To begin, install <a href="https://wordpress.org/plugins/attachment-importer/">Attachment Importer</a> - this is a lightweight importing tool for images and will be needed later on to import the demo images/media. Once done, head to Tools > Import and select WordPress to open up WPs built in importing tool (you may need to install it to continue)</p>
-
-        <img src="images/fallback1.gif">
-
-        <h2>Uploading the XML File</h2>
-        <p>Next you will need to locate the themes demo-data.xml file, this will be included in the Demo Data folder in your main download package. Once located select this file and hit "upload". Next you will see a page which will allow you to choose if you wish to assign the demo posts to another user, as well as an option to import all media and attachments - <strong>be sure to leave this box unchecked</strong> as we will be taking care of this later (and want the import to be as light as possible to be more likley to work)</p>
-
-        <img src="images/fallback2.png">
-
-        <p>Once done you will see a notice informing you the operation is complete.</p>
-
-        <img src="images/fallback3.png">
-
-        <h2>Importing the Images</h2>
-        <p>Now you have the pages imported, its time to tackle the images. If you have not already done so, install and activate <a href="https://wordpress.org/plugins/attachment-importer/">Attachment Importer</a> and once done, head to Tools > Import and select the newly added Attachment Import from the list of tools to continue.</p>       
-
-        <img src="images/fallback4.gif">
-        <br><br>
-
-        <p>Once here, locate the demo XML file and upload - once done hit "Import" and allow the process to take place. Depending on the number of images this process will take some time, so be sure to leave your browser alone whilst its happening (though you can of course open another tab and continue to browse freely)</p>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/W2oQ7iDc8u0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-
-        <h2>Final Step</h2>
-        <p>Ok so you now have the pages and images all imported and ready, you now need to simply setup your homepage/blog and menu. To do this head to Settings > Reading to choose your homepage and posts page, and then head to Appearance > Menus to assign the demo menus.</p>   
 
     </section>  
 
@@ -382,71 +327,48 @@
         <h1><a href="#ThemeOptions">Theme Options</a><small><a href="#html">Back to Top</a></small></h1>
         <p>To access the theme options, you may select the Customize button in the admin bar dropdown or select <code>"Customize"</code> from the Dashboard menu. Note that you must be logged in as a site administrator in order to access the controls.</p>
 
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/SXk4W-EqXWs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-
         <h2>Theme Options</h2>
-        <h3>1 - Update Settings</h3>
 
-        <p>Using your Envato username and API details, you can enable automatic updated for your theme (giving you a simple single-click method for updating your theme, similar to a theme hosted on the wordpress.org repository. For details on setting this up, please see the video guide below.</p>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/oqE3RE5TKJk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/Paz9nSEH5Yk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
-        <h3>2 - Site Identity</h3>
+        <h3>1 - Site Identity</h3>
         <p>Here you can specify a site title, tagline and favicon (the small icon shown in your browser window) and more crucially, your own custom logo.</p>
 
         <p>Setting up your own logo is very simple - just use the uploader provided and you can either choose an image from your media library, or upload something fresh, its up to you.</p>
 
-        <p>When uploading a logo the ideal size you should aim for is <strong>134px x 36px</strong></p>
+        <p>When uploading a logo the ideal size you should aim for is <strong>270px x 40px</strong></p>
 
-        <h3>3 - Colours</h3>
-        <p>These options give you a range of colour pickers which allow you to tweak the themes colour scheme to suit your tastes. Any changes you make here will be seen live so you can see exactly what each option does as your changing them.</p>
+        <h3>2 - Colours</h3>
+        <p>This area allows you to specify the background colour used in your site.</p>
 
         <img src="images/options1.png">
 
-        <h3>4 - Background Image</h3>
+        <h3>3 - Background Image</h3>
         <p>Want to use your own image instead of a solid colour? No problem - simply use this option to upload your own image.</p>
 
-        <h3>5 - Menus & Widgets</h3>
+        <h3>4 - Menus & Widgets</h3>
         <p>Here you can setup and edit your navigation and widgets, however, given the cramped nature of the WP Customizer, we recommend using WP's dedicated page found under the "Appearance" area in your Dashboard, which not olny gives you much more room to work with, but also a simpler interface - but this is of course totally up to you and your preference.</p>
 
-        <h3>6 - Additional CSS</h3>
+        <h3>5 - Additional CSS</h3>
         <p>For those of you our there who want to apply your own custom bespoke styling, our themes provide you with a custom CSS area where you can quickly and easily apply your own custom CSS.</p>
 
         <p>If your looking to make larger changes, or add a LOT of custom code, we highly recommend using a child theme - see below for details on getting this setup</p>
 
-        <h3>7 - Styling Settings</h3>
-        <p>Here you can control font settings for your site.</p>
+        <h3>6 - Site Settings</h3>
+        <p>Here you can control the logo height within your theme</p>
 
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/sfWJWUF2C30" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
+        <h3>7 - Theme Colours</h3>
+        <p>These options give you a range of colour pickers which allow you to tweak the themes colour scheme to suit your tastes. Any changes you make here will be seen live so you can see exactly what each option does as your changing them.</p>
 
-        <h3>8 - Site Settings</h3>
-        <p>Here you can control global settings such as the preloading splash and image protection settings.</p>
+        <h3>8 - Blog Single Post Settings</h3>
+        <p>Here you choose to enable or disable certain content from within single posts such as the featured image, tags and more.</p>
 
-        <h4>Right Click Image Protection Settings</h4>
-        <p>You can use your own custom HTML for the popup message, for reference, this is the default message we provide, which you can of course tweak as you wish</p>
+        <h3>9 - Blog Archive Settings</h3>
+        <p>Here you choose to enable or disable certain content from within post archive such as the date, as well as specify the title and subtitle used within your blog archive page.</p>
 
-        <code>
-            Like this image and wish to use it? Drop us a line and we can talk&#x3C;br&#x3E;&#x3C;br&#x3E;&#x3C;a href=&#x22;/pages/pages-contact-1/&#x22; class=&#x22;btn btn-full-rounded btn-white&#x22;&#x3E;Contact Us&#x3C;/a&#x3E;
-        </code>
-        <br><br>
-
-        <h3>9 - Shop Settings</h3>
-        <p>Here you can control the archive layout for your shopby choosing from one of our awesome layouts.</p>
-
-        <h3>10 - Header Settings</h3>
-        <p>Here you can control the overall header layout you wish to use, as well as setup social profiles, upload your own logo and more.  <strong>Making changes to the footer/header layout but not seeing the change take effect?</strong> - be sure to check your <a href="#PageOverrides">Page Overrides</a> as its likley the page your looking at is overriding the global layout set in the theme options.</p>        
-
-        <h3>11 - Blog Settings</h3>
-        <p>Here you can control the archive layout for your blog by choosing from one of our awesome layouts. You can also specify your own custom archive title and set your own background image for this title as you wish.</p>
-
-        <h3>12 - Portfolio Settings</h3>
-        <p>Here you can control the archive layout for your portfolio items by choosing from one of our awesome layouts. You can also specify your own custom archive title and set your own background image for this title as you wish.</p>
-
-        <h3>13 - Footer Settings</h3>
-        <p>This is where you can choose your desired footer layout as well as assign your social profile links, and customize your copyright text etc.</p>
+        <h3>10 - Portfolio Archive Settings</h3>
+        <p>Here you specify the title and subtitle used in your portfolio archive, as well as choose the layout for your projects.</p>
 
     </section>
 
@@ -459,7 +381,7 @@
 
         <p>Once you’re viewing the Menus, the process of creating a menu is quite easy - essentially you create your menu item from the columns on the left (this can be a link to a post, page or other form of content) or even a custom link using the "Custom Link" menu item, you can see both in the image below. Once you have created your perfect menu, be sure to assign it to the Standard Navigation area and hit save to see it in action.</p>
 
-        <img src="images/menus1.gif">
+        <img src="images/menus1.png">
         <br><br>
 
         <h3>Creating Dropdown Menus</h3>
@@ -475,7 +397,7 @@
 
         <h1><a href="#Widgets">Using Widgets</a><small><a href="#html">Back to Top</a></small></h1>
         
-        <p>Brailie comes with two widgetized areas, the blog sidebar (shown to the side of the main post content within single posts) and the footer, which allows a number of columns of custom widget content for whatever you wish.</p>
+        <p>Flagrant comes with two widgetized areas, the blog sidebar (shown to the side of the main post content within single posts) and the footer, which allows a number of columns of custom widget content for whatever you wish.</p>
 
         <p>There are a couple of ways you can get started with widgets within WP, we recommomend the dedicated admin page found under Appearance > Widgets in your WP dashboard however you can also add/edit widgets to the available widgetized areas via Appearance > Customize however this can be a little cramped with your working with many widgets at once.</p>
 
@@ -487,6 +409,22 @@
         <br><br>
 
     </section> 
+
+    <section id="UsingElementor">
+
+        <h1><a href="#UsingElementor">Using Elementor</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>The theme uses the popular WordPress page building tool, <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, to allow you to quickly and easily create stunning pages. We provide some example in our pre-built demo data for you to get started with and study, but creating your own from scratch is a breeze too.</p>
+
+        <p>To begin, create a fresh page under Pages > Add New in your WordPress Dashboard. From there, simply hit the large "Edit with Elementor" button to beging working with the plugin.</p>
+
+        <img src="images/elementor1.png">
+        <br><br>
+        <p>Building is very simple with <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, for a guide on how it works check out the Video Tutorial below. For more on how to use the plugin be sure to <a href="https://docs.elementor.com/?ref=1798" target="_blank">check out the Elementor Documention also.</a></p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/1tsONFXITM8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+    </section>
 
     <section id="PostsOverview">
 
@@ -501,7 +439,7 @@
         <p>The process of creating posts with WordPress is very simple - you need to supply a title for your article, a featured image to represent your blog post throughout your site, and of course the main content itself via WP's post editor.</p>
 
         <h2>Featured Image</h2>
-        <p>Upload a featured image - any size will work though we recommend <strong>700 x 420px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+        <p>Upload a featured image - any size will work though we recommend <strong>1600 x 1000px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
 
     </section>
 
@@ -517,101 +455,31 @@
 
         <p>Creating a project is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), and gallery area where you can upload the images of your awesome project, and a featured image area (the featured image, much like a regular WP post, used to represent your portfolio item within Portfolio feeds and archive pages/searches etc. We will now detail each area.</p>
 
-        <h2>Portfolio Item Layout</h2>
-        <p>Here you can control the orientation of your portfolio images by selecting one of the provided layouts - you can also upload your portfolio items via the image upload field provided.</p>
+        <h2>Featured Content Images</h2>
+        <p>This is where you will add your images to the projects by clicking the "Add or Upload Files" button - from there you can either upload fresh images or pick some awesome shots from your exisiting media library. To rearrange the photos, simply drag them into the order you want! Dont for get to update your project once done though.</p>
 
-        <img src="images/portfolio1.png">
+        <img src="images/portfolio2.png">
+        <br><br>
+
+        <h2>Portfolio Feed Width & Height</h2>
+        <p>Here you can specify the size of the image used within certain portfolio feed styles. Id suggest to stagger these for a nice random effect like you see in the demo.</p>
+
+        <img src="images/portfolio3.png">
         <br><br>
 
         <h2>Featured Image</h2>
-        <p>Upload a featured image - any size will work though we recommend <strong>900 x 600px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/t6O3rsKXQY8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-
-        <h2>Using WPBakery Page Builder</h2>
-        <p>To use WPBakery Page Builder within Portfolio/Ebor Mega menu areas etc, 1st head to WPBakery Page Builder settings in your WP dashboard. Once here, navigate to the Post Type dropdown and switch from Pages Only to Custom - this will then allow you to check each post type you wish to enable WPBakery Page Builder on.</p>
-
-        <img src="images/wpbakery.gif">
-        <br><br>
+        <p>Upload a featured image - any size will work though we recommend <strong>600px x 400px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
 
     </section>
 
-    <section id="TeamOverview">
+    <section id="NinjaForms"> 
 
-        <h1><a href="#TeamOverview">Team Overview</a><small><a href="#html">Back to Top</a></small></h1>
+        <h1><a href="#NinjaForms">Ninja Forms Overview</a><small><a href="#html">Back to Top</a></small></h1>
 
-        <h2>Creating a Team Memeber</h2>
-        <p>To begin adding team profiles to your site head to Team Members > Add New in your WordPress Dashboard.</p>
-
-        <img src="images/team1.gif">
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/zRBN9EMHwFk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
-        <p>Creating a team memeber profile is very similar to a regular WordPress post, in essense you have the regular content area, a title area (for your members name), a role field and a featured image area (the featured image, much like a regular WP post, used to represent your team memeber item within Team feeds and archive pages/searches etc. We will now detail each area.</p>
-
-        <h2>Job Role</h2>
-        <p>Here you can specify your team members role within your organisation</p>
-
-        <img src="images/team1.png">
-        <br><br>
-
-        <h2>Social Profile</h2>
-        <p>This is where you you can add your members social profile links. To do this simply fill in the select the social icon you wish to use and enter a relevant profile URL and your all set. To add more, simply click "Add Another Entry" and repeat as you see fit.</p>
-
-        <img src="images/team2.png">
-        <br><br>
-
-        <h2>Featured Image</h2>
-        <p>Upload a featured image - any size will work though we recommend <strong>900 x 600px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your team member.</p>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/JDZ1j0m46p4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-
-    </section>
-
-    <section id="ClientsOverview">
-
-        <h1><a href="#ClientsOverview">Clients Overview</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <h2>Creating a Client</h2>
-        <p>To begin creating your portfolio projects, head to Client > Add New in your WordPress Dashboard.</p>
-
-        <img src="images/client1.gif">
-        <br><br>
-
-        <p>Adding a client logo is incredibly easy. Much like a post you have a title field so you can easily locate your client in you WP admin, a featured image area which is where you upload the clients logo, and a URL field if you wish to have the logo link to another page or site..</p>
-
-        <h2>Client URL</h2>
-        <p>Here you can specify a URL for the logo to link to.</p>
-
-        <img src="images/client1.png">
-        <br><br>
-
-        <h2>Featured Image</h2>
-        <p>Upload a featured image - any size will work though be sure to keep all client images at the same size for best results. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/OxqYFBAWeOw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-
-    </section>
-
-    <section id="TestimonialsOverview">
-
-        <h1><a href="#TestimonialsOverview">Testimonials Overview</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <h2>Creating a Testimonial</h2>
-        <p>To begin creating your testimonials, head to Testimonials > Add New in your WordPress Dashboard.</p>
-
-        <img src="images/testimonials1.gif">
-        <br><br>
-
-        <p>Creating testimonials is very straight-forward, much like creating regular WordPress posts. You have a title field for the clients name, a regular content area for your glowing quote, and a role field for displaying the clients role within their company etc.</p>
-
-        <h2>Featured Image</h2>
-        <p>Upload a featured image. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/9WNGU_HWRcs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
+        <p>For Support with Ninja Forms, please see<a href="https://wordpress.org/support/plugin/ninja-forms">This Link</a></p>
 
     </section>
 
@@ -624,136 +492,12 @@
         <iframe width="660" height="345" src="https://www.youtube.com/embed/8jkmz40oyXY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
-        <p>If your looking for multilangiage support, we highly recommended <a href="https://wpml.org/">WPML</a></p>
+        <p>If your looking for multilanguage support, we highly recommended <a href="https://wpml.org/">WPML</a></p>
 
     </section>
-
-    <section id="ContactForm7">
-
-        <h1><a href="#ContactForm7">Contact Form 7 Overview</a><small><a href="#html">Back to Top</a></small></h1>
-        
-        <p>Contact Form 7 is our recommended form plugin for WordPress. It is a simple but powerful form creator for WordPress. Here we will show you how to use Contact Form 7 to create and edit a basic form.</p>
-
-        <p>After Contact Form 7 is installed, you’ll find a new menu item in your WordPress admin area called Contact, here is where your forms and created and edited. From the Contact main screen, you will see your first contact form, its usually a default form called 'Contact Form 1' OR if you have imported the demo data for our theme you may see a few forms that we have made specially for you.</p>
-
-        <p>When creating and editing forms CF7 uses simple shortcodes (in WordPress these shortcodes are words surrounded by square brackets like “[” and “]”) - these shortcodes are generated via the 'Generate Tag' area (marked in red) and then placed in the form builder area (marked in blue) - you can also add your own HTML to the form for extra control.<p/>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/lmXHPXpppjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-    </section>
-
-    <section id="UsingVC">
-
-        <h1><a href="#UsingVC">Using WPBakery Page Builder</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <h3>How Brailie Works with WPBakery Page Builder</h3>
-        <br>
-        <h4>Sections are Crucial</h4>
-        <br>
-        <p>An important feature within Brailie is the use of the "section" block to house your page content. Sections provide a perfect method to keep you page contents nice and organised, but more crucially within Brailie, sections (together with spcial CSS classes) are used in combination to create an array of uniquely styled areas.</p>
-        <p>Using sections is very simple. To begin, simply select the section block and add it to your page, from there you can add a row, and subequently any content blocks you want.</p>
-
-        <img src="images/sections.gif">
-        <br><br>
-        <h4>Adding Styling To Sections</h4>
-        <br>
-        <p>Once you have a section setup, you have a number of ways to apply styling to to. The 1st method would be to give the section one of our <a href="##SpecialCSSClasses">Special CSS Classes</a> this is done via the "extra class" field (see below for an example). You can also head to the "design" tab to give your section a background colour of your choice, add your own padding, and much more.</p>
-        <img src="images/sections2.gif">
-
-        <br><br>
-        <h3>Video Tutorials</h3>
-        <br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/h1b7SgKyEHo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/CDSvvt3PiuM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/KMHXuJtdm-k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/MAMjsrV8OrQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/csySrkRXE6w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-    </section>
-
-   <section id="SpecialCSSClasses">
-
-        <h1><a href="#SpecialCSSClasses">Special CSS Classes</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <p>Brailie uses a small number of special classes which apply unique attributes to a section/row. These range from making the text within an area light in appearance, to even applying a "sticky" background image effect and more. These classes are detailed below and can be used by adding them to your section/rows via the "Extra Class" field seen below</p>
-
-        <img src="images/cssclasses.png">
-
-        <code>gray-wrapper</code> - This class gives your area a light gray background colour, ideal of offsetting against a white section.
-        <br><br>
-
-        <code>light-wrapper</code> - This class gives your section a light-white background colour.
-        <br><br>
-
-        <code>dark-wrapper</code> - This class gives your dark background, and is ideally paired with the "inverse-text" class.
-        <br><br>
-
-        <code>image-wrapper</code> - This class is ideal when you apply a background image to an area/section. Using this class will apply a neat overlay to the image, as well as have the image fix in place, giving a nice parallax effect, and is ideally paired with the "inverse-text" class.
-        <br><br>
-
-        <code>inverse-text</code> - When using a dark background image or colour, this class is ideal as it makes the text/content within light in colour.
-        <br><br>
-
-        <code>stretch-column</code> - This class makes a column a little wider.
-
-        <code>text-center</code> - This class centers the text within an element.
-        <br><br><br><br>
-
-        <h4>Unique Classes</h4>
-        <br><br>
-        <p>When using the process steps block, to apply a neat arrow or line you can use the following CSS classes in the row which contains the blocks</p>
-        <img src="images/processsteps.png">
-        <br><br>
-        <code>process-wrapper arrow gutter-50 gutter-md-30</code> - These classes give each process a little more space, as well as a neat arrow in between each process.
-        <br><br>
-        <code>process-wrapper line gutter-50 gutter-md-30</code> - These classes give each process a little more space, as well as a line in between each process.
-         <br><br>
-
-    </section>
-
-   <section id="PageOverrides">
-
-        <h1><a href="#PageOverrides">Using Page Overrides</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <p>Brailie allows you to override certain elements on a per page basis - these are things such as the header layout (which is ideal if your page has a hero image and you would like a transparent navigation to overlay over it) as well as the footer layout.</p>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/A1NNb6Bonos" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-        <h2>Creating a Boxed Layout</h2>
-        <p>Creating a boxed layout is simple - simply give your page a background image via the field provided and the page will be transformed - you can also set the background image to either "cover" which will have the image stretch to cover the whole screen OR "repeat" which is ideal if your using a background pattern or such.</p>
-
-        <img src="images/overrides1.png">
-        <br><br>
-    </section>
-
-   <section id="CreatingPasswordProtection">
-
-        <h1><a href="#PageOverrides">Password Protecting Content</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <h2>How to Password Protect a Page/Post</h2>
-        <p>WordPress offers a really neat method to keep page/post content hidden behind a password, which is ideal for when you wish to have clients view images privatly etc. The process for this is simple - just head to the "Publish" area of your page/post and under "visibility", select the relevant option and enter your desired password.</p>
-
-        <img src="images/passwordprotect.gif">
-        <br><br>
-
-        <p>Once done, hit publish/update and your content is now hidden from prying eyes.</p>
-    </section>
-
-   <section id="MegaMenu">
-
-        <h1><a href="#MenuMenu">Using Ebor Mega Menu</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/wmeqtF70t-o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-    </section>
-
     <section id="Developers">
 
-        <h1><a href="#Developers">Developing with Brailie</a><small><a href="#html">Back to Top</a></small></h1>
+        <h1><a href="#Developers">Developing with Flagrant</a><small><a href="#html">Back to Top</a></small></h1>
 
         <h2>Using a Child Theme</h2>
         <p>If your looking to make changes to your theme such as bespoke CSS styling or modifying the loops, page templates or anything on the technical side of things - its important to use a child theme to ensure your modifications are not lost during theme updates. Thankfully, your main download package includes a ready-made child theme to get you started, however if your looking to create your own we recommend using a plugin such as <a href="https://en-gb.wordpress.org/plugins/orbisius-child-theme-creator/" target="_blank">Child Theme Creator by Orbisius</a> which makes the process as simple as just a few clicks.</p>
@@ -851,7 +595,7 @@
 
     <section id="Credits">
         <footer>
-            <a href="brailie.tommusdemos.wpengine.com" target="blank">Brailie WordPress Theme</a>, a <a href="https://www.tommusrhodus.com" target="blank">TommusRhodus Themes</a> theme.</a>
+            <a href="https://themeforest.net/item/Flagrant-freelancers-and-agencies-portfolio-wordpress-theme/22191074" target="blank">Flagrant WordPress Theme</a>, Another Premium WordPress Theme by <a href="https://www.tommusrhodus.com" target="blank">TommusRhodus</a></a>
         </footer>
     </section>
 
