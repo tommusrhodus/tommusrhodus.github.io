@@ -262,6 +262,7 @@
             <a href="#Translating">Translating Your Theme</a>            
             <a href="#Developers">Developing with Belton</a>
             <a href="#CommonIssues">Common Issues</a>
+            <a href="#Tweaks">Tweaks</a>
             <a href="#SupportPolicy">Support Policy</a>
             <a href="#Credits">Credits</a>
 
@@ -692,6 +693,30 @@
 
         <h2>My site is slow to load, why?</h2>
         <p>As you saw when viewing the demos of our themes, our themes are capable of being blisteringly fast, however you may ocationally notice your site is not loading as fast as you hoped – here you can find some tips for ensuring your new site loads as quickly as possible http://www.tommusrhodus.com/speeding-up-wordpress/</p>
+
+    </section> 
+
+    <section id="Tweaks">
+
+        <h1><a href="#Tweaks">Tweaks</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Make mobile menu sticky on scroll</h2>
+        <p>Add the following to your custom css under Appearance > Customize to have the menu area sticky on mobiles</p>
+
+        <pre>
+            @media all and (max-width: 767px) {
+                #header {
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: 0;
+                    background-color: rgba(0, 0, 0, 0.3);
+                }
+                #menu-button {
+                    position: fixed;
+                    top: 0;
+                }   
+            }
+        </pre>
 
     </section>  
 
