@@ -261,7 +261,7 @@
             <a href="#ThemeOverrides">Theme Overrides</a>
             <a href="#CreatingMenus">Creating Menus</a>
             <a href="#Widgets">Using Widgets</a>
-            <a href="#UsingVC">Using WPBakery Page Builder</a>
+            <a href="#UsingElementor">Using Elementor Page Builder</a>
             <a href="#CustomVCBlocks">Custom Page Builder Blocks</a>
             <a href="#PostsOverview">Posts Overview</a>
             <a href="#PortfolioOverview">Portfolio Overview</a>
@@ -349,6 +349,22 @@
         <h2>Final Step</h2>
         <p>Ok so you now have the pages and images all imported and ready, you now need to simply setup your homepage/blog and menu. To do this head to Settings > Reading to choose your homepage and posts page, and then head to Appearance > Menus to assign the demo menus.</p>   
 
+        <h4>Important Note</h4>
+        <p>If you have imported the demo data, you will notice in the top bar the "changlog" link looks a little different to the demo (see below)</p>
+
+        <img src="images/badge.png">
+        <br><br>
+
+        <p>This is because typically the import process does not account for HTML within menu items - to remedy this you can edit the menu item and replace the text with the following HTML</p>
+
+        <pre>&#x3C;span class=&#x22;badge badge-secondary mr-2&#x22;&#x3E;v1.2.0&#x3C;/span&#x3E;</pre>
+        <br>
+        <p>Once done you will see the following result</p>
+
+        <img src="images/badge2.png">
+        <br><br>
+
+
     </section>  
 
     <section id="ThemeOptions">
@@ -385,20 +401,26 @@
 
         <p>If your looking to make larger changes, or add a LOT of custom code, we highly recommend using a child theme - see below for details on getting this setup</p>
 
-        <h3>6 - Style Settings</h3>
-        <p>Here you will find Typography settings which allow you to customize the Google font used in your theme - see the video below for details on how this works</p>
+        <h3>6 - Site Settings</h3>
+        <p>Here you will find Typography settings which allow you to customize the Google font used in your theme - see the video below for details on how this works. You will also find a range of colour options and header settings here.</p>
 
         <iframe width="660" height="345" src="https://www.youtube.com/embed/pYe5beKKG3o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
-        <h3>7 - Theme Colours</h3>
-        <p>These options give you a range of colour pickers which allow you to tweak the themes colour scheme to suit your tastes. Any changes you make here will be seen live so you can see exactly what each option does as your changing them.</p>
+        <h3>7 - Blog Settings</h3>
+        <p>Here you choose to enable or disable certain content from within post archive, as well as specify the title and subtitle used within your blog archive page and a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
 
-        <h3>8 - Header Settings</h3>
-        <p>Here you will find options to control the header global header layout, as well as settings to control the header button.</p>
+        <h3>8 - Portfolio Settings</h3>
+        <p>Here you specify the title and subtitle used in your portfolio archive, as well a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
 
-        <h3>9 - Page View Settings</h3>
-        <p>These options allow to you enable or disable breadcrumbs and sharing icons within regular WP pages (pages not created with the page builder)</p>
+        <h3>9 - Documentation Settings</h3>
+        <p>Here you specify the title and subtitle used in your documentation archive, as well a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
+
+        <h3>10 - Team Settings</h3>
+        <p>Here you specify the title and subtitle used in your team archive, as well a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
+
+        <h3>11 - Page Settings</h3>
+        <p>These options allow to you enable or disable breadcrumbs regular WP pages (pages not created with the page builder)</p>
 
         <h3>10 - Blog Single Post Settings</h3>
         <p>Here you choose to enable or disable certain content from within single posts such as the featured image, tags and more.</p>
@@ -406,28 +428,7 @@
         <h3>11 - Blog Archive Settings</h3>
         <p>Here you choose to enable or disable certain content from within post archive, as well as specify the title and subtitle used within your blog archive page.</p>
 
-        <h3>12 - Portfolio Archive Settings</h3>
-        <p>Here you specify the title and subtitle used in your portfolio archive, as well as choose the layout for your projects.</p>
-
-        <h3>13 - Portfolio Single Post Settings</h3>
-        <p>Here you choose to the default layout used within each Portfolio item.</p>
-
-        <h3>14 - Portfolio CTA Settings</h3>
-        <p>Use this area to setup the CTA area (shown just above the footer) shown within single portfolio items. Please note, shortcodes and HTML can be used here for full flexibility</p>
-
-        <h3>15 - Documentation Single View Settings</h3>
-        <p>Here you can enable or disable certain elements shown within each single Documentaion post.</p>
-
-        <h3>16 - Team Archive Settings</h3>
-        <p>Here you specify the title and subtitle used in your team archive, as well as choose the layout for your projects.</p>
-
-        <h3>17 - Team CTA Settings</h3>
-        <p>Use this area to setup the CTA area (shown just above the footer) shown within single team items. Please note, shortcodes and HTML can be used here for full flexibility</p>
-
-        <h3>18 - WP Login Settings</h3>
-        <p>Use this area to setup the background gradient, background image, and also custom logo used in your sites login page.</p>
-
-        <h3>19 - Footer Settings</h3>
+        <h3>12 - Footer Settings</h3>
         <p>This is where you can choose your desired footer layout as well as assign your social profile links, and customize your copyright text etc.</p>
 
     </section>
@@ -438,6 +439,8 @@
         <p>Whilst the above theme options allow you to set the layout for the header and footer globally (for all pages) - in some cases you may wish to override these settings for a specific page, this is where our Overrides area comes into play.</p>
 
         <p>To use the theme overrides, simply scroll down when editing a page and you will see an additional metabox just like the one pictured below. To override the header or footer layout, simple select the alternative layout from the relevant dropdown and your all set.</p>
+
+        <p>You are also able to override the logo used within the page here too, ideal if your looking for a neat contrasting look to the page or such.</p>
 
         <img src="images/overrides.png">
         <br><br>
@@ -493,28 +496,18 @@
 
     </section> 
 
-    <section id="UsingVC">
+    <section id="UsingElementor">
 
-        <h1><a href="#UsingVC">Using WPBakery Page Builder</a><small><a href="#html">Back to Top</a></small></h1>
+        <h1><a href="#UsingElementor">Using Elementor</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>The theme uses the popular WordPress page building tool, <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, to allow you to quickly and easily create stunning pages. We provide some example in our pre-built demo data for you to get started with and study, but creating your own from scratch is a breeze too.</p>
 
-        <h3>How Wingman Works with WPBakery Page Builder</h3>
-        <br>
-        <h4>Sections are Crucial</h4>
-        <br>
-        <p>An important feature within Wingman is the use of the "section" block to house your page content. Sections provide a perfect method to keep you page contents nice and organised, but more crucially within Wingman, sections (together with spcial CSS classes) are used in combination to create an array of uniquely styled areas.</p>
-        <p>Using sections is very simple. To begin, simply select the section block and add it to your page, from there you can add a row, and subequently any content blocks you want.</p>
+        <p>To begin, create a fresh page under Pages > Add New in your WordPress Dashboard. From there, simply hit the large "Edit with Elementor" button to beging working with the plugin.</p>
 
-        <img src="images/sections.gif">
+        <img src="images/elementor1.png">
         <br><br>
-        <h4>Adding Styling To Sections</h4>
-        <br>
-        <p>Once you have a section setup, you have a number of ways to apply styling to to. The 1st method would be to give the section one of our <a href="#SpecialCSSClasses">Special CSS Classes</a> this is done via the "extra class" field (see below for an example). You can also head to the "design" tab to give your section a background colour of your choice, add your own padding, and much more.</p>
-        <img src="images/sections2.gif">
+        <p>Building is very simple with <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, for a guide on how it works check out the Video Tutorial below. For more on how to use the plugin be sure to <a href="https://docs.elementor.com/?ref=1798" target="_blank">check out the Elementor Documention also.</a></p>
 
-        <br><br>
-        <h3>Video Tutorials</h3>
-
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/yWZDjLbhbMo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/6TR5oty_Vac" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
     </section>
@@ -598,7 +591,7 @@
         <h1><a href="#PortfolioOverview">Portfolio Overview</a><small><a href="#html">Back to Top</a></small></h1>
 
         <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/LF921Lr3Ac" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/-LF921Lr3Ac" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
         <h2>Creating a Portfolio Project</h2>
@@ -609,22 +602,21 @@
 
         <p>Creating a project is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), and gallery area where you can upload the images of your awesome project, and a featured image area (the featured image, much like a regular WP post, used to represent your portfolio item within Portfolio feeds and archive pages/searches etc. We will now detail each area.</p>
 
-        <h2>Featured Content Images</h2>
-        <p>This is where you will add your images to the projects by clicking the "Add or Upload Files" button - from there you can either upload fresh images or pick some awesome shots from your exisiting media library. To rearrange the photos, simply drag them into the order you want! Dont for get to update your project once done though.</p>
+        <h2>Project Logo</h2>
+        <p>If you are using the "List" layout for your portfolio items, you will notice in the demo each item has a neat logo, here you can upload the logo that is shown within this view via the "Project Archive Logo Image" field - you can also upload a logo to display at the top of the single portfolio view for each project too via the "Project Logo Image" if you wish.</p>
+
+        <img src="images/portfolio1.png">
+        <br><br>
+
+        <h2>Excerpt Field</h2>
+        <p>Like above, if your using the "List" layout for your portfolio you will see each item has a title, as well as some descriptive text (see below)</p>
+
+        <img src="images/portfolio_excerpt.png">
+        <br><br>
+
+        <p>To add your own text to show in this view, simply insert the text you wish to display in the excerpt field provided - for best results you can add quotation marks around the text too, like you see in our example.</p>
 
         <img src="images/portfolio2.png">
-        <br><br>
-
-        <h2>Portfolio Layoutt</h2>
-        <p>Here you can specify which of the available layouts you wish to use for your project.</p>
-
-        <img src="images/portfolio3.png">
-        <br><br>
-
-        <h2>Additional Item Details</h2>
-        <p>As well as the regular content area where you can describe your project, you can also add addtional details such as client name, project date etc as you wish via the additional item details area.</p>
-
-        <img src="images/portfolio-details.png">
         <br><br>
 
         <h2>Featured Image</h2>
@@ -649,7 +641,7 @@
         <p>Creating a team item is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), as well as an additonal area where you can specify a job title, email address and social icons as you wish. We will now detail each area.</p>
 
         <h2>Team Memeber Details</h2>
-        <p>This is where you you can enter the job title and email address for your member, please note the email address is only shown when using the "cards" team feed layout.</p>
+        <p>This is where you you can enter the job title for your member, please note the email address is only shown when using the "cards" team feed layout.</p>
 
         <img src="images/team1.png">
         <br><br>
@@ -680,6 +672,22 @@
         <br><br>
 
         <p>Creating a documentation item is very similar to a regular WordPress post, simply add your content via the main content editing area and your all set.</p>
+
+    </section>
+
+    <section id="ClientOverview">
+
+        <h1><a href="#ClientOverview">Client Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <br><br>
+
+        <h2>Creating a Client Post</h2>
+        <p>To begin creating your client item, head to Client > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/docs1.gif">
+        <br><br>
+
+        <p>Creating a documentation item is very similar to a regular WordPress post, however you will find no post editor - you only need to supply the client logo via the Featured Image field and your all set.</p>
 
     </section>
 
