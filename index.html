@@ -50,9 +50,15 @@
 
     <!-- Icons Grid -->
     <section class="themes text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
+
+      <button class="sort-btn btn-primary" id="sort-elements">Sort A > Z</button>
+      <button class="sort-btn btn-primary" id="sort-elements-reverse">Sort Z > A</button>
+
+      <div class="row-clear"></div>
+
+      <div id="themes-container" class="container">
+        <div id="themes-row" class="row">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="brad-wordpress-theme/">
                     <img src="assets/img/brad-thumbnail.jpg" class="theme-img">
@@ -60,7 +66,7 @@
                 <h4>Brad WordPress Theme</h4>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="gaze-wordpress-theme/">
                     <img src="assets/img/gaze-thumbnail.jpg" class="theme-img">
@@ -68,7 +74,7 @@
                 <h4>Gaze WordPress Theme</h4>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="peter-wordpress-theme/">
                     <img src="assets/img/peter-thumbnail.jpg" class="theme-img">
@@ -79,7 +85,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="belton-wordpress-theme/">
                     <img src="assets/img/belton-thumbnail.jpg" class="theme-img">
@@ -87,7 +93,7 @@
                 <h4>Belton WordPress Theme</h4>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="lamark-wordpress-theme/">
                     <img src="assets/img/lamark-thumbnail.jpg" class="theme-img">
@@ -95,7 +101,7 @@
                 <h4>Lamark WordPress Theme</h4>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="flamini-wordpress-theme/">
                     <img src="assets/img/flamini-thumbnail.jpg" class="theme-img">
@@ -106,7 +112,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="brailie-wordpress-theme/">
                     <img src="assets/img/brailie-thumbnail.jpg" class="theme-img">
@@ -115,7 +121,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="philament-wordpress-theme/">
                     <img src="assets/img/philament-thumb.jpg" class="theme-img">
@@ -124,7 +130,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="flagrant-wordpress-theme/">
                     <img src="assets/img/flagrant-thumb.jpg" class="theme-img">
@@ -135,7 +141,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="omio-wordpress-theme/">
                     <img src="assets/img/omio-thumbnail.jpg" class="theme-img">
@@ -144,7 +150,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="lima-wordpress-theme/">
                     <img src="assets/img/lima-thumbnail.jpg" class="theme-img">
@@ -153,7 +159,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="insight-wordpress-theme/">
                     <img src="assets/img/insight-thumb.jpg" class="theme-img">
@@ -164,7 +170,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="wingman-wordpress-theme/">
                     <img src="assets/img/wingman-thumb.jpg" class="theme-img">
@@ -173,7 +179,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="howeret-wordpress-theme/">
                     <img src="assets/img/howeret-thumb.jpg" class="theme-img">
@@ -182,7 +188,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100007405" target="_blank">
                     <img src="assets/img/stack-thumb.jpg" class="theme-img">
@@ -193,7 +199,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100011755" target="_blank">
                     <img src="assets/img/creatink-thumb.jpg" class="theme-img">
@@ -202,7 +208,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100011572" target="_blank">
                     <img src="assets/img/candar-thumb.jpg" class="theme-img">
@@ -211,7 +217,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100011452" target="_blank">
                     <img src="assets/img/griddr-thumb.jpg" class="theme-img">
@@ -222,7 +228,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100011246" target="_blank">
                     <img src="assets/img/ballard-thumb.jpg" class="theme-img">
@@ -231,7 +237,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100010888" target="_blank">
                     <img src="assets/img/sugarland-thumb.jpg" class="theme-img">
@@ -240,7 +246,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100010015" target="_blank">
                     <img src="assets/img/waves-thumb.jpg" class="theme-img">
@@ -251,7 +257,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100009727" target="_blank">
                     <img src="assets/img/malefic-thumb.jpg" class="theme-img">
@@ -260,7 +266,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100004468" target="_blank">
                     <img src="assets/img/pillar-thumb.jpg" class="theme-img">
@@ -269,7 +275,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100004122" target="_blank">
                     <img src="assets/img/hive-thumb.jpg" class="theme-img">
@@ -280,7 +286,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100003989" target="_blank">
                     <img src="assets/img/gallery-thumb.jpg" class="theme-img">
@@ -289,7 +295,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100003989" target="_blank">
                     <img src="assets/img/morello-thumb.jpg" class="theme-img">
@@ -298,7 +304,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100002822" target="_blank">
                     <img src="assets/img/partner-thumb.jpg" class="theme-img">
@@ -309,7 +315,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100003026" target="_blank">
                     <img src="assets/img/ryla-thumb.jpg" class="theme-img">
@@ -318,7 +324,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100002335" target="_blank">
                     <img src="assets/img/peekskill-thumb.jpg" class="theme-img">
@@ -327,7 +333,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100001621" target="_blank">
                     <img src="assets/img/acomb-thumb.jpg" class="theme-img">
@@ -338,7 +344,7 @@
 
           <div class="row-clear"></div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100001521" target="_blank">
                     <img src="assets/img/fulford-thumb.jpg" class="theme-img">
@@ -347,7 +353,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100001521" target="_blank">
                     <img src="assets/img/malory-thumb.jpg" class="theme-img">
@@ -356,7 +362,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
+          <div class="theme-item-wrapper col-lg-4">
             <div class="theme-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                 <a href="https://tommusrhodus.ticksy.com/articles/100001287" target="_blank">
                     <img src="assets/img/somnus-thumb.jpg" class="theme-img">
@@ -422,7 +428,7 @@
                 <a href="https://tommusrhodus.ticksy.com/" target="_blank">Support</a>
               </li>
             </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; 2018 TommusRhodus &amp; Made In Ebor LTD</p>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; 2019 TommusRhodus &amp; Made In Ebor LTD</p>
           </div>
         </div>
       </div>
@@ -431,6 +437,50 @@
     <!-- Bootstrap core JavaScript -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+
+      $('body').on('click', '#sort-elements', function () {
+          $('.sort-btn').removeClass('active');
+          $(this).addClass('active');
+          sortList();
+      });
+
+      $('body').on('click', '#sort-elements-reverse', function () {
+          $('.sort-btn').removeClass('active');
+          $(this).addClass('active');
+          sortListReverse();
+      });
+
+      $.fn.reverse = [].reverse;
+
+      function sortList(element) {
+         var alphabeticallyOrderedDivs = $('.theme-item-wrapper').sort(function(a, b) {
+            return String.prototype.localeCompare.call($(a).find("h4").text().toLowerCase(), $(b).find("h4").text().toLowerCase());
+          });
+          var container = $("#themes-row");
+          container.fadeOut(300, function() {
+              $(this).detach().empty().append(alphabeticallyOrderedDivs);
+              $('#themes-container').html(container); 
+              container.fadeIn(); 
+              $("#themes-row .theme-item-wrapper:nth-child(3n)").after('<div class="row-clear"></div>');
+          });           
+      };
+
+      function sortListReverse(element) {
+          var alphabeticallyOrderedDivs = $('.theme-item-wrapper').sort(function(a, b) {
+            return String.prototype.localeCompare.call($(a).find("h4").text().toLowerCase(), $(b).find("h4").text().toLowerCase());
+          });
+          var container = $("#themes-row");
+          container.fadeOut(300, function() {
+              $(this).detach().empty().append(alphabeticallyOrderedDivs.reverse());
+              $('#themes-container').html(container); 
+              container.fadeIn(); 
+              $("#themes-row .theme-item-wrapper:nth-child(3n)").after('<div class="row-clear"></div>');
+          });    
+      };
+
+    </script>
 
   </body>
 

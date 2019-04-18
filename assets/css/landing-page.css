@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #09A274; 
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary.active {
   background-color: #056246; 
   border-color: #056246; 
 }
@@ -170,4 +170,23 @@ footer.footer .list-inline a {
   display: block;
   clear: both;
   margin-bottom: 30px;
+}
+
+.sort-btn {
+  transition: 0.1s linear;
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  border-radius: 6px;
+  padding-top: 0.46428571em;
+  padding-bottom: 0.46428571em;
+  padding-right: 2.78571429em;
+  padding-left: 2.78571429em;
+  border: none;
+  border-width: 1px;
+  font-size: inherit;
+  line-height: 1.85714286em;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px; 
 }
