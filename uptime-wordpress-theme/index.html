@@ -447,7 +447,7 @@
         <h3>17 - WP Login Settings</h3>
         <p>Here you choose a custom background image and logo to use within your sites login page.</p>
 
-        <h3>12 - Footer Settings</h3>
+        <h3>18 - Footer Settings</h3>
         <p>This is where you can choose your desired footer layout as well as assign your social profile links, and customize your copyright text etc.</p>
 
     </section>
@@ -460,6 +460,8 @@
         <p>To use the theme overrides, simply scroll down when editing a page and you will see an additional metabox just like the one pictured below. To override the header or footer layout, simple select the alternative layout from the relevant dropdown and your all set.</p>
 
         <p>You are also able to override the logo used within the page here too, ideal if your looking for a neat contrasting look to the page or such.</p>
+
+        <p>Finally, with the page overrides your also able to customize the themes colours on a per-page basis, simpy use the colour pickers provided to give you page a unique look and feel from all the others. For details and an example of these overrides, please see the video below.</p>
 
         <img src="images/overrides.png">
         <br><br>
@@ -488,12 +490,12 @@
 
         <h3>Creating Badges</h3>
 
-        <img src="images/navpill.png">
+        <img src="images/badges.png">
         <br><br>
 
-        <p>If you wish to recreate the navigation badge you see in the demo (image above) you will need to use some basic HTML markup within your menu's label. Here is an example you can use.</p>
+        <p>If you wish to recreate the menu badge you see in the demo (image above) you will need to use some basic HTML markup within your menu's label. Here is an example you can use.</p>
 
-        <code>Changelog &#x3C;span class=&#x22;d-none d-sm-inline-block badge badge-success&#x22;&#x3E;1.0.1&#x3C;/span&#x3E;</code>
+        <pre>&#x3C;span class=&#x22;badge badge-primary ml-2&#x22;&#x3E;New&#x3C;/span&#x3E;</pre>
         <br><br>
 
         <img src="images/nav1.png">
@@ -527,6 +529,12 @@
 
         <img src="images/elementor1.png">
         <br><br>
+
+        <p>NOTE - When working with Elementor, be sure to select the "Elementor Full Width" template under your pages attributes as seen below.</p>
+
+        <img src="images/elementortemplate.png">
+        <br><br>
+
         <p>Building is very simple with <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, for a guide on how it works check out the Video Tutorial below. For more on how to use the plugin be sure to <a href="https://docs.elementor.com/?ref=1798" target="_blank">check out the Elementor Documention also.</a></p>
 
         <iframe width="660" height="345" src="https://www.youtube.com/embed/c5p-PSiEmDs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -587,7 +595,7 @@
 
         <h1><a href="#CustomIcons">Icon/Colour Classes</a><small><a href="#html">Back to Top</a></small></h1>
 
-        <p>Uptime is bundled with a number of high quality icons, for a reference of whats available and there classes please see the <a href="http://Uptime.tommusdemos.wpengine.com/inner-pages/icons-cheatsheet/" target="_blank">Icon Cheatsheet.</a> This also includes reference to our selection of pre-defined colours you can apply to text/icons by adding the CSS class to them also.</p>
+        <p>Uptime is bundled with a number of high quality icons, for a reference of whats available and there classes please see the <a href="http://uptime.tommusdemos.wpengine.com/elements/all-icons/" target="_blank">Icon Cheatsheet.</a> This also includes reference to our selection of pre-defined colours you can apply to text/icons by adding the CSS class to them also.</p>
 
         <br><br>
 
@@ -672,27 +680,26 @@
 
         <p>Creating a project is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), and gallery area where you can upload the images of your awesome project, and a featured image area (the featured image, much like a regular WP post, used to represent your portfolio item within Portfolio feeds and archive pages/searches etc. We will now detail each area.</p>
 
-        <h2>Project Logo</h2>
-        <p>If you are using the "List" layout for your portfolio items, you will notice in the demo each item has a neat logo, here you can upload the logo that is shown within this view via the "Project Archive Logo Image" field - you can also upload a logo to display at the top of the single portfolio view for each project too via the "Project Logo Image" if you wish.</p>
+        <h2>Portfolio Item Layout Options</h2>
+        <p>When creating a portfolio item, you will notice an area below the main content editor where you will see a few extra fields like you see in the image below - we will now take a look at what these do.</p>
 
         <img src="images/portfolio1.png">
         <br><br>
 
-        <h2>Excerpt Field</h2>
-        <p>This field is used for introductory text which appears in single project pages, just below the main title. To add your own text you can use the excerpt field provided.</p>
+        <h2>Gallery Images</h2>
+        <p>Here you can add your portfolio images to your project. The way these are displayed is dependant on the layout you choose, which I will detail below.</p>
 
-        <img src="images/portfolio_excerpt2.png">
+        <h2>Project Layout</h2>
+        <p>Once you have added you prjects images, you will need to choose a layout - this dropdown allows you to do to. One thing to bare in mind is if you are using the "Case Study" layout, the gallery images are not used so you will need to add your images to the main content area much like a regular WP post - for an example of this please see the video above.</p>
+
+        <h2>Portfolio Subtitle</h2>
+        <p>This allows you to enter a subtitle for you project which is shown above the main title when using the "Case Study" layout only.</p>
+
+        <img src="images/portfoliosubtitle.png">
         <br><br>
-
-        <h2>Archive Title/Description</h2>
-
-        <img src="images/portfolio_excerpt.png">
-        <br><br>
-
-        <p>To give your project a unique title when in the archive view, as well as a descriptive text shown on the "list" archive view, you can use the fields provided within each project. This allows you to not only add nice text to describe your project, but it also lets you have a difference title on the arhive page to the one shown in the single project view.</p>
 
         <h2>Featured Image</h2>
-        <p>Upload a featured image - any size will work though we recommend <strong>1600px x 666px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+        <p>Upload a featured image. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
 
     </section>
 
