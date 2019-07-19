@@ -93,7 +93,7 @@
             color: #000;
             font: inherit;
             padding: 2px 7px;
-            white-space: nowrap;
+            white-space: normal;
         }
         a {
             color: #1e8cbe;
@@ -354,14 +354,14 @@
         <p>Ok so you now have the pages and images all imported and ready, you now need to simply setup your homepage/blog and menu. To do this head to Settings > Reading to choose your homepage and posts page, and then head to Appearance > Menus to assign the demo menus.</p>   
 
         <h4>Important Note</h4>
-        <p>If you have imported the demo data, you will notice in the top bar the "changlog" link looks a little different to the demo (see below)</p>
+        <p>If you have imported the demo data, you will notice the "new" badge displayed in the coworking menu item looks a little different to the demo (see below)</p>
 
         <img src="images/badge.png">
         <br><br>
 
         <p>This is because typically the import process does not account for HTML within menu items - to remedy this you can edit the menu item and replace the text with the following HTML</p>
 
-        <pre>&#x3C;span class=&#x22;badge badge-secondary mr-2&#x22;&#x3E;v1.2.0&#x3C;/span&#x3E;</pre>
+        <pre>&#x3C;span class=&#x22;badge badge-primary ml-2&#x22;&#x3E;New&#x3C;/span&#x3E;</pre>
         <br>
         <p>Once done you will see the following result</p>
 
@@ -405,32 +405,47 @@
 
         <p>If your looking to make larger changes, or add a LOT of custom code, we highly recommend using a child theme - see below for details on getting this setup</p>
 
-        <h3>6 - Site Settings</h3>
+        <h3>6 - Style Settings</h3>
         <p>Here you will find Typography settings which allow you to customize the Google font used in your theme - see the video below for details on how this works. You will also find a range of colour options and header settings here.</p>
 
         <iframe width="660" height="345" src="https://www.youtube.com/embed/GkZ5Qa9uu_c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
-        <h3>7 - Blog Settings</h3>
-        <p>Here you choose to enable or disable certain content from within post archive, as well as specify the title and subtitle used within your blog archive page and a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
+        <h3>7 - Theme Colours</h3>
+        <p>This area allows you to control the themes colours as you wish - please note these can also be overridden on a per-page basis by using the page overrides also.</p>
 
-        <h3>8 - Portfolio Settings</h3>
-        <p>Here you specify the title and subtitle used in your portfolio archive, as well a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
+        <h3>8 - Header Settings</h3>
+        <p>This area gives you control of the global header layout as well as the header CTA button. Here you can choose the overall header layout (which can also be overridden on a per-page basis) as well as set the button label and URL for the header's CTA button (you can also leave these fields blank to remove the button if you prefer)</p>
 
-        <h3>9 - Documentation Settings</h3>
-        <p>Here you specify the title and subtitle used in your documentation archive, as well a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
+        <h3>8 - Page View Settings</h3>
+        <p>Here you can enable or disable breadcumbs on regular pages (pages which do not use a page builder or such).</p>
 
-        <h3>10 - Team Settings</h3>
-        <p>Here you specify the title and subtitle used in your team archive, as well a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
+        <h3>9 - Blog Single View Settings</h3>
+        <p>Here you can select a hero layout for single posts.</p>
 
-        <h3>11 - Page Settings</h3>
-        <p>These options allow to you enable or disable breadcrumbs regular WP pages (pages not created with the page builder)</p>
+        <h3>10 - Blog Archive View Settings</h3>
+        <p>Here you choose a specific header style and logo for your blog archive, as well as specify the title and subtitle used within your blog archive page and a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
 
-        <h3>10 - Blog Single Post Settings</h3>
-        <p>Here you choose to enable or disable certain content from within single posts such as the featured image, tags and more.</p>
+        <h3>11 - Portfolio Single View Settings</h3>
+        <p>Here you can select a hero layout for single portfolio items which can also be overriden on a per-page basis.</p>
 
-        <h3>11 - Blog Archive Settings</h3>
-        <p>Here you choose to enable or disable certain content from within post archive, as well as specify the title and subtitle used within your blog archive page.</p>
+        <h3>12 - Portfolio Archive View Settings</h3>
+        <p>Here you specify the title and subtitle used in your portfolio archive.</p>
+
+        <h3>13 - Documentation Single View Settings</h3>
+        <p>Here you control elements shown within single Documentation posts.</p>
+
+        <h3>14 - Documentation Archive View Settings</h3>
+        <p>Here you specify the title and subtitle used in your documentation archive, as well choose a specific header style and logo for your documentation archive</p>
+
+        <h3>15 - Test Archive View Settings</h3>
+        <p>Here you specify the title and subtitle used in your testimonial archive, as well choose a specific header style and logo for your team archive.</p>
+
+        <h3>16 - 404 Settings</h3>
+        <p>Here you can specify a logo to use on your 404 pages</p>
+
+        <h3>17 - WP Login Settings</h3>
+        <p>Here you choose a custom background image and logo to use within your sites login page.</p>
 
         <h3>12 - Footer Settings</h3>
         <p>This is where you can choose your desired footer layout as well as assign your social profile links, and customize your copyright text etc.</p>
