@@ -486,11 +486,9 @@
         <h3>Creating Dropdown Menus</h3>
         <p>An important aspect to note when using our theme is the process of creating dropdowns/sub menus is the top level item (the menu item in the main menu area you click/hover to activate the sub-menu) needs to be a "Custom Link" menu item with a URL of just # - this allows the dropdown to work fully on both desktops and mobiles where 'hovering' is not available.</p>
 
-        <p>You can see the process outlined below.</p>
-
         <h3>Creating Badges</h3>
 
-        <img src="images/badges.png">
+        <img src="images/badge.png">
         <br><br>
 
         <p>If you wish to recreate the menu badge you see in the demo (image above) you will need to use some basic HTML markup within your menu's label. Here is an example you can use.</p>
@@ -499,6 +497,30 @@
         <br><br>
 
         <img src="images/nav1.png">
+        <br><br>
+
+        <h3>Creating Menu Menus</h3>
+
+        <p>As you can see in our demo the theme includes a neat mega menu. Building your own is very simple - just like building a regular WP menu - but you do need to add some key text/classes which we will detail below</p>
+
+        <p>To begin, start by creating your top-level item (the item the user clicks to open the sub menu) - being sure to use simply # as the URL like you see below </p>
+
+        <img src="images/megamenu1.png">
+        <br><br>
+
+        <p>Once done, in the newly added top level item's decription field, enter 'mega-menu'</p>
+
+        <img src="images/megamenu2.png">
+        <br><br>
+
+        <p>Now, lets add a column to our mega menu - just like a top level item, create a fresh menu item with the URL of just # - once done, add it as a child of your top level item and in the CSS class field, enter 'mega-menu-column' - like this</p>
+
+        <img src="images/megamenu3.png">
+        <br><br>
+
+        <p>From here you can simply add menu items to the column (as child items) as you wish - so your resulting menu will look something like this</p>
+
+        <img src="images/megamenu4.png">
         <br><br>
 
     </section> 
@@ -557,6 +579,12 @@
         <br><br>
 
         <code>bg-primary</code> - This class gives your section a primary background colour which can be set in the theme options.
+        <br><br>
+
+        <code>bg-primary-2</code> - This class gives your section a primary 2 background colour which can be set in the theme options.
+        <br><br>
+
+        <code>bg-primary-3</code> - This class gives your section a primary 3 background colour which can be set in the theme options.
         <br><br>
 
         <code>bg-secondary</code> - This class gives your section a complimentary secondary background colour which can be set in the theme options.
