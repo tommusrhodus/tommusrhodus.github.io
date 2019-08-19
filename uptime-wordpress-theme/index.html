@@ -275,6 +275,7 @@
             <a href="#Translating">Translating Your Theme</a>            
             <a href="#Developers">Developing with Uptime</a>
             <a href="#CommonIssues">Common Issues</a>
+            <a href="#Tweaks">Tweaks and Knowledgebase</a>
             <a href="#SupportPolicy">Support Policy</a>
             <a href="#Credits">Credits</a>
 
@@ -945,6 +946,31 @@
 
     </section>  
 
+    <section id="Tweaks">
+
+        <h1><a href="#Tweaks">Tweaks and Knowledgebase</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>How can I launch a model from a custom bottom/cta button etc</h2>
+        <p>1st, add your modal to your page and in its settings, hide the button and grab its ID</p>
+        <img src="https://i.gyazo.com/d2088bbf56a4085f992cb57719d27ecd.png">
+        <br><br>
+        <p>We suggest to download the whole package, then unzip this to locate your theme.zip file (theme name will change based on your purchased theme.</p>
+        <img src="https://i.gyazo.com/2062471db80212b2b5333390d7998b6c.png">
+        <br><br>
+
+        <p>Once done, your going to need a little JS to make the magic happen, so install <a href="https://en-gb.wordpress.org/plugins/custom-css-js/">this plugin</a> and add to it the following</p>
+
+        <code>
+            jQuery(document).ready(function( $ ){
+              jQuery('body').on('click', '.navbar-container .btn.btn-primary', function() {
+                  var modalID = jQuery(this).attr('href');
+                  jQuery(modalID).modal({show: true});
+              });
+            });
+        </code>
+
+    </section>  
+
     <section id="CommonIssues">
 
         <h1><a href="#CommonIssues">Common Issues</a><small><a href="#html">Back to Top</a></small></h1>
@@ -953,7 +979,7 @@
         <p>This means your uploading the wrong zip package. When downloading your theme you have the option to download the full package, or the installable theme itself.</p>
         <img src="images/common1.png">
         <br><br>
-        <p>We suggest to download the whole package, then unzip this to locate your theme.zip file (theme name will change based on your purchased theme.</p>
+        <p>Then drop that ID into Appearance > Customize > Header Settings > Button Settings like this, or as the URL to a custom button etc like this</p>
         <img src="images/common2.png">
         <br><br>
 
