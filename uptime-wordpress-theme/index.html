@@ -238,6 +238,9 @@
             color: white;
             margin-bottom: 40px;
         }
+        iframe {
+        	max-width: 100%;
+        }
     </style>
 </head>
 
@@ -868,7 +871,35 @@
 
         <p>When creating and editing forms CF7 uses simple shortcodes (in WordPress these shortcodes are words surrounded by square brackets like “[” and “]”) - these shortcodes are generated via the 'Generate Tag' area (marked in red) and then placed in the form builder area (marked in blue) - you can also add your own HTML to the form for extra control.<p/>
 
+
+        <h2>Contact Form 7 Basics</h2>
+
         <iframe width="660" height="345" src="https://www.youtube.com/embed/lmXHPXpppjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+        <h2>Form Styling</h2>
+
+        <p>The forms within Uptime are created using Contact Form 7 - one of the finest free form plugins for WP, however out of the box, you may notice forms not created/imported via the Demo Data look a little unstyled - the reason for this is our forms use simple HTML and CSS Classes to apply the styling you see in the demo.</p>
+
+		<p>What does this mean? Well, to create stylish, styled forms you will need to apply a few key CSS classes to your form elements - for an example of what this looks like, see the example form examples below.</p>
+
+		<strong>Contact Form Full - <a href="http://snippi.com/s/gffzda1">Browse Example</a></strong><br>
+		<strong>Home Coworking Form - <a href="http://snippi.com/s/eg1xrw1">Browse Example</a></strong><br>
+		<strong>Service Contact Form - <a href="http://snippi.com/s/kpqhdf2">Browse Example</a></strong><br>
+		<strong>Subscribe Form - <a href="http://snippi.com/s/8h69a2o">Browse Example</a></strong>
+
+		<br><br>
+
+		<p>You will notice overall, the code looks the same as any other form created with CF7, however you will see the submit button has a couple of CSS classes added to it. These classes give the button the stylish look to see in the demo so if your wish to recreate this, add the classes<code>btn--primary</code> and <code>btn</code> And your all set.</p> 
+
+		<h2>How to Add a Class to A form Element</h2>
+
+		<p>Adding a custom css as easy with CF7, to do this you can use the field provided when creating your form element, or manually add the class (or classes) if you wish. For an example of this see the animation below</p>
+
+		<img src="images/formstyling.gif">
+
+		<h2>Want the forms without ALL the demo data?</h2>
+
+		<p>Not a problem, you can grab the form XML data <strong><a href="form-demo-data.xml">here</a></strong></p>
 
     </section>
 
