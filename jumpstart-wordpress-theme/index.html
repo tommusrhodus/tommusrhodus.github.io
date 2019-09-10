@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Jumpstart WordPress Theme Help Guide | TommusRhodus Themes</title>
+    <style type="text/css">
+        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+            margin: 0;
+            padding: 0;
+        }
+        * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        :before, :after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        img, object, embed {max-width: 100%; height: auto;}
+        object, embed {height: 100%;}
+        img { margin: 1.25% 0; -ms-interpolation-mode: bicubic; }
+        html {
+            background-color: #F0F1F3;
+            padding: 2%;
+        }
+        body {
+            font-size: 16px;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: #242424;
+            max-width: 800px;
+            margin: 5% auto;
+           
+        }
+        body::after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+        header {
+            margin-bottom: 8%;
+        }
+        footer {
+            text-align: center;
+        }
+        h1, h2, h3, h4, h5, h1 a {
+            color: #263A48;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        h1, h2 {
+            font-size: 36px;
+            padding-bottom: 0.3em;
+            margin-bottom: 0.4em;
+            border-bottom: 1px solid #eee
+        }
+        h2 {
+            font-size: 22px;
+            padding-bottom: 0.6em;
+            margin-bottom: 0.6em;
+            margin-top: 2.5em;
+        }
+        h3 {
+            font-size: 18px;
+            margin-bottom: 0.3em;
+        }
+        h1 small a {
+            color: #98999C;
+            font-size: 15px;
+            font-weight: normal;
+            float: right;
+            position: absolute;
+            top: 15px;
+            right: 20px;
+        }
+        section {
+            background: #fff;
+            margin-bottom: 1%;
+            position: relative;
+            padding: 6% 8%;
+        }
+        blockquote {
+            border-left: 3px solid #d54e21;
+            font-size: 16px;
+            padding: 0 0 0 20px;
+            color: #d54e21;
+        }
+        blockquote a {
+            color: #d54e21;
+            font-weight: 500;
+        }
+        blockquote code {
+            color: #d54e21;
+        }
+        code, cite {
+            background-color: #F0F2F4;
+            border-radius: 3px;
+            color: #000;
+            font: inherit;
+            padding: 2px 7px;
+            white-space: normal;
+        }
+        a {
+            color: #1e8cbe;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #d54e21;
+        }
+        ul {
+            list-style: none;
+        }
+        ol {
+            list-style: number;
+        }
+        ol li {
+            color: #98999C;
+            margin-bottom: 5px;
+        }
+        ol li:last-child {
+            margin-bottom: 0;
+        }
+        p, ul, ol, blockquote  {
+            margin-bottom: 4%;
+        }
+        ul ul {
+            padding-top: 0;
+            margin-bottom: 0;
+            margin-left: 4%;
+        }
+        ul ul li:before {
+            content: '-';
+            display: inline-block;
+            padding-right: 2%;
+        }
+
+        ul.col-2 {
+            color: #98999C;
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+            -webkit-column-gap: 20px;
+            -moz-column-gap: 20px;
+            column-gap: 20px;
+        }
+
+        @media screen and (min-width: 500px) {
+            ul.col-2 {
+                -webkit-column-count: 3;
+                -moz-column-count: 3;
+                column-count: 3;
+                -webkit-column-gap: 20px;
+                -moz-column-gap: 20px;
+                column-gap: 20px;
+            }
+        }
+        nav {
+            background: #F0F1F3;
+            min-width: 215px;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+        nav:first-of-type a {
+            color: #d54e21;
+            border-radius: 0;
+        }
+        nav:first-of-type a:hover {
+            color: #d54e21;
+        }
+        nav:first-of-type a:before {
+            background-color: #d54e21;
+        }
+        nav.affix {
+            position: fixed;
+            top: 20px;
+        }
+        nav.affix-bottom {
+            position: absolute;
+        }
+        nav a {
+            border-radius: 3px;
+            font-size: 15px;
+            display: block;
+            cursor: pointer;
+            font-weight: 500;
+            position: relative;
+            text-decoration: none; 
+            padding: 10px 12px;
+            width: 100%;
+            padding-right: 3px;
+            border-bottom: 2px solid #fff;
+        }
+        nav a:before {
+            content: '';
+            width: 4px;
+            display: block;
+            left: 0;
+            position: absolute;
+            height: 100%;
+            display: none;
+            background: #1e8cbe;
+            top: 0;
+        }
+        nav a:hover {
+            background-color: #E6E8EA;
+            color: #1e8cbe;
+            text-decoration: underline;
+        }   
+        nav a:hover:before {
+            display: block;
+        }
+        nav a:last-of-type {
+            border-bottom: none;
+        }
+        .gist {
+            margin-top: 5.1%;
+            margin-bottom: 5%;
+        }
+        @media screen and (max-width: 1050px) {
+            body {
+                margin: 0 auto;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            header span {
+                display: none;
+            }
+            h1 {
+                font-size: 26px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }   
+        @media screen and (max-width: 514px) {
+            p, ul, ol, blockquote  {
+                margin-bottom: 8%;
+            }
+        }
+        .alert {
+            padding: 4% 4% 1px 4%;
+            background: #c23616;
+            color: white;
+            margin-bottom: 40px;
+        }
+        iframe {
+        	max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="Menu">
+        <header>
+            <h1>Jumpstart WordPress Theme Documentation</h1>
+            <p>Set-up & general guide to help you get the most out of your new WordPress theme. If you are still having trouble after reading this guide, <a href="https://www.tommusrhodus.com/contact/">head to our dedicated support area and create a ticket.</a>.</p>
+        </header>
+        <nav>
+            <a href="http://jumpstart.tommusdemos.wpengine.com" target="blank">Live Demo</a>
+            <a href="https://themeforest.net/item/jumpstart-modular-responsive-wordpress-theme-for-business/23863765">Changelog</a>
+            <a href="https://themeforest.net/item/jumpstart-modular-responsive-wordpress-theme-for-business/23863765">Buy Jumpstart WordPress Theme</a>
+			<a href="http://tommusrhodus.github.io/jumpstart-wordpress-theme/">Online Documentation Here</a>
+        </nav>
+        <nav>
+            <a href="#Welcome">Welcome</a>
+            <a href="#GettingStarted">Getting Started</a>
+            <a href="#FallbackSetup">Manual Setup</a>
+            <a href="#ThemeOptions">Theme Options</a>
+            <a href="#ThemeOverrides">Theme Overrides</a>
+            <a href="#CreatingMenus">Creating Menus</a>
+            <a href="#Widgets">Using Widgets</a>
+            <a href="#UsingElementor">Using Elementor Page Builder</a>
+            <a href="#SpecialCSSClasses">Special CSS Classes</a>
+            <a href="#CustomVCBlocks">Custom Page Builder Blocks</a>
+            <a href="#Shortcodes">Shortcodes</a>
+            <a href="#PostsOverview">Posts Overview</a>
+            <a href="#PortfolioOverview">Portfolio Overview</a>
+            <a href="#TeamOverview">Team Overview</a>
+            <a href="#DocumentationOverview">Documentation Overview</a>   
+            <a href="#ClientsOverview">Clients Overview</a>     
+            <a href="#TestimonialOverview">Testimonials Overview</a>            
+            <a href="#ContactForm7">Contact Form 7 Overview</a>
+            <a href="#Translating">Translating Your Theme</a>            
+            <a href="#Developers">Developing with Jumpstart</a>
+            <a href="#CommonIssues">Common Issues</a>
+            <a href="#Tweaks">Tweaks and Knowledgebase</a>
+            <a href="#SupportPolicy">Support Policy</a>
+            <a href="#Credits">Credits</a>
+
+        </nav>
+    </section>
+
+    <section id="Welcome">
+
+        <h1><a href="#Welcome">Welcome</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Welcome, and thank you for choosing a TommusRhodus theme.</p>
+        <p>We pride ourselves on providing excellent documentation so this guide will help you get the most from your new theme. We will take you through everything from installing the theme, to creating menus, using the theme options and much more. Please take a moment to read through the articles below to familiarise yourself with your new theme and of course, if you need any assistance along the way, <a href="https://www.tommusrhodus.com/contact/">we are always on hand to help.</a></p> 
+
+        <p>We also have a number of video tutorials which detail certain aspects of Jumpstart - check out our <a href="https://www.youtube.com/watch?v=9R2Y5Pqvksk&list=PL6VzCcNewv9gx2xX04oSYovh9DkyuWw-6" target="_blank">YouTube playlist here.</a></p>
+
+    </section>
+
+    <section id="GettingStarted">
+
+        <h1><a href="#GettingStarted">Getting Started</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>This document covers the installation, set up, and use of this theme, and provides answers and solutions to common problems. We encourage you to first read this document thoroughly if you are experiencing any difficulties before contacting our support team.</p> 
+
+        <h2>Uploading Through WordPress</h2>
+        <p>To upload through your Dashboard, select “Appearance” and then “Themes”. Next, select the “Install Themes” tab at the top of the page and then select the “Upload” link, right above the search field. Choose your file and select “Install Now”. Once the theme is fully uploaded and installed, click “Activate” to activate the WordPress theme.</p>
+        <blockquote>The theme files will be stored on your server in the <code>wp-content/themes</code> location.</blockquote>
+        <p>When uploading your theme with the installer, please ensure you are uploading the theme .zip file, not the entire package you downloaded. In this case, you will be uploading JumpstartWPtheme.zip.</p>
+
+        <img src="images/upload1.gif">
+
+        <h2>FTP Upload</h2>
+        <p>To manually upload your new WordPress theme, login with your credentials to your website and locate the wp-content folder in your WordPress install files. Upload the <b>un-zipped</b> Jumpstart WordPress Theme folder into the: wp-content/themes folder. </p>
+        <p>Once uploaded, activate the theme by heading to the “Themes” menu in the WordPress Dashboard. Locate the Jumpstart WordPress Theme theme and hit “Activate”.</p>
+
+        <p>Looking for a good, free FTP solution - why not try <a href="https://filezilla-project.org/">FileZilla</a> or <a href="https://cyberduck.io/?l=en">CyberDuck</a></p>
+
+        <br><br>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/7-8uPEmKCxE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+    </section>  
+
+    <section id="FallbackSetup">
+
+        <h1><a href="#FallbackSetup">Fallback Setup</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Although we take the greatest care to make the setup process as simple as possible, in some cases (esspecially on budget hosting where resources and at a bare minimum) you may experience an issue during the automatic setup - this section covers an alternative fallback method you can use should the need arise.</p> 
+
+        <h2>Importing The Demo Data Manually</h2>
+        <p>The first thing we need to clarify is setting up manually will mean things like widgets and theme options wont be setup for you - this is unavoidable but it will still give you a great base of all the demo pages ready for you to start building your new site.</p>
+        <p>To begin, install <a href="https://wordpress.org/plugins/attachment-importer/">Attachment Importer</a> - this is a lightweight importing tool for images and will be needed later on to import the demo images/media. Once done, head to Tools > Import and select WordPress to open up WPs built in importing tool (you may need to install it to continue)</p>
+
+        <img src="images/fallback1.gif">
+
+        <h2>Uploading the XML File</h2>
+        <p>Next you will need to locate the themes demo-data.xml file, this will be included in the Demo Data folder in your main download package. Once located select this file and hit "upload". Next you will see a page which will allow you to choose if you wish to assign the demo posts to another user, as well as an option to import all media and attachments - <strong>be sure to leave this box unchecked</strong> as we will be taking care of this later (and want the import to be as light as possible to be more likley to work)</p>
+
+        <img src="images/fallback2.png">
+
+        <p>Once done you will see a notice informing you the operation is complete.</p>
+
+        <img src="images/fallback3.png">
+
+        <h2>Importing the Images</h2>
+        <p>Now you have the pages imported, its time to tackle the images. If you have not already done so, install and activate <a href="https://wordpress.org/plugins/attachment-importer/">Attachment Importer</a> and once done, head to Tools > Import and select the newly added Attachment Import from the list of tools to continue.</p>       
+
+        <img src="images/fallback4.gif">
+        <br><br>
+
+        <p>Once here, locate the demo XML file and upload - once done hit "Import" and allow the process to take place. Depending on the number of images this process will take some time, so be sure to leave your browser alone whilst its happening (though you can of course open another tab and continue to browse freely)</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/W2oQ7iDc8u0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Final Step</h2>
+        <p>Ok so you now have the pages and images all imported and ready, you now need to simply setup your homepage/blog and menu. To do this head to Settings > Reading to choose your homepage and posts page, and then head to Appearance > Menus to assign the demo menus.</p>   
+
+        <h4>Important Note</h4>
+        <p>If you have imported the demo data, you will notice the "new" badge displayed in the coworking menu item looks a little different to the demo (see below)</p>
+
+        <img src="images/badge.png">
+        <br><br>
+
+        <p>This is because typically the import process does not account for HTML within menu items - to remedy this you can edit the menu item and replace the text with the following HTML</p>
+
+        <pre>&#x3C;span class=&#x22;badge badge-primary ml-2&#x22;&#x3E;New&#x3C;/span&#x3E;</pre>
+        <br>
+        <p>Once done you will see the following result</p>
+
+        <img src="images/badge2.png">
+        <br><br>
+
+
+    </section>  
+
+    <section id="ThemeOptions">
+
+        <h1><a href="#ThemeOptions">Theme Options</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>To access the theme options, you may select the Customize button in the admin bar dropdown or select <code>"Customize"</code> from the Dashboard menu. Note that you must be logged in as a site administrator in order to access the controls.</p>
+
+        <h2>Theme Options</h2>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/9R2Y5Pqvksk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>        
+
+        <img src="images/options1.png">
+        <br><br>
+
+        <h3>1 - Site Identity</h3>
+        <p>Here you can specify a site title, tagline and favicon (the small icon shown in your browser window) and more crucially, your own custom logo.</p>
+
+        <p>Setting up your own logo is very simple - just use the uploader provided and you can either choose an image from your media library, or upload something fresh, its up to you.</p>
+
+        <p>When uploading a logo the ideal size you should aim for is <strong>200px x 62px</strong></p>
+
+        <h3>2 - Colours</h3>
+        <p>This area allows you to specify the background colour used in your site.</p>
+
+        <h3>3 - Background Image</h3>
+        <p>Want to use your own image instead of a solid colour? No problem - simply use this option to upload your own image.</p>
+
+        <h3>4 - Menus & Widgets</h3>
+        <p>Here you can setup and edit your navigation and widgets, however, given the cramped nature of the WP Customizer, we recommend using WP's dedicated page found under the "Appearance" area in your Dashboard, which not olny gives you much more room to work with, but also a simpler interface - but this is of course totally up to you and your preference.</p>
+
+        <h3>5 - Additional CSS</h3>
+        <p>For those of you our there who want to apply your own custom bespoke styling, our themes provide you with a custom CSS area where you can quickly and easily apply your own custom CSS.</p>
+
+        <p>If your looking to make larger changes, or add a LOT of custom code, we highly recommend using a child theme - see below for details on getting this setup</p>
+
+        <h3>6 - Style Settings</h3>
+        <p>Here you will find Typography settings which allow you to customize the Google font used in your theme - see the video below for details on how this works. You will also find a range of colour options and header settings here.</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/GkZ5Qa9uu_c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h3>7 - Theme Colours</h3>
+        <p>This area allows you to control the themes colours as you wish - please note these can also be overridden on a per-page basis by using the page overrides also.</p>
+
+        <h3>8 - Header Settings</h3>
+        <p>This area gives you control of the global header layout as well as the header CTA button. Here you can choose the overall header layout (which can also be overridden on a per-page basis) as well as set the button label and URL for the header's CTA button (you can also leave these fields blank to remove the button if you prefer)</p>
+
+        <h3>8 - Page View Settings</h3>
+        <p>Here you can enable or disable breadcumbs on regular pages (pages which do not use a page builder or such).</p>
+
+        <h3>9 - Blog Single View Settings</h3>
+        <p>Here you can select a hero layout for single posts.</p>
+
+        <h3>10 - Blog Archive View Settings</h3>
+        <p>Here you choose a specific header style and logo for your blog archive, as well as specify the title and subtitle used within your blog archive page and a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
+
+        <h3>11 - Portfolio Single View Settings</h3>
+        <p>Here you can select a hero layout for single portfolio items which can also be overriden on a per-page basis.</p>
+
+        <h3>12 - Portfolio Archive View Settings</h3>
+        <p>Here you specify the title and subtitle used in your portfolio archive.</p>
+
+        <h3>13 - Documentation Single View Settings</h3>
+        <p>Here you control elements shown within single Documentation posts.</p>
+
+        <h3>14 - Documentation Archive View Settings</h3>
+        <p>Here you specify the title and subtitle used in your documentation archive, as well choose a specific header style and logo for your documentation archive</p>
+
+        <h3>15 - Test Archive View Settings</h3>
+        <p>Here you specify the title and subtitle used in your testimonial archive, as well choose a specific header style and logo for your team archive.</p>
+
+        <h3>16 - 404 Settings</h3>
+        <p>Here you can specify a logo to use on your 404 pages</p>
+
+        <h3>17 - WP Login Settings</h3>
+        <p>Here you choose a custom background image and logo to use within your sites login page.</p>
+
+        <h3>18 - Footer Settings</h3>
+        <p>This is where you can choose your desired footer layout as well as assign your social profile links, and customize your copyright text etc.</p>
+
+    </section>
+
+    <section id="ThemeOverrides">
+
+        <h1><a href="#ThemeOverrides">Theme Overrides</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>Whilst the above theme options allow you to set the layout for the header and footer globally (for all pages) - in some cases you may wish to override these settings for a specific page, this is where our Overrides area comes into play.</p>
+
+        <p>To use the theme overrides, simply scroll down when editing a page and you will see an additional metabox just like the one pictured below. To override the header or footer layout, simple select the alternative layout from the relevant dropdown and your all set.</p>
+
+        <p>You are also able to override the logo used within the page here too, ideal if your looking for a neat contrasting look to the page or such.</p>
+
+        <p>Finally, with the page overrides your also able to customize the themes colours on a per-page basis, simpy use the colour pickers provided to give you page a unique look and feel from all the others. For details and an example of these overrides, please see the video below.</p>
+
+        <img src="images/overrides.png">
+        <br><br>
+
+         <iframe width="660" height="345" src="https://www.youtube.com/embed/iSsWh1jhqKg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+    </section>
+
+    <section id="CreatingMenus">
+
+        <h1><a href="#CreatingMenus">Creating Menus</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>Creating menus within WordPress is very simple, and WP gives you a couple of methods to do this. We suggest using the dedicated menu page found under Appearance > Menus, however you are also free to use the menu management system found within the theme customizer/options page (Appearance > Customize)</p>
+
+        <h3>Creating Menus</h3>
+
+        <p>Once you’re viewing the Menus, the process of creating a menu is quite easy - essentially you create your menu item from the columns on the left (this can be a link to a post, page or other form of content) or even a custom link using the "Custom Link" menu item, you can see both in the image below. Once you have created your perfect menu, be sure to assign it to the Standard Navigation area and hit save to see it in action.</p>
+
+        <img src="images/menus1.png">
+        <br><br>
+
+        <h3>Creating Dropdown Menus</h3>
+        <p>An important aspect to note when using our theme is the process of creating dropdowns/sub menus is the top level item (the menu item in the main menu area you click/hover to activate the sub-menu) needs to be a "Custom Link" menu item with a URL of just # - this allows the dropdown to work fully on both desktops and mobiles where 'hovering' is not available.</p>
+
+        <h3>Creating Badges</h3>
+
+        <img src="images/badge.png">
+        <br><br>
+
+        <p>If you wish to recreate the menu badge you see in the demo (image above) you will need to use some basic HTML markup within your menu's label. Here is an example you can use.</p>
+
+        <pre>&#x3C;span class=&#x22;badge badge-primary ml-2&#x22;&#x3E;New&#x3C;/span&#x3E;</pre>
+        <br><br>
+
+        <img src="images/nav1.png">
+        <br><br>
+
+        <h3>Creating Menu Menus</h3>
+
+        <p>As you can see in our demo the theme includes a neat mega menu. Building your own is very simple - just like building a regular WP menu - but you do need to add some key text/classes which we will detail below</p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/AL6g5KCS58Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <p>To begin, start by creating your top-level item (the item the user clicks to open the sub menu) - being sure to use simply # as the URL like you see below </p>
+
+        <img src="images/megamenu1.png">
+        <br><br>
+
+        <p>Once done, in the newly added top level item's decription field, enter 'mega-menu'</p>
+
+        <img src="images/megamenu2.png">
+        <br><br>
+
+        <p>Now, lets add a column to our mega menu - just like a top level item, create a fresh menu item with the URL of just # - once done, add it as a child of your top level item and in the CSS class field, enter 'mega-menu-column' - like this</p>
+
+        <img src="images/megamenu3.png">
+        <br><br>
+
+        <p>From here you can simply add menu items to the column (as child items) as you wish - so your resulting menu will look something like this</p>
+
+        <img src="images/megamenu4.png">
+        <br><br>
+
+    </section> 
+
+    <section id="Widgets">
+
+        <h1><a href="#Widgets">Using Widgets</a><small><a href="#html">Back to Top</a></small></h1>
+        
+        <p>Jumpstart comes with two widgetized areas, the blog sidebar (shown to the side of the main post content within single posts) and the footer, which allows a number of columns of custom widget content for whatever you wish.</p>
+
+        <p>There are a couple of ways you can get started with widgets within WP, we recommomend the dedicated admin page found under Appearance > Widgets in your WP dashboard however you can also add/edit widgets to the available widgetized areas via Appearance > Customize however this can be a little cramped with your working with many widgets at once.</p>
+
+        <h2>Adding Widgets</h2>
+
+        <p>When you arrive at the Widget admin page, you will be presented with an array of widgets on the left and the widgetized areas on the right, to add a widget to one of the sidebars, simply drag your desired widget over to the sidebar of your choice on the right and your all set. From there simply edit the widget as you wish (depending on the widget your using of course) and your done.</p>
+
+        <img src="images/widgets1.png">
+        <br><br>
+
+    </section> 
+
+    <section id="UsingElementor">
+
+        <h1><a href="#UsingElementor">Using Elementor</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>The theme uses the popular WordPress page building tool, <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, to allow you to quickly and easily create stunning pages. We provide some example in our pre-built demo data for you to get started with and study, but creating your own from scratch is a breeze too.</p>
+
+        <p>To begin, create a fresh page under Pages > Add New in your WordPress Dashboard. From there, simply hit the large "Edit with Elementor" button to beging working with the plugin.</p>
+
+        <img src="images/elementor1.png">
+        <br><br>
+
+        <p>NOTE - When working with Elementor, be sure to select the "Elementor Full Width" template under your pages attributes as seen below.</p>
+
+        <img src="images/elementortemplate.png">
+        <br><br>
+
+        <p>Building is very simple with <a href="https://elementor.com/?ref=1798">Elementor Page Builder</a>, for a guide on how it works check out the Video Tutorial below. For more on how to use the plugin be sure to <a href="https://docs.elementor.com/?ref=1798" target="_blank">check out the Elementor Documention also.</a></p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/c5p-PSiEmDs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Adding Dividers to Sections</h2>
+
+        <p>As you see in the demo, the theme, together with Elementor, offers a choice of nice section dividers (shapes which help break up content and give your page a unique look and feel). To add a divider to a section, simply head to the section settings (you can access these by right clicking your section and choosing "Edit Section", then under the Style tab you will see the area titled "Shape Divider".</p>
+
+        <p>Here you can choose a shape from one of our custom range or a default Elementor shape, and customize it as you wish.</p>
+
+        <img src="images/dividers.png">
+        <br><br>
+
+        <h2>Adding Parallax to a Video or Image Background</h2>
+
+        <p>To enable parallax section, simply head to the section settings (you can access these by right clicking your section and choosing "Edit Section", then under the Style tab you will see the area where you can assign a background image or video to a section - once done, head to the Parallax tab (seen below) and enable the effect as you wish (its totally optional)</p>
+
+        <img src="images/parallax.png">
+        <br><br>
+
+        <h2>Adding Decorations</h2>
+
+        <p>Jumpstart offers a range of neat little decoration images which allow you spice up your content with ease. Adding them is just the same as adding a regular Elementor block to a section, simply locate the "section decoration" block (seen below) and drop it into your desired section. You can then go ahead and pick one of the decorations in the block settings and your all set</p>
+
+        <p><strong>Please note:</strong> you will notice the decorations may cover the content of the section of look a little out of place when initially added, to fix this you simply need to save and refresh your page. Once done they will appear as expected. </p>
+
+        <img src="images/decorations.png">
+        <br><br>
+
+    </section>
+
+   <section id="SpecialCSSClasses">
+
+        <h1><a href="#SpecialCSSClasses">Special CSS Classes</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Jumpstart uses a small number of special classes which apply unique attributes to a section/row. These range from making the text within an area light in appearance, to even applying a neat background  effect and more. These classes are detailed below and can be used by adding them to your section/rows by heading to a sections settings within Elementor, and under the Advanced Tab, you can enter any of the classes into the CSS Class field seen below.</p>
+
+        <img src="images/cssclasses.png"><br>
+
+        <code>bg-dark</code> - This class gives your area a dark background colour, ideal of offsetting against a white section.
+        <br><br>
+
+        <code>bg-white</code> - This class gives your section a light-white background colour.
+        <br><br>
+
+        <code>bg-primary</code> - This class gives your section a primary background colour which can be set in the theme options.
+        <br><br>
+
+        <code>bg-primary-2</code> - This class gives your section a primary 2 background colour which can be set in the theme options.
+        <br><br>
+
+        <code>bg-primary-3</code> - This class gives your section a primary 3 background colour which can be set in the theme options.
+        <br><br>
+
+        <code>bg-secondary</code> - This class gives your section a complimentary secondary background colour which can be set in the theme options.
+        <br><br>
+
+        <code>bg-light</code> - This class gives your section a light, off gray background colour.
+        <br><br>
+
+        <code>bg-white</code> - This class gives your section a light-white background colour.
+        <br><br>
+
+        <code>text-center</code> - This class centers the text within an element.
+        <br><br>
+
+        <h2>Reordering columns on mobile</h2>
+        <p>In some cases you may wish to reverse the order of some columns within a row when viewing on smaller screens, for this reason we have added some CSS classes which can be added to the columns CSS class field found under the advanced tab in a column's settings.</p>
+
+        <p>These classes are very simple, starting with - </p>       
+        <code>order-xs-1</code>         
+        <br><br>
+        <p>up to </p>
+        <code>order-xs-6</code>
+        <br><br>
+        <p>Simply add the class "order-xs-1" to the class field to have it appear 1st, "order-xs-2" to have it appear 2nd and so on.</p>
+
+
+    </section>
+
+   <section id="CustomIcons">
+
+        <h1><a href="#CustomIcons">Icon/Colour Classes</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Jumpstart is bundled with a number of high quality icons, for a reference of whats available and there classes please see the <a href="http://jumpstart.tommusdemos.wpengine.com/elements/all-icons/" target="_blank">Icon Cheatsheet.</a> This also includes reference to our selection of pre-defined colours you can apply to text/icons by adding the CSS class to them also.</p>
+
+        <br><br>
+
+    </section>
+
+    <section id="CustomVCBlocks">
+
+        <h1><a href="#CustomVCBlocks">Custom Elementor Page Builder Blocks</a><small><a href="#html">Back to Top</a></small></h1>
+        
+        <br><br>
+        
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/Pre28xJaY34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/Ywnc9ci2TQA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/DMEYpbwZtZk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+         <iframe width="660" height="345" src="https://www.youtube.com/embed/mkaxzJwI6u0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+         <iframe width="660" height="345" src="https://www.youtube.com/embed/t01QEMIFCSw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+    </section>
+
+    <section id="Shortcodes">
+
+        <h1><a href="#Shortcodes">Shortcodes</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Jumpstart is bundled with a small number of handy shortcodes, we will go though these below.</p>
+
+        <code>[jumpstart_login]</code> - This shortcode will output a simple WP login form which you can place in pages etc as you wish.
+        <br><br>
+
+        <code>[jumpstart_stars number_of_stars="5"]</code> - This shortcode is handy for creating review style stars, you can select the number of stars to display by altering the "number_of_stars" accordingly
+        <br><br>
+
+        <code>[jumpstart_video_lightbox_button media_url="YOUR YOUTUBE/VIMEO VIDEO URL HERE" button_style="icon" button_label="BUTON LABEL HERE"]</code> - This shortcode allows you to create a neat play icon (or button with play icon) which can open a youtube/vimeo video in a lightbox. Simply enter the video URL in the "media_url" parameter and if you want a button style of link (rather than just a play icon) you can add 'button_style="icon"' to the shortcode.
+        <br><br>
+
+        <code>[jumpstart_icon icon_name="Apple icon"]</code> - Use this shortcode to output an icon from the themes provided icons.
+        <br><br>
+
+        <code>[jumpstart_counter start="1" end="99999" counter_suffix="+"]</code> - This shortcode is used to creat a counter, you can specify a start and end point as well as an optional suffix (leave this out to have no suffix applied)
+        <br><br>
+        
+        <code>[jumpstart_icon_button label="LABEL HERE" icon_name="ICON HERE" button_style="large"]</code> - Here you can create a neat icon button. You can specify the label/button text with the "label" parameter, as well as the icon etc. To control the buttons target you can use <code>target="_self"</code> etc</
+
+    </section>
+
+    <section id="PostsOverview">
+
+        <h1><a href="#PostsOverview">Posts Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Creating Posts</h2>
+        <p>To begin creating posts head to Posts > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/posts1.gif">
+        <br><br>
+
+        <p>The process of creating posts with WordPress is very simple - you need to supply a title for your article, a featured image to represent your blog post throughout your site, and of course the main content itself via WP's post editor.</p>
+
+        <h2>Featured Image</h2>
+        <p>Upload a featured image - any size will work though we recommend <strong>1600 x 1000px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+
+    </section>
+
+    <section id="PortfolioOverview">
+
+        <h1><a href="#PortfolioOverview">Portfolio Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <br><br>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/nhSVDrvdFxU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Creating a Portfolio Project</h2>
+        <p>To begin creating your portfolio projects, head to Portfolio > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/portfolio1.gif">
+        <br><br>
+
+        <p>Creating a project is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), and gallery area where you can upload the images of your awesome project, and a featured image area (the featured image, much like a regular WP post, used to represent your portfolio item within Portfolio feeds and archive pages/searches etc. We will now detail each area.</p>
+
+        <h2>Portfolio Item Layout Options</h2>
+        <p>When creating a portfolio item, you will notice an area below the main content editor where you will see a few extra fields like you see in the image below - we will now take a look at what these do.</p>
+
+        <img src="images/portfolio1.png">
+        <br><br>
+
+        <h2>Gallery Images</h2>
+        <p>Here you can add your portfolio images to your project. The way these are displayed is dependant on the layout you choose, which I will detail below.</p>
+
+        <h2>Project Layout</h2>
+        <p>Once you have added you prjects images, you will need to choose a layout - this dropdown allows you to do to. One thing to bare in mind is if you are using the "Case Study" layout, the gallery images are not used so you will need to add your images to the main content area much like a regular WP post - for an example of this please see the video above.</p>
+
+        <h2>Portfolio Subtitle</h2>
+        <p>This allows you to enter a subtitle for you project which is shown above the main title when using the "Case Study" layout only.</p>
+
+        <img src="images/portfoliosubtitle.png">
+        <br><br>
+
+        <h2>Featured Image</h2>
+        <p>Upload a featured image. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+
+    </section>
+
+    <section id="TeamOverview">
+
+        <h1><a href="#TeamOverview">Team Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <br><br>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/KnWmQGOLVKI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Creating a Team post</h2>
+        <p>To begin adding a team post, head to Teamo > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/team1.gif">
+        <br><br>
+
+        <p>Creating a team item is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), as well as an additonal area where you can specify a job title, email address and social icons as you wish. We will now detail each area.</p>
+
+        <h2>Team Member Details</h2>
+        <p>This is where you you can enter the job title for your member, as well as an optional label.</p>
+
+        <img src="images/team1.png">
+        <br><br>
+
+        <h2>Featured Image</h2>
+        <p>Upload a featured image - any size will work though we recommend <strong>1200px x 900px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
+
+    </section>
+
+    <section id="DocumentationOverview">
+
+        <h1><a href="#DocumentationOverview">Documentation Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <br><br>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/sQCxZoXonO8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Creating a Documentation Post</h2>
+        <p>To begin creating your documentation item, head to Documentation > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/docs1.gif">
+        <br><br>
+
+        <p>Creating a documentation item is very similar to a regular WordPress post, simply add your content via the main content editing area and your all set.</p>
+
+        <h2>Adding Icons/Description to Documentation Categories</h2>
+        <p>As you can see in the Documentation archive page, each category of articles has a neat icon displayed next to it, as well as some descriptive text like you see below.</p>
+
+        <img src="images/docs1.png">
+        <br><br>
+
+        <p>To add your own icon head to Documentation > Documentation Categories and click edit on the category you want to apply an icon to, then within the editing screen enter the icon name you wish to use in the field provided, as well as your desired description text.</p>
+
+        <img src="images/docs2.png">
+        <br><br>
+
+        <p>For a list of available icons, see the <a href="http://jumpstart.tommusdemos.wpengine.com/elements/all-icons/" target="_blank">Icon Reference.</a></p>
+
+    </section>
+
+    <section id="ClientsOverview">
+
+        <h1><a href="#ClientsOverview">Clients Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <br><br>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/jrjcAEwV2pA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Creating a Client Post</h2>
+        <p>To begin creating your client item, head to Client > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/clientposts.gif">
+        <br><br>
+
+        <p>Creating a client item is very simple - just give your item a title (for internal reference only) as well as featured image (which should be your clients logo) and your all set.</p>
+
+    </section>
+
+    <section id="TestimonialOverview">
+
+        <h1><a href="#TestimonialOverview">Testimonial Overview</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <br><br>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/S6XV-ylb4oE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <h2>Creating a Testimonial Post</h2>
+        <p>To begin creating your client item, head to Testimonial > Add New in your WordPress Dashboard.</p>
+
+        <img src="images/testimonialposts.gif">
+        <br><br>
+
+        <p>Creating at testimonial item is very similar to a regular WordPress post, however you will see a few extra options below the main content editor as you can see below</p>
+
+        <img src="images/testimonials1.png">
+        <br><br>
+
+        <p>Here you can specify a logo which is shown in the testimonial archive page, as well as at the top of each single testimonial post. You can also add descriptions or other details via the "additional details" area. For an example of this please see the video above.</p>
+
+        <img src="images/testimonials2.png">
+        <br><br>
+
+    </section>
+
+    <section id="ContactForm7">
+
+        <h1><a href="#ContactForm7">Contact Form 7 Overview</a><small><a href="#html">Back to Top</a></small></h1>
+        
+        <p>Contact Form 7 is our recommended form plugin for WordPress. It is a simple but powerful form creator for WordPress. Here we will show you how to use Contact Form 7 to create and edit a basic form.</p>
+
+        <p>After Contact Form 7 is installed, you’ll find a new menu item in your WordPress admin area called Contact, here is where your forms and created and edited. From the Contact main screen, you will see your first contact form, its usually a default form called 'Contact Form 1' OR if you have imported the demo data for our theme you may see a few forms that we have made specially for you.</p>
+
+        <p>When creating and editing forms CF7 uses simple shortcodes (in WordPress these shortcodes are words surrounded by square brackets like “[” and “]”) - these shortcodes are generated via the 'Generate Tag' area (marked in red) and then placed in the form builder area (marked in blue) - you can also add your own HTML to the form for extra control.<p/>
+
+
+        <h2>Contact Form 7 Basics</h2>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/lmXHPXpppjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+        <h2>Form Styling</h2>
+
+        <p>The forms within Jumpstart are created using Contact Form 7 - one of the finest free form plugins for WP, however out of the box, you may notice forms not created/imported via the Demo Data look a little unstyled - the reason for this is our forms use simple HTML and CSS Classes to apply the styling you see in the demo.</p>
+
+		<p>What does this mean? Well, to create stylish, styled forms you will need to apply a few key CSS classes to your form elements - for an example of what this looks like, see the example form examples below.</p>
+
+		<strong>Contact Form Full - <a href="http://snippi.com/s/gffzda1">Browse Example</a></strong><br>
+		<strong>Home Coworking Form - <a href="http://snippi.com/s/eg1xrw1">Browse Example</a></strong><br>
+		<strong>Service Contact Form - <a href="http://snippi.com/s/kpqhdf2">Browse Example</a></strong><br>
+		<strong>Subscribe Form - <a href="http://snippi.com/s/8h69a2o">Browse Example</a></strong>
+
+		<br><br>
+
+		<p>You will notice overall, the code looks the same as any other form created with CF7, however you will see the submit button has a couple of CSS classes added to it. These classes give the button the stylish look to see in the demo so if your wish to recreate this, add the classes<code>btn--primary</code> and <code>btn</code> And your all set.</p> 
+
+		<h2>How to Add a Class to A form Element</h2>
+
+		<p>Adding a custom css as easy with CF7, to do this you can use the field provided when creating your form element, or manually add the class (or classes) if you wish. For an example of this see the animation below</p>
+
+		<img src="images/formstyling.gif">
+
+		<h2>Want the forms without ALL the demo data?</h2>
+
+		<p>Not a problem, you can grab the form XML data <strong><a href="form-demo-data.xml">here</a></strong></p>
+
+    </section>
+
+    <section id="Translating">
+
+        <h1><a href="#Translating">Translating Your Theme</a><small><a href="#html">Back to Top</a></small></h1>
+        
+        <p>As with any WordPress theme, translation is handled via the provided POT file and is generally quite straightforward - we cover this in detail over in <a href="http://www.tommusrhodus.com/wp-basics-translating-your-wordpress-theme?ref=docslink">this tutorial</a> - however the whole process can be simplified using an excellent plugin as <a href="https://wordpress.org/plugins/loco-translate/">Loco Translate</a></p>
+
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/8jkmz40oyXY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <br><br>
+
+        <p>If your looking for multilanguage support, we highly recommended <a href="https://wpml.org/">WPML</a></p>
+
+        <h2>How to Translate a page with WPML</h2>
+
+        <p>First locate the page you want to translate, and click the [+] next to the language you wish to translate to.</p> 
+
+        <img src="images/wpml1.png">
+        <br><br>
+
+		<p>You'll be taken to a page with a list of texts, translate these, and tick the "translations completed" box to that the progress gets to 100%..</p>
+
+		<img src="images/wpml2.gif">
+		<br><br>
+
+		<p>Save the page using the "save" or "save and close" button and your page is translated. To then translate any Elementor text, when viewing the translated page you wish to modify, simply this "edit with elementor" in the admin bar and edit the content as you wish.</p>
+
+    </section>
+    <section id="Developers">
+
+        <h1><a href="#Developers">Developing with Jumpstart</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Using a Child Theme</h2>
+        <p>If your looking to make changes to your theme such as bespoke CSS styling or modifying the loops, page templates or anything on the technical side of things - its important to use a child theme to ensure your modifications are not lost during theme updates. Thankfully, your main download package includes a ready-made child theme to get you started, however if your looking to create your own we recommend using a plugin such as <a href="https://en-gb.wordpress.org/plugins/orbisius-child-theme-creator/" target="_blank">Child Theme Creator by Orbisius</a> which makes the process as simple as just a few clicks.</p>
+
+        <p>For more on why usign a child theme is crucial in these situation, check out <a href="http://www.tommusrhodus.com/wp-basics-the-world-of-child-themes/" target="_blank">our blog post</a> for an in depth look.</p>
+
+    </section>
+
+    <section id="SupportPolicy">
+
+        <h1><a href="#SupportPolicy">Support Policy</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>Each purchase of our themes comes with 6 months of timely, 5 star rated support which you can extend at any time. Our themes do not come with free customization work. There is a very fine line between theme support and customization and whilst we’re happy and ready to help with your theme support questions, we cannot help your modify or extend the theme beyond its advertised features &amp; capabilities.</p>
+
+        <p>The information below will help you distinguish and understand the difference between theme support and customizations, if you then need to open a support ticket, a link is given.</p>
+
+        <h2>Theme Support Examples</h2>
+        <ul>
+            <li>“My theme is broken. I’ve followed all the necessary steps to set up the theme, including watching the install video or help documents included with the theme, but still can’t get the theme to work.”</li>
+            <li>“My theme does not work as advertised. I’ve set it up as directed, but for some reason my theme doesn’t look like it should.”</li>
+            <li>“My theme has an obvious bug which is preventing me from using the theme properly.”</li>
+        </ul>
+
+        <p>As you can see, theme support issues interfere with the intended functionality of the theme. These issues prevent the theme from working as advertised and will be supported.</p>
+
+        <h2>Theme Customization Examples</h2>
+        <ul>
+            <li>How do I change an element to look or function differently than shown in the demo?</li>
+            <li>I would like to add or remove an element from the header, what do I do?</li>
+            <li>A plugin not recommended/required by the theme on install breaks my theme or causes unexpected behavior.</li>
+        </ul>
+
+        <p>As you can see, theme customization has to do with preference, rather than actual theme issues. It requires customizing the theme beyond the scope of the theme’s intended style or functionality. These kinds of requests cannot be fulfilled in the support forums unfortunately.</p>
+
+        <p>We do offer paid customization services for our theme collection. Visit the <a href="https://www.tommusrhodus.com/request-a-quote/">Customizations page</a> to get started by posting your project on Codeable.</p>
+
+        <p><a class="btn btn--primary" href="https://tommusrhodus.ticksy.com" target="_blank" rel="noopener">I Understand The Above &amp; Need To Open A Ticket</a></p>
+
+        <h4>3rd Party Plugins</h4>
+
+        <p>In a perfect world, every theme would work with every plugin. But for every great plugin out there, you have a poorly coded one. Because of this, we simply can’t support every 3rd party plugin. However, we do try our best to make the themes compatible with all of the popular plugins out there, and it’s a continuing effort.</p>
+
+        <p>That being said, we don’t consider non-compatibility with plugins a theme support issue. The theme is only guaranteed to work as shown, with the plugins suggested. If you want to force compatibility, it will be up to you to work out a solution.</p>
+
+        <h2>WordPress Novices</h2>
+
+        <p>Everyone is a newbie at WordPress at one point or another. We’ve all struggled through the ins and outs of WordPress and spent many hours hunting down answers on Google and StackExchange.</p>
+
+        <p>Unfortunately, our support tickets are not the best place for asking general WordPress questions. We’d happily answer every question you could throw at us, if there was enough time in the day! So we ask that you focus on asking theme-specific questions while seeking help.</p>
+
+        <p>Please check out some of the links below to help with your general WordPress questions.</p>
+
+        <p><a href="http://codex.wordpress.org/Main_Page">WordPress.org Codex</a><br>
+        <a href="http://wordpress.org/support/">WordPress.org Forums</a><br>
+        <a href="http://wordpress.stackexchange.com/">WordPress Answers StackExchange</a></p>
+        <p><a class="btn btn--primary" href="https://tommusrhodus.ticksy.com" target="_blank" rel="noopener">I Understand The Above &amp; Need To Open A Ticket</a></p>
+
+    </section>  
+
+    <section id="Tweaks">
+
+        <h1><a href="#Tweaks">Tweaks and Knowledgebase</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>How can I launch a model from a custom bottom/cta button etc</h2>
+        <p>1st, add your modal to your page and in its settings, hide the button and grab its ID</p>
+        <img src="https://i.gyazo.com/d2088bbf56a4085f992cb57719d27ecd.png">
+        <br><br>
+        <p>We suggest to download the whole package, then unzip this to locate your theme.zip file (theme name will change based on your purchased theme.</p>
+        <img src="https://i.gyazo.com/2062471db80212b2b5333390d7998b6c.png">
+        <br><br>
+
+        <p>Once done, your going to need a little JS to make the magic happen, so install <a href="https://en-gb.wordpress.org/plugins/custom-css-js/">this plugin</a> and add to it the following</p>
+
+        <code>
+            jQuery(document).ready(function( $ ){
+              jQuery('body').on('click', '.navbar-container .btn.btn-primary', function() {
+                  var modalID = jQuery(this).attr('href');
+                  jQuery(modalID).modal({show: true});
+              });
+            });
+        </code>
+
+    </section>  
+
+    <section id="CommonIssues">
+
+        <h1><a href="#CommonIssues">Common Issues</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Im seeing a 'stylesheet missing' error when trying to upload the theme</h2>
+        <p>This means your uploading the wrong zip package. When downloading your theme you have the option to download the full package, or the installable theme itself.</p>
+        <img src="images/common1.png">
+        <br><br>
+        <p>Then drop that ID into Appearance > Customize > Header Settings > Button Settings like this, or as the URL to a custom button etc like this</p>
+        <img src="images/common2.png">
+        <br><br>
+
+        <h2>Im setting a max_upload_size error when trying to upload the theme</h2>
+        <p>Some hosting, especially budget shared hosting, may impose file restrictions for uploads to your WP site. In some cases, installing this plugin and work very well https://wordpress.org/plugins/increase-upload-max-filesize/ however if it fails to work then you will need to contact your hosts to they can make the necessary changes from there end as this is something we cannot help with from a theme point of view.We suggest 
+        <br><br>
+
+        <h2>Where is my Visual Composer/Revolution license?</h2>
+        <p>Premium plugins such as Revolution Slider and Visual Composer may request a purchase code during use. This code is used to provide direct updates and support from the plugins creator and as such is not required or supplied for use with our themes. Our frameworks have been carefully create to ensure your running the latest compatible version at all times, so you have no need to worry. Please note that we manually update our bundled plugins after thorough testing as some plugin updates have bugs that we are unhappy to ship to our customers, you will receive updates when we are happy with the plugin. If you truly require auto-updates from these plugins you’ll need to purchase a personal license, please note this is the same for each theme on themeforest that bundles plugins.</p>
+        <img src="images/common3.png">
+        <br><br>
+
+        <h2>Im getting a 404 error when viewing my portfolio/team etc</h2>
+        <p>WordPress is a rock solid platform in most cases, but sometimes, when working with a new theme for instance, it needs a little nudge to update all of its core settings etc. If your seeing a 404 error or such when trying to view your projects (or team members, clients etc - depending on your theme)</p>
+
+        <p>To do this, simply head to Settings > Permalinks and select 'postname' from the options listed - even if this option is already selected, hit save anyway (this is the nudge we mentioned earlier) - Once done, you should be able to view all your content with no issues.</p>
+
+        <p>Should any issues remain, this indicates an issue with your server (the theme has no control of this) so you will need to contact your hosts for further support.</p>
+
+        <img src="images/common4.png">
+        <br><br>
+
+        <h2>My site is slow to load, why?</h2>
+        <p>As you saw when viewing the demos of our themes, our themes are capable of being blisteringly fast, however you may ocationally notice your site is not loading as fast as you hoped – here you can find some tips for ensuring your new site loads as quickly as possible http://www.tommusrhodus.com/speeding-up-wordpress/</p>
+
+    </section>  
+
+    <section id="Credits">
+        <footer>
+            <a href="http://tommusrhodus.github.io/jumpstart-wordpress-theme/" target="blank">Jumpstart WordPress Theme</a>, Another Premium WordPress Theme by <a href="https://www.tommusrhodus.com" target="blank">TommusRhodus</a></a>
+        </footer>
+    </section>
+
+</body>
+</html>
