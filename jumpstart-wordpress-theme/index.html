@@ -271,9 +271,7 @@
             <a href="#PostsOverview">Posts Overview</a>
             <a href="#PortfolioOverview">Portfolio Overview</a>
             <a href="#TeamOverview">Team Overview</a>
-            <a href="#DocumentationOverview">Documentation Overview</a>   
-            <a href="#ClientsOverview">Clients Overview</a>     
-            <a href="#TestimonialOverview">Testimonials Overview</a>            
+            <a href="#DocumentationOverview">Documentation Overview</a>            
             <a href="#ContactForm7">Contact Form 7 Overview</a>
             <a href="#Translating">Translating Your Theme</a>            
             <a href="#Developers">Developing with Jumpstart</a>
@@ -355,23 +353,7 @@
         <br><br>
 
         <h2>Final Step</h2>
-        <p>Ok so you now have the pages and images all imported and ready, you now need to simply setup your homepage/blog and menu. To do this head to Settings > Reading to choose your homepage and posts page, and then head to Appearance > Menus to assign the demo menus.</p>   
-
-        <h4>Important Note</h4>
-        <p>If you have imported the demo data, you will notice the "new" badge displayed in the coworking menu item looks a little different to the demo (see below)</p>
-
-        <img src="images/badge.png">
-        <br><br>
-
-        <p>This is because typically the import process does not account for HTML within menu items - to remedy this you can edit the menu item and replace the text with the following HTML</p>
-
-        <pre>&#x3C;span class=&#x22;badge badge-primary ml-2&#x22;&#x3E;New&#x3C;/span&#x3E;</pre>
-        <br>
-        <p>Once done you will see the following result</p>
-
-        <img src="images/badge2.png">
-        <br><br>
-
+        <p>Ok so you now have the pages and images all imported and ready, you now need to simply setup your homepage/blog and menu. To do this head to Settings > Reading to choose your homepage and posts page, and then head to Appearance > Menus to assign the demo menus.</p>  
 
     </section>  
 
@@ -421,38 +403,31 @@
         <h3>8 - Header Settings</h3>
         <p>This area gives you control of the global header layout as well as the header CTA button. Here you can choose the overall header layout (which can also be overridden on a per-page basis) as well as set the button label and URL for the header's CTA button (you can also leave these fields blank to remove the button if you prefer)</p>
 
-        <h3>8 - Page View Settings</h3>
-        <p>Here you can enable or disable breadcumbs on regular pages (pages which do not use a page builder or such).</p>
+        <h3>9 - Blog Settings</h3>
+        <p>Here you choose a specific header style, layout and logo for your blog archive, as well as specify the title and subtitle used within your blog archive page and a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
 
-        <h3>9 - Blog Single View Settings</h3>
-        <p>Here you can select a hero layout for single posts.</p>
+        <h3>10 - Portfolio Settings</h3>
+        <p>Here you choose a specific header style, layout and logo for your portfolio archive. You will also find an area to enter your own Call To Action area content (shortcodes are allowed here).</p>
 
-        <h3>10 - Blog Archive View Settings</h3>
-        <p>Here you choose a specific header style and logo for your blog archive, as well as specify the title and subtitle used within your blog archive page and a field to specify your own Call To Action area content (shortcodes are allowed here).</p>
-
-        <h3>11 - Portfolio Single View Settings</h3>
-        <p>Here you can select a hero layout for single portfolio items which can also be overriden on a per-page basis.</p>
-
-        <h3>12 - Portfolio Archive View Settings</h3>
-        <p>Here you specify the title and subtitle used in your portfolio archive.</p>
-
-        <h3>13 - Documentation Single View Settings</h3>
-        <p>Here you control elements shown within single Documentation posts.</p>
-
-        <h3>14 - Documentation Archive View Settings</h3>
+        <h3>11 - Documentation Settings</h3>
         <p>Here you specify the title and subtitle used in your documentation archive, as well choose a specific header style and logo for your documentation archive</p>
 
-        <h3>15 - Test Archive View Settings</h3>
-        <p>Here you specify the title and subtitle used in your testimonial archive, as well choose a specific header style and logo for your team archive.</p>
+        <h5>Adding Search Terms to the Documentation Search Bar</h5>
+        <p> To add you own pre-defined search terms, simply enter then into the textarea provided in a comma seperated format, like this <strong>Search Term One, Search Term Two, Search Term Three</strong> and so on.</p>
 
-        <h3>16 - 404 Settings</h3>
+        <h3>12 - Careers Settings</h3>
+        <p>Here you can enter your own submission form shortcode which appears at the bottom of a single job post.</p>
+
+        <h3>13 - Footer Settings</h3>
+        <p>This is where you can choose your desired footer layout as well as assign your social profile links, and customize your copyright text etc.</p>
+
+        <h3>14 - 404 Settings</h3>
         <p>Here you can specify a logo to use on your 404 pages</p>
 
-        <h3>17 - WP Login Settings</h3>
+        <h3>15 - WP Login Settings</h3>
         <p>Here you choose a custom background image and logo to use within your sites login page.</p>
 
-        <h3>18 - Footer Settings</h3>
-        <p>This is where you can choose your desired footer layout as well as assign your social profile links, and customize your copyright text etc.</p>
+        
 
     </section>
 
@@ -465,7 +440,7 @@
 
         <p>You are also able to override the logo used within the page here too, ideal if your looking for a neat contrasting look to the page or such.</p>
 
-        <p>Finally, with the page overrides your also able to customize the themes colours on a per-page basis, simpy use the colour pickers provided to give you page a unique look and feel from all the others. For details and an example of these overrides, please see the video below.</p>
+        <p>Finally, with the page overrides your also able to customize the themes colours on a per-page basis, simpy use the colour pickers provided to give you page a unique look and feel from all the others. For details and an example of these overrides, please see the video below. Be sure to "activate" the custom colours by setting the override "Use Custom Colours?" to yes.</p>
 
         <img src="images/overrides.png">
         <br><br>
@@ -490,18 +465,15 @@
         <h3>Creating Dropdown Menus</h3>
         <p>An important aspect to note when using our theme is the process of creating dropdowns/sub menus is the top level item (the menu item in the main menu area you click/hover to activate the sub-menu) needs to be a "Custom Link" menu item with a URL of just # - this allows the dropdown to work fully on both desktops and mobiles where 'hovering' is not available.</p>
 
-        <h3>Creating Badges</h3>
+        <h3>Adding a Side Menu to a Page</h3>
+        <p>Adding a side menu to a page can be done via the Page Overrides area. Simply select the menu you wish to display under the "Select a menu to display" option in the page overrides area and your all set</p>
 
-        <img src="images/badge.png">
-        <br><br>
+        <h3>Creating a Smooth Scrolling Side Menu</h3>
+        <p>As you can see in our demo, the pages which use the side menu also have a neat smooth scroll effect. To add such a menu item simply head to Appearance > Menus and edit/create a menu, then add a Custom URL menu item with a URL based on the ID of the area you want to link to such as <strong>#section-id-here</strong>.</p>
 
-        <p>If you wish to recreate the menu badge you see in the demo (image above) you will need to use some basic HTML markup within your menu's label. Here is an example you can use.</p>
+        <p>Once done, add the class "smooth-scroll" via the menu items "custom class" field and your all set</p>
 
-        <pre>&#x3C;span class=&#x22;badge badge-primary ml-2&#x22;&#x3E;New&#x3C;/span&#x3E;</pre>
-        <br><br>
-
-        <img src="images/nav1.png">
-        <br><br>
+        <img src="images/smooth1.png">
 
     </section> 
 
@@ -666,10 +638,17 @@
         <code>[jumpstart_icon icon_name="Apple icon"]</code> - Use this shortcode to output an icon from the themes provided icons.
         <br><br>
 
-        <code>[jumpstart_counter start="1" end="99999" counter_suffix="+"]</code> - This shortcode is used to creat a counter, you can specify a start and end point as well as an optional suffix (leave this out to have no suffix applied)
+        <code>[jumpstart_counter start="1" end="99999" counter_suffix="+"]</code> - This shortcode is used to create a counter, you can specify a start and end point as well as an optional suffix (leave this out to have no suffix applied)
         <br><br>
         
-        <code>[jumpstart_icon_button label="LABEL HERE" icon_name="ICON HERE" button_style="large"]</code> - Here you can create a neat icon button. You can specify the label/button text with the "label" parameter, as well as the icon etc. To control the buttons target you can use <code>target="_self"</code> etc</
+        <code>[jumpstart_icon_button label="LABEL HERE" icon_name="ICON HERE" button_style="large"]</code> - Here you can create a neat icon button. You can specify the label/button text with the "label" parameter, as well as the icon etc. To control the buttons target you can use <code>target="_self"</code> etc
+        <br><br>
+
+         <code>[jumpstart_countdown date="2020/10/05"]</code> - This shortcode is used to create a countdown, simply specify a date in the format supplied in the example.
+        <br><br>
+
+        <code>[typed_textn prefix="This theme is " heading_size="h1" text_colour="text-regular" text="Text One, Text Two, Text Three" underline="yes"]</code> - This shortcode is used to create a a cool typed text effect. Simply use the format above being sure to supply the typed text in a comma seperated format.
+        <br><br>
 
     </section>
 
@@ -688,6 +667,11 @@
         <h2>Featured Image</h2>
         <p>Upload a featured image - any size will work though we recommend <strong>1600 x 1000px</strong>. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
 
+        <h2>Giving a Category a Custom Colour</h2>
+        <p>As you can see in the demo, each category is able to use a custom colour which is shown in its "pill" - to give your post category a custom colour simply head to Posts > Categories and use the "colour" field provided - seen below.</p>
+
+        <img src="images/category-colour.png">
+
     </section>
 
     <section id="PortfolioOverview">
@@ -695,7 +679,7 @@
         <h1><a href="#PortfolioOverview">Portfolio Overview</a><small><a href="#html">Back to Top</a></small></h1>
 
         <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/nhSVDrvdFxU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/rFlBxHtxbOo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
         <h2>Creating a Portfolio Project</h2>
@@ -706,23 +690,8 @@
 
         <p>Creating a project is very similar to a regular WordPress post, in essense you have the regular content area (where you could write a description of your work/your process etc), and gallery area where you can upload the images of your awesome project, and a featured image area (the featured image, much like a regular WP post, used to represent your portfolio item within Portfolio feeds and archive pages/searches etc. We will now detail each area.</p>
 
-        <h2>Portfolio Item Layout Options</h2>
-        <p>When creating a portfolio item, you will notice an area below the main content editor where you will see a few extra fields like you see in the image below - we will now take a look at what these do.</p>
-
-        <img src="images/portfolio1.png">
-        <br><br>
-
-        <h2>Gallery Images</h2>
-        <p>Here you can add your portfolio images to your project. The way these are displayed is dependant on the layout you choose, which I will detail below.</p>
-
-        <h2>Project Layout</h2>
-        <p>Once you have added you prjects images, you will need to choose a layout - this dropdown allows you to do to. One thing to bare in mind is if you are using the "Case Study" layout, the gallery images are not used so you will need to add your images to the main content area much like a regular WP post - for an example of this please see the video above.</p>
-
         <h2>Portfolio Subtitle</h2>
         <p>This allows you to enter a subtitle for you project which is shown above the main title when using the "Case Study" layout only.</p>
-
-        <img src="images/portfoliosubtitle.png">
-        <br><br>
 
         <h2>Featured Image</h2>
         <p>Upload a featured image. The images will be automatically applied throughout all the neccessary templates and loops so be sure to pick the best shot to reprasent your work.</p>
@@ -734,7 +703,7 @@
         <h1><a href="#TeamOverview">Team Overview</a><small><a href="#html">Back to Top</a></small></h1>
 
         <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/KnWmQGOLVKI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/w2x-AIAMk2Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
         <h2>Creating a Team post</h2>
@@ -761,7 +730,7 @@
         <h1><a href="#DocumentationOverview">Documentation Overview</a><small><a href="#html">Back to Top</a></small></h1>
 
         <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/sQCxZoXonO8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe width="660" height="345" src="https://www.youtube.com/embed/pF8Qkve1eVg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <br><br>
 
         <h2>Creating a Documentation Post</h2>
@@ -784,50 +753,6 @@
         <br><br>
 
         <p>For a list of available icons, see the <a href="http://jumpstart.tommusdemos.wpengine.com/elements/all-icons/" target="_blank">Icon Reference.</a></p>
-
-    </section>
-
-    <section id="ClientsOverview">
-
-        <h1><a href="#ClientsOverview">Clients Overview</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/jrjcAEwV2pA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-
-        <h2>Creating a Client Post</h2>
-        <p>To begin creating your client item, head to Client > Add New in your WordPress Dashboard.</p>
-
-        <img src="images/clientposts.gif">
-        <br><br>
-
-        <p>Creating a client item is very simple - just give your item a title (for internal reference only) as well as featured image (which should be your clients logo) and your all set.</p>
-
-    </section>
-
-    <section id="TestimonialOverview">
-
-        <h1><a href="#TestimonialOverview">Testimonial Overview</a><small><a href="#html">Back to Top</a></small></h1>
-
-        <br><br>
-        <iframe width="660" height="345" src="https://www.youtube.com/embed/S6XV-ylb4oE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <br><br>
-
-        <h2>Creating a Testimonial Post</h2>
-        <p>To begin creating your client item, head to Testimonial > Add New in your WordPress Dashboard.</p>
-
-        <img src="images/testimonialposts.gif">
-        <br><br>
-
-        <p>Creating at testimonial item is very similar to a regular WordPress post, however you will see a few extra options below the main content editor as you can see below</p>
-
-        <img src="images/testimonials1.png">
-        <br><br>
-
-        <p>Here you can specify a logo which is shown in the testimonial archive page, as well as at the top of each single testimonial post. You can also add descriptions or other details via the "additional details" area. For an example of this please see the video above.</p>
-
-        <img src="images/testimonials2.png">
-        <br><br>
 
     </section>
 
