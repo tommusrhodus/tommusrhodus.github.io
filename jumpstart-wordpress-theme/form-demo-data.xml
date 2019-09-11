@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.2.2" created="2019-08-29 09:57" -->
+	<!-- generator="WordPress/5.2.3" created="2019-09-11 17:01" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -26,71 +26,39 @@
 >
 
 <channel>
-	<title>Uptime WordPress Theme</title>
-	<link>http://uptime.tommusdemos.wpengine.com</link>
-	<description>Launch on time, look on-trend.</description>
-	<pubDate>Thu, 29 Aug 2019 09:57:12 +0000</pubDate>
+	<title>Jumpstart</title>
+	<link>http://jumpstart.tommusdemos.wpengine.com</link>
+	<description>Launch your site in style with Jumpstart</description>
+	<pubDate>Wed, 11 Sep 2019 17:01:38 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://tommusdemos.wpengine.com/</wp:base_site_url>
-	<wp:base_blog_url>http://uptime.tommusdemos.wpengine.com</wp:base_blog_url>
+	<wp:base_blog_url>http://jumpstart.tommusdemos.wpengine.com</wp:base_blog_url>
 
-		<wp:author><wp:author_id>2</wp:author_id><wp:author_login><![CDATA[tommusdemos]]></wp:author_login><wp:author_email><![CDATA[email@domain.com]]></wp:author_email><wp:author_display_name><![CDATA[Tom Rhodes]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
-	<wp:author><wp:author_id>5</wp:author_id><wp:author_login><![CDATA[danny]]></wp:author_login><wp:author_email><![CDATA[email@domain.com]]></wp:author_email><wp:author_display_name><![CDATA[Daniel Jones]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
+		<wp:author><wp:author_id>5</wp:author_id><wp:author_login><![CDATA[danny]]></wp:author_login><wp:author_email><![CDATA[contact@distinctivethemes.com]]></wp:author_email><wp:author_display_name><![CDATA[Daniel Jones]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
 				
-	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<generator>https://wordpress.org/?v=5.2.3</generator>
 
 <image>
-	<url>http://uptime.tommusdemos.wpengine.com/wp-content/uploads/sites/97/2019/05/envato.png</url>
-	<title>Uptime WordPress Theme</title>
-	<link>http://uptime.tommusdemos.wpengine.com</link>
+	<url>http://jumpstart.tommusdemos.wpengine.com/wp-content/uploads/sites/98/2019/08/envato.png</url>
+	<title>Jumpstart</title>
+	<link>http://jumpstart.tommusdemos.wpengine.com</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 
 		<item>
-		<title>Contact Form Full</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=4</link>
-		<pubDate>Mon, 20 May 2019 09:52:51 +0000</pubDate>
-		<dc:creator><![CDATA[tommusdemos]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=4</guid>
+		<title>Footer CTA Subscribe Form</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=6</link>
+		<pubDate>Tue, 06 Aug 2019 12:48:29 +0000</pubDate>
+		<dc:creator><![CDATA[danny]]></dc:creator>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=6</guid>
 		<description></description>
-		<content:encoded><![CDATA[<div class="row">
-    <div class="col-md-6">
-        <div class="form-group">
-            <label>Your Name *</label>
-            [text* your-name class:form-control]
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="form-group">
-            <label>Email Address Name *</label>
-            [email* your-email class:form-control placeholder "you@yoursite.com"]
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="form-group">
-            <label>Company Name</label>
-            [text company-name class:form-control]
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="form-group">
-            <label>Contact Number</label>
-            [tel your-tel class:form-control]
-        </div>
-    </div>
-    <div class="col-12">
-        <div class="form-group">
-            <label>Message:</label>
-            [textarea textarea class:form-control placeholder "How can we help?"]
-        </div>
-    </div>
-    <div class="col-12">
-        [submit class:btn class:btn-primary class:btn-loading "Send Enquiry"]
-    </div>
+		<content:encoded><![CDATA[<div class="d-flex flex-column flex-sm-row form-group">
+    [text* email class:form-control class:form-control-lg class:mr-sm-2 class:mb-2 class:mb-sm-0 class:h-100 placeholder "Email Address"][submit class:btn class:btn-lg class:btn-primary class:ml-sm-2 "Subscribe"]
 </div>
+<div class="text-muted">Only great content, we don’t share your email with third parties.</div>
 1
 
 
@@ -101,14 +69,14 @@
 
 
 
-tommus "[your-subject]"
-tommus <wordpress@uptime.tommusdemos.wpengine.com>
+Launch your site in style with Jumpstart "[your-subject]"
+Launch your site in style with Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
 [your-email]
 Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on tommus (http://uptime.tommusdemos.wpengine.com)
+This e-mail was sent from a contact form on Launch your site in style with Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
 Reply-To: hello@madeinebor.com
 
 
@@ -137,9 +105,9 @@ The e-mail address entered is invalid.
 The URL is invalid.
 The telephone number is invalid.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>4</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-20 09:52:51]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-20 09:52:51]]></wp:post_date_gmt>
+		<wp:post_id>6</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-06 12:48:29]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-06 12:48:29]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact-form-1]]></wp:post_name>
@@ -155,41 +123,10 @@ The telephone number is invalid.]]></content:encoded>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="row">
-    <div class="col-md-6">
-        <div class="form-group">
-            <label>Your Name *</label>
-            [text* your-name class:form-control]
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="form-group">
-            <label>Email Address Name *</label>
-            [email* your-email class:form-control placeholder "you@yoursite.com"]
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="form-group">
-            <label>Company Name</label>
-            [text company-name class:form-control]
-        </div>
-    </div>
-    <div class="col-md-6">
-        <div class="form-group">
-            <label>Contact Number</label>
-            [tel your-tel class:form-control]
-        </div>
-    </div>
-    <div class="col-12">
-        <div class="form-group">
-            <label>Message:</label>
-            [textarea textarea class:form-control placeholder "How can we help?"]
-        </div>
-    </div>
-    <div class="col-12">
-        [submit class:btn class:btn-primary class:btn-loading "Send Enquiry"]
-    </div>
-</div>]]></wp:meta_value>
+		<wp:meta_value><![CDATA[<div class="d-flex flex-column flex-sm-row form-group">
+    [text* email class:form-control class:form-control-lg class:mr-sm-2 class:mb-2 class:mb-sm-0 class:h-100 placeholder "Email Address"][submit class:btn class:btn-lg class:btn-primary class:ml-sm-2 "Subscribe"]
+</div>
+<div class="text-muted">Only great content, we don’t share your email with third parties.</div>]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
@@ -197,11 +134,11 @@ The telephone number is invalid.]]></content:encoded>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:23:"tommus "[your-subject]"";s:6:"sender";s:50:"tommus <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:125:"Message Body:
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:57:"Launch your site in style with Jumpstart "[your-subject]"";s:6:"sender";s:87:"Launch your site in style with Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:162:"Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on tommus (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+This e-mail was sent from a contact form on Launch your site in style with Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
@@ -221,46 +158,33 @@ This e-mail was sent from a contact form on tommus (http://uptime.tommusdemos.wp
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Subscribe Form</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=450</link>
-		<pubDate>Wed, 29 May 2019 12:46:03 +0000</pubDate>
+		<title>Simple Subscribe Form</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=217</link>
+		<pubDate>Thu, 08 Aug 2019 16:22:55 +0000</pubDate>
 		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=450</guid>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=217</guid>
 		<description></description>
-		<content:encoded><![CDATA[<div class="form-row">
-    <div class="col-12">
-        [email email class:form-control class:mb-2 placeholder "Enter your email address"]
-    </div>
-    <div class="col-12">
-        [submit class:btn class:btn-primary class:btn class:col-12 "Notify Me"]
-    </div>
+		<content:encoded><![CDATA[<div class="d-flex flex-column flex-sm-row form-group">
+    [text* email class:form-control class:form-control-lg class:mr-sm-2 class:mb-2 class:mb-sm-0 class:h-100 placeholder "Email Address"][submit class:btn class:btn-lg class:btn-primary class:ml-sm-2 "Subscribe"]
 </div>
-<small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy Policy</a></small>
 1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
 
 
 
 
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
+
+
+
+
+
+Launch your site in style with Jumpstart "[your-subject]"
+Launch your site in style with Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
 [your-email]
 Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
+This e-mail was sent from a contact form on Launch your site in style with Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
 Reply-To: hello@madeinebor.com
 
 
@@ -289,12 +213,149 @@ The e-mail address entered is invalid.
 The URL is invalid.
 The telephone number is invalid.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>450</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 12:46:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 12:46:03]]></wp:post_date_gmt>
+		<wp:post_id>217</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-08 16:22:55]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-08 16:22:55]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[subscribe-form]]></wp:post_name>
+		<wp:post_name><![CDATA[footer-cta-subscribe-form_copy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<div class="d-flex flex-column flex-sm-row form-group">
+    [text* email class:form-control class:form-control-lg class:mr-sm-2 class:mb-2 class:mb-sm-0 class:h-100 placeholder "Email Address"][submit class:btn class:btn-lg class:btn-primary class:ml-sm-2 "Subscribe"]
+</div>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:57:"Launch your site in style with Jumpstart "[your-subject]"";s:6:"sender";s:87:"Launch your site in style with Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:162:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Launch your site in style with Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:4:{s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>Job Application Form</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=759</link>
+		<pubDate>Wed, 14 Aug 2019 12:12:17 +0000</pubDate>
+		<dc:creator><![CDATA[danny]]></dc:creator>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=759</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="form-row">
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Full Name</label>
+			[text* full-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Email Address</label>
+			[email email-address class:form-control]
+		</div>
+	</div>
+</div>
+<div class="form-group">
+	<label>Attach Resumé</label>
+	<div class="custom-file">
+		[file AttachResume limit:100 class:custom-file-input]
+<label class="custom-file-label" for="AttachResume">Choose file</label>
+	</div>
+</div>
+<div class="form-group">
+  <label for="job-message">Why do you want to work here?</label>
+  [textarea main-text class:form-control placeholder "Type here"]
+</div>
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+  <div class="custom-control custom-checkbox mb-3 mb-md-0">
+	<input type="checkbox" class="custom-control-input" id="job-agree">
+	<label class="custom-control-label" for="job-agree">I agree to the <a target="_blank" href="#" rel="noopener noreferrer">Terms &amp; Conditions</a>
+	</label>
+  </div>
+  [submit class:btn class:btn-primary "Submit Application"]
+</div>
+1
+
+
+
+
+
+
+
+
+
+Jumpstart "[your-subject]"
+Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
+Reply-To: hello@madeinebor.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+Your entered code is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>759</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-14 12:12:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-14 12:12:17]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[job-application-form]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -308,1407 +369,37 @@ The telephone number is invalid.]]></content:encoded>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
 		<wp:meta_value><![CDATA[<div class="form-row">
-    <div class="col-12">
-        [email email class:form-control class:mb-2 placeholder "Enter your email address"]
-    </div>
-    <div class="col-12">
-        [submit class:btn class:btn-primary class:btn class:col-12 "Notify Me"]
-    </div>
-</div>
-<small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy Policy</a></small>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Subscribe Form 2</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=451</link>
-		<pubDate>Wed, 29 May 2019 12:53:24 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=451</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="d-md-flex mt-4 mb-4">
-[email email class:form-control class:form-control-lg class:mr-sm-1 class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-[submit class:btn class:btn-primary-3 class:btn-lg class:ml-sm-1 class:mt-md-0 class:ml-md-2 "Subscribe"]
-</div>
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>451</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 12:53:24]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 12:53:24]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[subscribe-form-2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="d-md-flex mt-4 mb-4">
-[email email class:form-control class:form-control-lg class:mr-sm-1 class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-[submit class:btn class:btn-primary-3 class:btn-lg class:ml-sm-1 class:mt-md-0 class:ml-md-2 "Subscribe"]
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Subscribe Form Promo</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=452</link>
-		<pubDate>Wed, 29 May 2019 12:55:45 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=452</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="d-md-flex mt-4 mb-4">
-[email email class:form-control class:form-control-lg class:mr-sm-1 class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-[submit class:btn class:btn-primary class:btn-lg class:ml-sm-1 class:mt-md-0 class:ml-md-2 "Redeem"]
-</div>
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>452</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 12:55:45]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 12:55:45]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[subscribe-form-promo]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="d-md-flex mt-4 mb-4">
-[email email class:form-control class:form-control-lg class:mr-sm-1 class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-[submit class:btn class:btn-primary class:btn-lg class:ml-sm-1 class:mt-md-0 class:ml-md-2 "Redeem"]
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Modal Contact Form</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=453</link>
-		<pubDate>Wed, 29 May 2019 12:57:43 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=453</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="mt-4 mb-4">
-    <div class="form-group">[text* your-name class:form-control placeholder "Your Name"]</div>
-    <div class="form-group">[email* your-email class:form-control placeholder "your@email.com"]</div>
-    <div class="form-group">[textarea textarea-111 x4 class:form-control placeholder "Type message here"]</div>
-    <div>[submit class:btn class:btn-primary class:col-12 "Send"]</div>
-</div>
-1
-
-
-
-
-
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>453</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 12:57:43]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 12:57:43]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[modal-contact-form]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="mt-4 mb-4">
-    <div class="form-group">[text* your-name class:form-control placeholder "Your Name"]</div>
-    <div class="form-group">[email* your-email class:form-control placeholder "your@email.com"]</div>
-    <div class="form-group">[textarea textarea-111 x4 class:form-control placeholder "Type message here"]</div>
-    <div>[submit class:btn class:btn-primary class:col-12 "Send"]</div>
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:4:{s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Form Group</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=457</link>
-		<pubDate>Wed, 29 May 2019 16:08:18 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=457</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="form-group">
-    <label for="input-group-example">Input Label:</label>
-    [text input-text id:input-group-example class:form-control placeholder "Placeholder text"]
-    <small id="input-group-help" class="form-text text-muted">Place some helper text here.</small>
-</div>
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>457</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 16:08:18]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 16:08:18]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[form-group]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="form-group">
-    <label for="input-group-example">Input Label:</label>
-    [text input-text id:input-group-example class:form-control placeholder "Placeholder text"]
-    <small id="input-group-help" class="form-text text-muted">Place some helper text here.</small>
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Input Sizes</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=458</link>
-		<pubDate>Wed, 29 May 2019 16:11:50 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=458</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="form-group">
-    [text input-standard class:form-control placeholder "Standard placeholder text"]
-</div>
-<div class="form-group">
-   [text input-standard class:form-control class:form-control-sm placeholder "Small placeholder text"]
-</div>
-<div class="form-group">
-   [text input-standard class:form-control class:form-control-lg placeholder "Large placeholder text"]
-</div>
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>458</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 16:11:50]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 16:11:50]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[untitled]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="form-group">
-    [text input-standard class:form-control placeholder "Standard placeholder text"]
-</div>
-<div class="form-group">
-   [text input-standard class:form-control class:form-control-sm placeholder "Small placeholder text"]
-</div>
-<div class="form-group">
-   [text input-standard class:form-control class:form-control-lg placeholder "Large placeholder text"]
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Textarea</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=460</link>
-		<pubDate>Wed, 29 May 2019 16:14:22 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=460</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="form-group">
-    <label for="textarea-example-1">Example textarea</label>
-    [textarea textarea id:form-control class:form-control 40x3]
-</div>
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>460</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 16:14:22]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 16:14:22]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[textarea]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="form-group">
-    <label for="textarea-example-1">Example textarea</label>
-    [textarea textarea id:form-control class:form-control 40x3]
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Select</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=461</link>
-		<pubDate>Wed, 29 May 2019 16:16:33 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=461</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="form-group">
-    [select select class:custom-select "One" "Two" "Three"]
-</div>
-<div class="form-group">
-    [select select class:custom-select class:custom-select-lg "One" "Two" "Three"]
-</div>
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>461</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 16:16:33]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 16:16:33]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[select]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="form-group">
-    [select select class:custom-select "One" "Two" "Three"]
-</div>
-<div class="form-group">
-    [select select class:custom-select class:custom-select-lg "One" "Two" "Three"]
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Checkbox</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=462</link>
-		<pubDate>Wed, 29 May 2019 16:19:02 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=462</guid>
-		<description></description>
-		<content:encoded><![CDATA[[checkbox checkbox-833 "Check this custom checkbox"]
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>462</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 16:19:02]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 16:19:02]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[checkbox]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[[checkbox checkbox-833 "Check this custom checkbox"]]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Radio</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=463</link>
-		<pubDate>Wed, 29 May 2019 16:23:28 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=463</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="form-group">
-    [radio radio-908 default:1 "Toggle this custom radio" "Or toggle this other custom radio"]
-</div>
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>463</wp:post_id>
-		<wp:post_date><![CDATA[2019-05-29 16:23:28]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-05-29 16:23:28]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[radio]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="form-group">
-    [radio radio-908 default:1 "Toggle this custom radio" "Or toggle this other custom radio"]
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Home Coworking Form</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=570</link>
-		<pubDate>Fri, 14 Jun 2019 12:53:05 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=570</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="card card-body">
-    <div class="row">
-        <div class="col-lg">
-            <div class="form-group mb-lg-0">
-                  [select dropdown class:form-control class:form-control-lg class:custom-select class:custom-select-lg "Location" "Castle Hill" "Kensington" "Hawthorn"]
-            </div>
-        </div>
-        <div class="col-lg">
-            <div class="form-group mb-lg-0">
-                 [date date-time class:form-control class:form-control-lg class:flatpickr-input placeholder "Date and time"] 
-            </div>
-        </div>
-        <div class="col-lg-auto">
-            [submit class:btn class:btn-lg class:btn-primary class:btn-block "Find a desk"]
-        </div>
-    </div>
-</div>
-1
-
-
-
-
-
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>570</wp:post_id>
-		<wp:post_date><![CDATA[2019-06-14 12:53:05]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-06-14 12:53:05]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[home-coworking-form]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="card card-body">
-    <div class="row">
-        <div class="col-lg">
-            <div class="form-group mb-lg-0">
-                  [select dropdown class:form-control class:form-control-lg class:custom-select class:custom-select-lg "Location" "Castle Hill" "Kensington" "Hawthorn"]
-            </div>
-        </div>
-        <div class="col-lg">
-            <div class="form-group mb-lg-0">
-                 [date date-time class:form-control class:form-control-lg class:flatpickr-input placeholder "Date and time"] 
-            </div>
-        </div>
-        <div class="col-lg-auto">
-            [submit class:btn class:btn-lg class:btn-primary class:btn-block "Find a desk"]
-        </div>
-    </div>
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:4:{s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Service Contact Form</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=584</link>
-		<pubDate>Fri, 14 Jun 2019 16:51:31 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=584</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div>
-	<div class="form-group">
-		<label>Your Name</label>
-                [text your-name class:form-control class:form-control-lg placeholder "Type your name"]
-	</div>
-	<div class="form-group">
-		<label>Email Address</label>
-                [email your-email class:form-control class:form-control-lg placeholder "you@yourdomain.com"]
-	</div>
-	<div class="row mb-2">
-		<div class="col-12">
-			<div class="form-group mb-1">
-				<label>Business Type:</label>
-			</div>
-		</div>
-		<div class="col">
-			[radio radio-571 class:custom-radio-cols "Freelancer" "Agency"]
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Full Name</label>
+			[text* full-name class:form-control]
 		</div>
 	</div>
-	<div class="form-group text-center">
-                [submit class:btn class:btn-lg class:btn-primary class:btn-block class:mb-2 "Start your 14 day trial"] <small class="text-muted">You’ll recieve your first lesson via email in less than a minute.</small>
-	</div>
-</div>
-1
-
-
-
-
-
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>584</wp:post_id>
-		<wp:post_date><![CDATA[2019-06-14 16:51:31]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-06-14 16:51:31]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[service-contact-form]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div>
-	<div class="form-group">
-		<label>Your Name</label>
-                [text your-name class:form-control class:form-control-lg placeholder "Type your name"]
-	</div>
-	<div class="form-group">
-		<label>Email Address</label>
-                [email your-email class:form-control class:form-control-lg placeholder "you@yourdomain.com"]
-	</div>
-	<div class="row mb-2">
-		<div class="col-12">
-			<div class="form-group mb-1">
-				<label>Business Type:</label>
-			</div>
-		</div>
-		<div class="col">
-			[radio radio-571 class:custom-radio-cols "Freelancer" "Agency"]
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Email Address</label>
+			[email email-address class:form-control]
 		</div>
 	</div>
-	<div class="form-group text-center">
-                [submit class:btn class:btn-lg class:btn-primary class:btn-block class:mb-2 "Start your 14 day trial"] <small class="text-muted">You’ll recieve your first lesson via email in less than a minute.</small>
+</div>
+<div class="form-group">
+	<label>Attach Resumé</label>
+	<div class="custom-file">
+		[file AttachResume limit:100 class:custom-file-input]
+<label class="custom-file-label" for="AttachResume">Choose file</label>
 	</div>
+</div>
+<div class="form-group">
+  <label for="job-message">Why do you want to work here?</label>
+  [textarea main-text class:form-control placeholder "Type here"]
+</div>
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+  <div class="custom-control custom-checkbox mb-3 mb-md-0">
+	<input type="checkbox" class="custom-control-input" id="job-agree">
+	<label class="custom-control-label" for="job-agree">I agree to the <a target="_blank" href="#">Terms &amp; Conditions</a>
+	</label>
+  </div>
+  [submit class:btn class:btn-primary "Submit Application"]
 </div>]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
@@ -1717,11 +408,11 @@ The telephone number is invalid.]]></content:encoded>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:26:"Jumpstart "[your-subject]"";s:6:"sender";s:56:"Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:131:"Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
@@ -1741,374 +432,50 @@ This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.
 		</wp:postmeta>
 							</item>
 					<item>
-		<title>Subscribe Form 3</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=646</link>
-		<pubDate>Thu, 20 Jun 2019 14:38:54 +0000</pubDate>
+		<title>Contact Form</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=773</link>
+		<pubDate>Wed, 14 Aug 2019 16:13:45 +0000</pubDate>
 		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=646</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="form-row flex-column flex-md-row mb-2">
-<div class="col">
-[email email class:form-control class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-</div>
-<div class="col-auto">
-[submit class:btn class:btn-primary class:btn-loading class:btn-block "Subscribe"]
-</div>
-</div>
-<small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy Policy</a>
-            </small>
-1
-
-
-
-
-
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>646</wp:post_id>
-		<wp:post_date><![CDATA[2019-06-20 14:38:54]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-06-20 14:38:54]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[subscribe-form-3]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="form-row flex-column flex-md-row mb-2">
-<div class="col">
-[email email class:form-control class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-</div>
-<div class="col-auto">
-[submit class:btn class:btn-primary class:btn-loading class:btn-block "Subscribe"]
-</div>
-</div>
-<small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy Policy</a>
-            </small>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:4:{s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Subscribe Form 4</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=731</link>
-		<pubDate>Fri, 28 Jun 2019 10:58:17 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=731</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="d-md-flex mt-4 mb-4">
-[email email class:form-control class:form-control-lg class:mr-sm-1 class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-[submit class:btn class:btn-primary class:btn-lg class:ml-sm-1 class:mt-md-0 class:ml-md-2 "Get Notified"]
-</div>
-1
-
-
-
-
-
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>731</wp:post_id>
-		<wp:post_date><![CDATA[2019-06-28 10:58:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-06-28 10:58:17]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[subscribe-form-4]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="d-md-flex mt-4 mb-4">
-[email email class:form-control class:form-control-lg class:mr-sm-1 class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-[submit class:btn class:btn-primary class:btn-lg class:ml-sm-1 class:mt-md-0 class:ml-md-2 "Get Notified"]
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:4:{s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Subscribe Form 3</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=739</link>
-		<pubDate>Tue, 02 Jul 2019 16:31:03 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=739</guid>
-		<description></description>
-		<content:encoded><![CDATA[<div class="d-md-flex mt-4 mb-2">
-[email email class:form-control class:form-control-lg class:mr-sm-1 class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-[submit class:btn class:btn-primary class:btn-lg class:ml-sm-1 class:mt-md-0 class:ml-md-2 "Get Started"]
-</div>
-1
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-hello@madeinebor.com
-From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: [your-email]
-
-
-
-
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
-[your-email]
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
-Reply-To: hello@madeinebor.com
-
-
-
-Thank you for your message. It has been sent.
-There was an error trying to send your message. Please try again later.
-One or more fields have an error. Please check and try again.
-There was an error trying to send your message. Please try again later.
-You must accept the terms and conditions before sending your message.
-The field is required.
-The field is too long.
-The field is too short.
-The date format is incorrect.
-The date is before the earliest one allowed.
-The date is after the latest one allowed.
-There was an unknown error uploading the file.
-You are not allowed to upload files of this type.
-The file is too big.
-There was an error uploading the file.
-The number format is invalid.
-The number is smaller than the minimum allowed.
-The number is larger than the maximum allowed.
-The answer to the quiz is incorrect.
-Your entered code is incorrect.
-The e-mail address entered is invalid.
-The URL is invalid.
-The telephone number is invalid.]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>739</wp:post_id>
-		<wp:post_date><![CDATA[2019-07-02 16:31:03]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-07-02 16:31:03]]></wp:post_date_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[subscribe-form-2_copy]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
-		<wp:meta_value><![CDATA[<div class="d-md-flex mt-4 mb-2">
-[email email class:form-control class:form-control-lg class:mr-sm-1 class:mb-2 class:mb-sm-0 placeholder "Enter your email address"]
-[submit class:btn class:btn-primary class:btn-lg class:ml-sm-1 class:mt-md-0 class:ml-md-2 "Get Started"]
-</div>]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:197:"From: [your-name] <[your-email]>
-Subject: [your-subject]
-
-Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
-[your-message]
-
--- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
-		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title>Subscribe Widget</title>
-		<link>http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=795</link>
-		<pubDate>Mon, 08 Jul 2019 12:24:23 +0000</pubDate>
-		<dc:creator><![CDATA[danny]]></dc:creator>
-		<guid isPermaLink="false">http://uptime.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=795</guid>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=773</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="form-row">
-    <div class="col-12">
-        [email email class:form-control class:mb-2 placeholder "Email Address"]
-    </div>
-    <div class="col-12">
-        [submit class:btn class:btn-primary class:btn class:col-12 "Subscribe"]
-    </div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Full Name</label>
+			[text* full-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Email Address</label>
+			[email email-address class:form-control]
+		</div>
+	</div>
 </div>
-<small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy Policy</a></small>
+<div class="form-row">
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Company (optional)</label>
+			[text company-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Phone (optional)</label>
+			[text phone class:form-control]
+		</div>
+	</div>
+</div>
+<div class="form-group">
+  <label for="job-message">Why do you want to work here?</label>
+  [textarea main-text class:form-control placeholder "Type here"]
+</div>
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+  <div class="mb-3 mb-md-0">
+        [acceptance acceptance optional] I agree to the <a target="_blank" href="#" rel="noopener noreferrer">Terms &amp; Conditions</a>[/acceptance]
+  </div>
+  [submit class:btn class:btn-primary "Send Message"]
+</div>
 1
 
 
@@ -2119,14 +486,14 @@ This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.
 
 
 
-Leap WordPress Theme "[your-subject]"
-Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>
+Jumpstart "[your-subject]"
+Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
 [your-email]
 Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
 Reply-To: hello@madeinebor.com
 
 
@@ -2155,12 +522,12 @@ The e-mail address entered is invalid.
 The URL is invalid.
 The telephone number is invalid.]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>795</wp:post_id>
-		<wp:post_date><![CDATA[2019-07-08 12:24:23]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2019-07-08 12:24:23]]></wp:post_date_gmt>
+		<wp:post_id>773</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-14 16:13:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-14 16:13:45]]></wp:post_date_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[subscribe-widget]]></wp:post_name>
+		<wp:post_name><![CDATA[job-application-form_copy]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
@@ -2174,14 +541,43 @@ The telephone number is invalid.]]></content:encoded>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
 		<wp:meta_value><![CDATA[<div class="form-row">
-    <div class="col-12">
-        [email email class:form-control class:mb-2 placeholder "Email Address"]
-    </div>
-    <div class="col-12">
-        [submit class:btn class:btn-primary class:btn class:col-12 "Subscribe"]
-    </div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Full Name</label>
+			[text* full-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Email Address</label>
+			[email email-address class:form-control]
+		</div>
+	</div>
 </div>
-<small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy Policy</a></small>]]></wp:meta_value>
+<div class="form-row">
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Company (optional)</label>
+			[text company-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Phone (optional)</label>
+			[text phone class:form-control]
+		</div>
+	</div>
+</div>
+<div class="form-group">
+  <label for="job-message">Why do you want to work here?</label>
+  [textarea main-text class:form-control placeholder "Type here"]
+</div>
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+  <div class="mb-3 mb-md-0">
+        [acceptance acceptance optional] I agree to the <a target="_blank" href="#">Terms &amp; Conditions</a>[/acceptance]
+  </div>
+  [submit class:btn class:btn-primary "Send Message"]
+</div>]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
@@ -2189,11 +585,760 @@ The telephone number is invalid.]]></content:encoded>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:37:"Leap WordPress Theme "[your-subject]"";s:6:"sender";s:64:"Leap WordPress Theme <wordpress@uptime.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:139:"Message Body:
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:26:"Jumpstart "[your-subject]"";s:6:"sender";s:56:"Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:131:"Message Body:
 [your-message]
 
 -- 
-This e-mail was sent from a contact form on Leap WordPress Theme (http://uptime.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:4:{s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>Date Pickers</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=877</link>
+		<pubDate>Wed, 21 Aug 2019 10:40:31 +0000</pubDate>
+		<dc:creator><![CDATA[danny]]></dc:creator>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=877</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="row mb-md-5 mb-4">
+  <div class="col-md-6">
+	<h6>Single Date</h6>
+	[date date-1 class:form-control placeholder "Select a date"]
+  </div>
+  <div class="col-md-6">
+	<h6>Date Range</h6>
+	[date date-12 min:2019-05-01 max:2020-01-01 class:form-control placeholder "Select date range"]
+  </div>
+</div>
+<div class="row mb-md-5 mb-4">
+  <div class="col-md-6">
+	<h6>Date range with icon</h6>
+	<div class="input-group">
+	  <div class="input-group-prepend">
+		<div class="input-group-text bg-primary">
+		  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="icon icon-sm bg-white">
+				<title>Icon For Door-open</title>
+				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<rect opacity="0" x="0" y="0" width="24" height="24"></rect>
+					<polygon fill="#000000" fill-rule="nonzero" opacity="0.3" points="7 4.89473684 7 21 5 21 5 3 11 3 11 4.89473684"></polygon>
+					<path d="M10.1782982,2.24743315 L18.1782982,3.6970464 C18.6540619,3.78325557 19,4.19751166 19,4.68102291 L19,19.3190064 C19,19.8025177 18.6540619,20.2167738 18.1782982,20.3029829 L10.1782982,21.7525962 C9.63486295,21.8510675 9.11449486,21.4903531 9.0160235,20.9469179 C9.00536265,20.8880837 9,20.8284119 9,20.7686197 L9,3.23140966 C9,2.67912491 9.44771525,2.23140966 10,2.23140966 C10.0597922,2.23140966 10.119464,2.2367723 10.1782982,2.24743315 Z M11.9166667,12.9060229 C12.6070226,12.9060229 13.1666667,12.2975724 13.1666667,11.5470105 C13.1666667,10.7964487 12.6070226,10.1879981 11.9166667,10.1879981 C11.2263107,10.1879981 10.6666667,10.7964487 10.6666667,11.5470105 C10.6666667,12.2975724 11.2263107,12.9060229 11.9166667,12.9060229 Z" fill="#000000"></path>
+				</g>
+			</svg>
+		</div>
+	  </div>
+	  [date date-3 min:2019-05-01 max:2020-01-01 class:form-control placeholder "Select date range"]
+	</div>
+  </div>
+</div>
+1
+Jumpstart "[your-subject]"
+Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
+hello@madeinebor.com
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
+Reply-To: [your-email]
+
+
+
+
+Jumpstart "[your-subject]"
+Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
+Reply-To: hello@madeinebor.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+Your entered code is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>877</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-21 10:40:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-21 10:40:31]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[date-pickers]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<div class="row mb-md-5 mb-4">
+  <div class="col-md-6">
+	<h6>Single Date</h6>
+	[date date-1 class:form-control placeholder "Select a date"]
+  </div>
+  <div class="col-md-6">
+	<h6>Date Range</h6>
+	[date date-12 min:2019-05-01 max:2020-01-01 class:form-control placeholder "Select date range"]
+  </div>
+</div>
+<div class="row mb-md-5 mb-4">
+  <div class="col-md-6">
+	<h6>Date range with icon</h6>
+	<div class="input-group">
+	  <div class="input-group-prepend">
+		<div class="input-group-text bg-primary">
+		  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="icon icon-sm bg-white">
+				<title>Icon For Door-open</title>
+				<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<rect opacity="0" x="0" y="0" width="24" height="24"></rect>
+					<polygon fill="#000000" fill-rule="nonzero" opacity="0.3" points="7 4.89473684 7 21 5 21 5 3 11 3 11 4.89473684"></polygon>
+					<path d="M10.1782982,2.24743315 L18.1782982,3.6970464 C18.6540619,3.78325557 19,4.19751166 19,4.68102291 L19,19.3190064 C19,19.8025177 18.6540619,20.2167738 18.1782982,20.3029829 L10.1782982,21.7525962 C9.63486295,21.8510675 9.11449486,21.4903531 9.0160235,20.9469179 C9.00536265,20.8880837 9,20.8284119 9,20.7686197 L9,3.23140966 C9,2.67912491 9.44771525,2.23140966 10,2.23140966 C10.0597922,2.23140966 10.119464,2.2367723 10.1782982,2.24743315 Z M11.9166667,12.9060229 C12.6070226,12.9060229 13.1666667,12.2975724 13.1666667,11.5470105 C13.1666667,10.7964487 12.6070226,10.1879981 11.9166667,10.1879981 C11.2263107,10.1879981 10.6666667,10.7964487 10.6666667,11.5470105 C10.6666667,12.2975724 11.2263107,12.9060229 11.9166667,12.9060229 Z" fill="#000000"></path>
+				</g>
+			</svg>
+		</div>
+	  </div>
+	  [date date-3 min:2019-05-01 max:2020-01-01 class:form-control placeholder "Select date range"]
+	</div>
+  </div>
+</div>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:26:"Jumpstart "[your-subject]"";s:6:"sender";s:56:"Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:20:"hello@madeinebor.com";s:4:"body";s:189:"From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:26:"Jumpstart "[your-subject]"";s:6:"sender";s:56:"Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:131:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{s:23:"mail.additional_headers";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:51:"Invalid mailbox syntax is used in the %name% field.";s:6:"params";a:1:{s:4:"name";s:8:"Reply-To";}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>Widget Subscribe Form</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=892</link>
+		<pubDate>Wed, 21 Aug 2019 11:11:38 +0000</pubDate>
+		<dc:creator><![CDATA[danny]]></dc:creator>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=892</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="d-flex flex-column flex-sm-row form-group">
+	[text* email class:form-control class:d-flex class:mr-sm-2 class:mb-2 class:mb-sm-0 class:flex-grow-1 placeholder "Email Address"][submit class:btn class:btn-primary"Go"]
+</div>
+1
+
+
+
+
+
+
+
+
+
+Launch your site in style with Jumpstart "[your-subject]"
+Launch your site in style with Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Launch your site in style with Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
+Reply-To: hello@madeinebor.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+Your entered code is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>892</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-21 11:11:38]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-21 11:11:38]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[simple-subscribe-form_copy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<div class="d-flex flex-column flex-sm-row form-group">
+	[text* email class:form-control class:d-flex class:mr-sm-2 class:mb-2 class:mb-sm-0 class:flex-grow-1 placeholder "Email Address"][submit class:btn class:btn-primary"Go"]
+</div>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:57:"Launch your site in style with Jumpstart "[your-subject]"";s:6:"sender";s:87:"Launch your site in style with Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:162:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Launch your site in style with Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:4:{s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>Request Demo Form</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=922</link>
+		<pubDate>Wed, 21 Aug 2019 15:54:58 +0000</pubDate>
+		<dc:creator><![CDATA[danny]]></dc:creator>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=922</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="text-dark">
+	<div class="form-group">
+	  <label for="demo-name">Your Name</label>
+	  [text* text class:form-control placeholder "Type here"]
+	</div>
+	<div class="form-group">
+	  <label for="demo-email">Email Address</label>
+	  [email email class:form-control placeholder "you@yoursite.com"]
+	</div>
+	<div class="form-group">
+	  <label for="demo-company-size">Company Size</label>
+	  <div class="position-relative">
+		[select select class:custom-select  "1-50" "50-500" "500+"]
+	  </div>
+	</div>
+	<div class="form-group">
+	  <label for="demo-budget">Approximate Budget</label>
+	  <div class="position-relative">
+		[select select-2 class:custom-select  "Up to $10k" "$10k - $50k" "Over $50k"]
+	  </div>
+	</div>
+	[submit class:btn class:btn-primary class:btn-block class:btn-loading "Request Demo"]
+</div>
+1
+
+
+
+
+
+
+
+
+
+Jumpstart "[your-subject]"
+Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
+Reply-To: hello@madeinebor.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+Your entered code is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>922</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-21 15:54:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-21 15:54:58]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-form_copy]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<div class="text-dark">
+	<div class="form-group">
+	  <label for="demo-name">Your Name</label>
+	  [text* text class:form-control placeholder "Type here"]
+	</div>
+	<div class="form-group">
+	  <label for="demo-email">Email Address</label>
+	  [email email class:form-control placeholder "you@yoursite.com"]
+	</div>
+	<div class="form-group">
+	  <label for="demo-company-size">Company Size</label>
+	  <div class="position-relative">
+		[select select class:custom-select  "1-50" "50-500" "500+"]
+	  </div>
+	</div>
+	<div class="form-group">
+	  <label for="demo-budget">Approximate Budget</label>
+	  <div class="position-relative">
+		[select select-2 class:custom-select  "Up to $10k" "$10k - $50k" "Over $50k"]
+	  </div>
+	</div>
+	[submit class:btn class:btn-primary class:btn-block class:btn-loading "Request Demo"]
+</div>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:26:"Jumpstart "[your-subject]"";s:6:"sender";s:56:"Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:131:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:4:{s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>Download Sample Form</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=939</link>
+		<pubDate>Fri, 30 Aug 2019 12:49:01 +0000</pubDate>
+		<dc:creator><![CDATA[danny]]></dc:creator>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=939</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="form-group">
+        [text name class:form-control placeholder "Your Name"]
+</div>
+<div class="form-group">
+        [email email class:form-control placeholder "Email Address"]
+</div>
+[submit class:btn class:btn-primary class:btn-block "Download Free Sample"]
+1
+
+
+
+
+
+
+
+
+
+Jumpstart "[your-subject]"
+Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
+Reply-To: hello@madeinebor.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+Your entered code is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>939</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-30 12:49:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-30 12:49:01]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[download-sample-form]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<div class="form-group">
+        [text name class:form-control placeholder "Your Name"]
+</div>
+<div class="form-group">
+        [email email class:form-control placeholder "Email Address"]
+</div>
+[submit class:btn class:btn-primary class:btn-block "Download Free Sample"]]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:26:"Jumpstart "[your-subject]"";s:6:"sender";s:56:"Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:131:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_additional_settings]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_locale]]></wp:meta_key>
+		<wp:meta_value><![CDATA[en_US]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_config_errors]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:5:{s:9:"form.body";a:1:{i:0;a:2:{s:4:"code";i:107;s:4:"args";a:3:{s:7:"message";s:55:"Unavailable names (%names%) are used for form controls.";s:6:"params";a:1:{s:5:"names";s:6:""name"";}s:4:"link";s:63:"https://contactform7.com/configuration-errors/unavailable-names";}}}s:12:"mail.subject";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}s:11:"mail.sender";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:14:"mail.recipient";a:1:{i:0;a:2:{s:4:"code";i:102;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:68:"https://contactform7.com/configuration-errors/invalid-mailbox-syntax";}}}s:9:"mail.body";a:1:{i:0;a:2:{s:4:"code";i:101;s:4:"args";a:3:{s:7:"message";s:0:"";s:6:"params";a:0:{}s:4:"link";s:57:"https://contactform7.com/configuration-errors/maybe-empty";}}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title>Contact Planner Form</title>
+		<link>http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=943</link>
+		<pubDate>Fri, 30 Aug 2019 16:16:09 +0000</pubDate>
+		<dc:creator><![CDATA[danny]]></dc:creator>
+		<guid isPermaLink="false">http://jumpstart.tommusdemos.wpengine.com/?post_type=wpcf7_contact_form&#038;p=943</guid>
+		<description></description>
+		<content:encoded><![CDATA[<div class="form-row">
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Full Name</label>
+			[text* full-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Email Address</label>
+			[email email-address class:form-control]
+		</div>
+	</div>
+</div>
+<div class="form-row">
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Phone (optional)</label>
+			[text phone class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Industry</label>
+			[select select class:custom-select "Telecommunications" "Energy" "Government" "Web Services" "Education"]
+		</div>
+	</div>
+</div>
+<div class="form-row">	
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Company (optional)</label>
+			[text company-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Company Size</label>
+			[select size-select class:custom-select "1-50" "50-500" "500+"]
+		</div>
+	</div>
+</div>
+<div class="form-group">
+  <label for="job-message">Why do you want to work here?</label>
+  [textarea main-text class:form-control placeholder "Type here"]
+</div>
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+  <div class="mb-3 mb-md-0">
+        [acceptance acceptance optional] I agree to the <a target="_blank" href="#" rel="noopener noreferrer">Terms &amp; Conditions</a>[/acceptance]
+  </div>
+  [submit class:btn class:btn-primary "Send Message"]
+</div>
+1
+
+
+
+
+
+
+
+
+
+Jumpstart "[your-subject]"
+Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>
+[your-email]
+Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)
+Reply-To: hello@madeinebor.com
+
+
+
+Thank you for your message. It has been sent.
+There was an error trying to send your message. Please try again later.
+One or more fields have an error. Please check and try again.
+There was an error trying to send your message. Please try again later.
+You must accept the terms and conditions before sending your message.
+The field is required.
+The field is too long.
+The field is too short.
+The date format is incorrect.
+The date is before the earliest one allowed.
+The date is after the latest one allowed.
+There was an unknown error uploading the file.
+You are not allowed to upload files of this type.
+The file is too big.
+There was an error uploading the file.
+The number format is invalid.
+The number is smaller than the minimum allowed.
+The number is larger than the maximum allowed.
+The answer to the quiz is incorrect.
+Your entered code is incorrect.
+The e-mail address entered is invalid.
+The URL is invalid.
+The telephone number is invalid.]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>943</wp:post_id>
+		<wp:post_date><![CDATA[2019-08-30 16:16:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2019-08-30 16:16:09]]></wp:post_date_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-form_copy-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[wpcf7_contact_form]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_tommusrhodus_reading_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_form]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<div class="form-row">
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Full Name</label>
+			[text* full-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Email Address</label>
+			[email email-address class:form-control]
+		</div>
+	</div>
+</div>
+<div class="form-row">
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Phone (optional)</label>
+			[text phone class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Industry</label>
+			[select select class:custom-select "Telecommunications" "Energy" "Government" "Web Services" "Education"]
+		</div>
+	</div>
+</div>
+<div class="form-row">	
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Company (optional)</label>
+			[text company-name class:form-control]
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="form-group">
+			<label>Company Size</label>
+			[select size-select class:custom-select "1-50" "50-500" "500+"]
+		</div>
+	</div>
+</div>
+<div class="form-group">
+  <label for="job-message">Why do you want to work here?</label>
+  [textarea main-text class:form-control placeholder "Type here"]
+</div>
+<div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+  <div class="mb-3 mb-md-0">
+        [acceptance acceptance optional] I agree to the <a target="_blank" href="#">Terms &amp; Conditions</a>[/acceptance]
+  </div>
+  [submit class:btn class:btn-primary "Send Message"]
+</div>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:1;s:7:"subject";s:0:"";s:6:"sender";s:0:"";s:9:"recipient";s:0:"";s:4:"body";s:0:"";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_mail_2]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:26:"Jumpstart "[your-subject]"";s:6:"sender";s:56:"Jumpstart <wordpress@jumpstart.tommusdemos.wpengine.com>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:131:"Message Body:
+[your-message]
+
+-- 
+This e-mail was sent from a contact form on Jumpstart (http://jumpstart.tommusdemos.wpengine.com)";s:18:"additional_headers";s:30:"Reply-To: hello@madeinebor.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_messages]]></wp:meta_key>
